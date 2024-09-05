@@ -15,7 +15,7 @@ module.exports = {
   },
   rules: {
     // eslint
-    'eol-last': 'error',
+    'eol-last': 'auto',
 
     // vue
     'vue/component-name-in-template-casing': 'error',

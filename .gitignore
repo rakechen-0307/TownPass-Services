@@ -29,6 +29,9 @@ coverage
 
 *.tsbuildinfo
 
-.firebase
 .firebaserc
 firebase.json
+firebaseConfig.ts
+package-lock.json
+storage.rules
+firebase-hosting-pull-request.yml

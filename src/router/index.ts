@@ -10,6 +10,7 @@ import HotSpotView from '../views/HotSpotView.vue';
 import TicketDetail from '../views/TicketDetail.vue';
 import CouponDetail from '../views/CouponDetail.vue';
 import TourSiteView from '../views/TourSiteView.vue';
+import ImageUploadView from '../views/ImageUploadView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
