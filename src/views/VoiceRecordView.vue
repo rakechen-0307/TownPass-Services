@@ -34,6 +34,7 @@ const onRecordClick = () => {
 
 <template>
     <div class="px-4 pt-10">
+        <h4>{{ recordText }}</h4>
         <div class="fixed bottom-0 left-0 w-screen p-4 bg-white flex justify-center">
             <BaseButton class="w-full" @click="onRecordClick">
                 {{ text == 'start' ? "Stop Recording" : "Start Recording" }}
