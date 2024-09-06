@@ -9,6 +9,8 @@ import CouponListView from '../views/CouponListView.vue';
 import HotSpotView from '../views/HotSpotView.vue';
 import TicketDetail from '../views/TicketDetail.vue';
 import CouponDetail from '../views/CouponDetail.vue';
+import CallView from '../views/CallView.vue';
+import VoiceRecordView from '../views/VoiceRecordView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -67,6 +69,16 @@ const router = createRouter({
           component: CouponDetail
         }
       ]
+    },
+    {
+      path: '/call',
+      name: 'call',
+      component: CallView
+    },
+    {
+      path: '/voice',
+      name: 'call',
+      component: VoiceRecordView
     }
   ]
 });
