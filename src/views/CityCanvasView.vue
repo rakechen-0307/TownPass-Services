@@ -52,12 +52,6 @@ export interface CanvasProposal {
     id: string;
     name: string;
     introduction: string;
-    address: {
-        text: string;
-        map: string;
-        longitude: string;
-        latitude: string;
-    };
     img_url: string;
     start: string;
     status: string;
@@ -70,7 +64,7 @@ const store = useCanvasStore();
 const { canvasList } = storeToRefs(store);
 const getProposal = async () => {  
     try {
-        const response = await axios.get('https://express-vercel-template-five.vercel.app/fetchActivities');
+        const response = await axios.get('https://express-vercel-template-five.vercel.app/fetchProposals');
         console.log('Proposal fetched successfully:', response.data);
         canvasList.value = response.data;
         console.log(canvasList);

@@ -13,10 +13,12 @@ const { canvasDraftList } = storeToRefs(store);
     <li v-for="item in canvasDraftList" :key="item.id" class="border-gray-200 border-b pb-2">
       <RouterLink :to="{ name: 'draft', params: { id: item.id } }">
         <CanvasDraftItem
+            :id="item.id"
           :name="item.name"
           :img_url="item.img_url"
           :introduction="item.introduction"
           :likes="item.likes"
+          :liked="item.liked"
           :start="item.start"
         />
       </RouterLink>

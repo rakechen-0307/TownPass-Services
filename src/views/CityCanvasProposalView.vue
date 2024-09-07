@@ -11,42 +11,42 @@ import BaseButton from '@/components/atoms/BaseButton.vue';
 import CanvasDraftList from '@/components/organisms/CanvasDraftList.vue';
 import axios from 'axios';
 
-const canvasDraftDataJson = {
-  "data": {
-    "canvas_draft_list": [
-        {
-            "id": "t-1",
-            "name": "橘色櫃櫃",
-            "introduction": "長草了",
-            "proposal": "t-1",
-            "img_url": "https://plus.unsplash.com/premium_photo-1686741733157-1d7863a7a04e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "start": "2024-09-08T06:30:00+08:00",
-            "author": "someone else",
-            "likes": 0
-        },
-        {
-            "id": "t-2",
-            "name": "棋盤櫃櫃",
-            "introduction": "綠豆糕。",
-            "proposal": "t-1",
-            "img_url": "https://plus.unsplash.com/premium_photo-1686741733157-1d7863a7a04e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "start": "2024-09-08T06:40:00+08:00",
-            "author": "someone else",
-            "likes": 3
-        },
-        {
-            "id": "t-3",
-            "name": "rericha",
-            "introduction": "沒有人會念。",
-            "proposal": "t-1",
-            "img_url": "https://plus.unsplash.com/premium_photo-1686741733157-1d7863a7a04e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "start": "2024-09-08T06:50:00+08:00",
-            "author": "someone else",
-            "likes": 4
-        },
-    ]
-  }
-};
+// const canvasDraftDataJson = {
+//   "data": {
+//     "canvas_draft_list": [
+//         {
+//             "id": "t-1",
+//             "name": "橘色櫃櫃",
+//             "introduction": "長草了",
+//             "proposal": "t-1",
+//             "img_url": "https://plus.unsplash.com/premium_photo-1686741733157-1d7863a7a04e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+//             "start": "2024-09-08T06:30:00+08:00",
+//             "author": "someone else",
+//             "likes": 0
+//         },
+//         {
+//             "id": "t-2",
+//             "name": "棋盤櫃櫃",
+//             "introduction": "綠豆糕。",
+//             "proposal": "t-1",
+//             "img_url": "https://plus.unsplash.com/premium_photo-1686741733157-1d7863a7a04e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+//             "start": "2024-09-08T06:40:00+08:00",
+//             "author": "someone else",
+//             "likes": 3
+//         },
+//         {
+//             "id": "t-3",
+//             "name": "rericha",
+//             "introduction": "沒有人會念。",
+//             "proposal": "t-1",
+//             "img_url": "https://plus.unsplash.com/premium_photo-1686741733157-1d7863a7a04e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+//             "start": "2024-09-08T06:50:00+08:00",
+//             "author": "someone else",
+//             "likes": 4
+//         },
+//     ]
+//   }
+// };
 
 export interface CanvasDraft {
     id: string;
@@ -54,6 +54,7 @@ export interface CanvasDraft {
     introduction: string;
     proposal: string;
     likes: number;
+    liked: boolean;
     img_url: string;
     start: string;
     author: string;
@@ -72,23 +73,8 @@ if (!activeItem.value?.id) {
   });
 }
 
-const isMapDialogOpen = ref(false);
 const isDraftDialogOpen = ref(false);
 const isCreationDialogOpen = ref(false);
-
-const handleLaunchMap = (event: { data: string }) => {
-  const result: { name: string; data: boolean } = JSON.parse(event.data);
-
-  if (!result.data) {
-    window.open(activeItem.value?.address.map, '_blank', 'noopener,noreferrer');
-  }
-};
-
-useHandleConnectionData(handleLaunchMap);
-
-const onMapOpenClick = () => {
-  useConnectionMessage('launch_map', activeItem.value?.address.map);
-};
 
 const isIntroduceExpand = ref(true);
 
@@ -96,13 +82,15 @@ const { canvasDraftList } = storeToRefs(store);
 
 const getDrafts = async () => {
     try {
-        console.log(activeItem)
         const response = await axios.get('https://express-vercel-template-five.vercel.app/fetchPosts',{
-            params: {"activityId": activeItem?.id as any}
+            params: {
+                "userId": "9cc0a534-3828-45e6-bce1-9505dae780f9",
+                "proposalId": activeItem.value?.id
+            }
         });
-        console.log('Drafts fetched successfully:', response.data);
-        canvasDraftList.value = response.data;
-        console.log(canvasDraftList);
+        console.log('Drafts fetched successfully:', response.data.posts);
+        canvasDraftList.value = response.data.posts;
+        console.log(canvasDraftList.value);
     } catch (error) {
         console.error('Error fetching proposal:', error);
     }
@@ -228,15 +216,6 @@ const onDraftSubmission = () => {
       </div>
         
     </section>
-    <BaseDialog
-      v-model="isMapDialogOpen"
-      title="是否要開啟 Google Map"
-      content="開啟 Google Maps APP 導航?"
-      :isAlert="true"
-      positiveText="開啟"
-      negativeText="取消"
-      @onPositiveClick="onMapOpenClick"
-    />
     <DraftDialog
       v-model="isDraftDialogOpen"
       title="上傳新稿件"
