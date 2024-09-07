@@ -20,6 +20,7 @@ const setIsOpen = () => {
   isOpen.value = true;
 };
 
+const nameInput = ref("");
 const introductionInput = ref("");
 const fileInput = ref<HTMLInputElement | null>(null);
 const imageUrl = ref<string | null>(null);
@@ -61,7 +62,6 @@ const handleFileChange = (event: Event) => {
   if (input.files && input.files[0]) {
     file.value = input.files[0];
     imageUrl.value = URL.createObjectURL(file.value);
-    
     const img = new Image();
     img.onload = () => {
       imageSize.value = { width: img.width, height: img.height };
@@ -82,10 +82,11 @@ const onUploadClick = () => {
 };
 
 const sendDataToServer = async () => {
-  if (downloadUrl.value && introductionInput.value) {
+  if (downloadUrl.value && introductionInput.value && nameInput.value) {
     try {
       const response = await axios.post('https://express-vercel-template-five.vercel.app/createProposal', {
         image: downloadUrl.value,
+        name: nameInput.value,
         description: introductionInput.value,
         userId: "9cc0a534-3828-45e6-bce1-9505dae780f9"
         // Add any other necessary fields
@@ -140,6 +141,7 @@ const onNegativeClick = () => {
               </div>
 
               <!-- content -->
+              <BaseInput v-model="nameInput" placeholder="請輸入提案名稱" class="input-name-field w-full mb-3" :required="true"/>
               <div class="image-container">
                 <img 
                   v-if="imageUrl" 
@@ -167,10 +169,10 @@ const onNegativeClick = () => {
               >
                 <template v-if="isUploadSuccess">上傳成功</template>
                 <template v-else-if="state === 'running'">上傳中：{{ progressInPercentage }}</template>
-                <template v-else>上傳圖片</template>
+                <template v-else>點此確認上傳圖片</template>
               </BaseButton>
               <p v-if="hasFailed" class="text-red-500 mt-2">上傳失敗</p>
-              <BaseInput v-model="introductionInput" placeholder="請輸入說明..." class="input-field w-full" :required="true"/>
+              <BaseInput v-model="introductionInput" placeholder="請輸入說明" class="input-field w-full" :required="true"/>
 
               <div
                 class="grid grid-cols-2 mt-auto py-1 border-t-gray-200 border-t"
@@ -184,7 +186,12 @@ const onNegativeClick = () => {
                 </button>
                 <button
                   type="button"
-                  class="flex justify-center text-primary-500 font-bold w-full py-1 outline-none"
+                  class="flex justify-center font-bold w-full py-1 outline-none"
+                  :class="{
+                    'text-primary-500': isUploadSuccess,
+                    'text-gray-200': !isUploadSuccess
+                    }"
+                  :disabled="!isUploadSuccess"
                   @click="onPositiveClick"
                 >
                   上傳
