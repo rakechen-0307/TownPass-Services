@@ -88,7 +88,7 @@ const onMapOpenClick = () => {
   useConnectionMessage('launch_map', activeItem.value?.address.map);
 };
 
-const isIntroduceExpand = ref(false);
+const isIntroduceExpand = ref(true);
 
 const { canvasDraftList } = storeToRefs(store);
 canvasDraftList.value = canvasDraftDataJson.data.canvas_draft_list;
@@ -128,11 +128,24 @@ const onDraftSubmission = () => {
       <h2 class="font-bold text-lg">{{ activeItem?.name }}</h2>
       <div />
     </div>
-    <img
+    <!-- <img
       :src="activeItem?.img_url"
       :alt="activeItem?.name"
-      class="rounded-md w-full h-48 mt-3 object-cover"
-    />
+      class="rounded-md h-full mt-3 object-cover"
+    /> -->
+    <div class="image-container">
+        <img
+            :src="activeItem?.img_url"
+            :alt="activeItem?.name"
+            class="rounded-md h-full object-cover"
+        />
+        <button class="icon-button">
+            <img
+                class="icon"
+                src="@/assets/images/download-icon.svg"
+            />
+        </button>
+    </div>
     <div class="flex flex-row justify-between items-center">
         <h1 class="font-bold text-2xl mt-2 mb-4">{{ activeItem?.name }}</h1>
         <p style="color: #50B0C0; padding: 1px;">{{ activeItem?.author }}</p>
@@ -181,12 +194,13 @@ const onDraftSubmission = () => {
         </div>
       </div>
       <div style="padding-top: 20px;">
+        <h1 class="font-bold text-lg m-4" style="color: #50B0C0;">市民作品</h1>
         <CanvasDraftList />
       </div>
-      <BaseButton class="fixed bottom-4 right-4" @click="isDraftDialogOpen = true">
-        我要投稿
-    </BaseButton>
-    </section>  
+        <BaseButton class="fixed bottom-4 right-4" @click="isDraftDialogOpen = true">
+            我要投稿
+        </BaseButton>
+    </section>
     <BaseDialog
       v-model="isMapDialogOpen"
       title="是否要開啟 Google Map"
@@ -207,3 +221,39 @@ const onDraftSubmission = () => {
     />
   </div>
 </template>
+  
+<style scoped>
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.icon-button {
+  position: absolute;
+  opacity: 70%;
+  bottom: 15px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  background-color: #50b0c0;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1; /* Ensure the button is above the image */
+}
+
+.icon-button .icon {
+  width: 70%;
+  height: 70%;
+  color: white;
+}
+</style>
