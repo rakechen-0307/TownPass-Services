@@ -6,6 +6,7 @@ import { useCanvasStore } from '@/stores/canvas';
 import { useConnectionMessage } from '@/composables/useConnectionMessage';
 import { useHandleConnectionData } from '@/composables/useHandleConnectionData';
 import BaseButton from '@/components/atoms/BaseButton.vue';
+import { FavoriteBorderIcon, FavoriteIcon } from '@mui/icons-material'
 const store = useCanvasStore();
 const route = useRoute();
 const router = useRouter();
