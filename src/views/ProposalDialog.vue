@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import { Dialog, DialogPanel, DialogTitle, TransitionRoot, TransitionChild } from '@headlessui/vue';
-
 import BaseInput from '@/components/atoms/BaseInput.vue';
 import BaseButton from '@/components/atoms/BaseButton.vue';
-
-import { ref } from 'vue';
+import { ref, computed } from 'vue';
+import axios from 'axios';
+import { useImageUpload } from '@/composables/useImageUpload';
+import { getStorage } from 'firebase/storage';
+import { app } from '@/firebaseConfig';
 
 const props = defineProps<{
   isAlert?: boolean;
@@ -18,20 +20,35 @@ const setIsOpen = () => {
   isOpen.value = true;
 };
 
-const onPositiveClick = () => {
-  isOpen.value = false;
-  emit('onPositiveClick');
-};
-
-const onNegativeClick = () => {
-  isOpen.value = false;
-  emit('onNegativeClick');
-};
-
 const introductionInput = ref("");
-
 const fileInput = ref<HTMLInputElement | null>(null);
 const imageUrl = ref<string | null>(null);
+const file = ref<File | null>(null);
+const imageSize = ref({ width: 0, height: 0 });
+const isUploadSuccess = ref(false);
+
+const storage = getStorage(app, 'gs://codefest-test-0825.appspot.com');
+const { downloadUrl, hasFailed, state, progressInPercentage, uploadFile } = useImageUpload();
+
+const MAX_SIZE = 200; // Maximum width or height in pixels
+
+const scaledImageSize = computed(() => {
+  if (imageSize.value.width === 0 || imageSize.value.height === 0) {
+    return { width: 'auto', height: 'auto' };
+  }
+  
+  if (imageSize.value.width > imageSize.value.height) {
+    return {
+      width: `${Math.min(imageSize.value.width, MAX_SIZE)}px`,
+      height: 'auto'
+    };
+  } else {
+    return {
+      width: 'auto',
+      height: `${Math.min(imageSize.value.height, MAX_SIZE)}px`
+    };
+  }
+});
 
 const handleImageUpload = () => {
   if (fileInput.value) {
@@ -42,17 +59,55 @@ const handleImageUpload = () => {
 const handleFileChange = (event: Event) => {
   const input = event.target as HTMLInputElement;
   if (input.files && input.files[0]) {
-    const file = input.files[0];
-    // You can handle the file upload here, e.g., send it to a server
-    // For now, we'll just display the image locally
-    const reader = new FileReader();
-    reader.onload = (e) => {
-      if (e.target) {
-        imageUrl.value = e.target.result as string;
-      }
+    file.value = input.files[0];
+    imageUrl.value = URL.createObjectURL(file.value);
+    
+    const img = new Image();
+    img.onload = () => {
+      imageSize.value = { width: img.width, height: img.height };
     };
-    reader.readAsDataURL(file);
+    img.src = imageUrl.value;
   }
+  isUploadSuccess.value = false;
+};
+
+const onUploadClick = () => {
+  if (file.value) {
+    uploadFile({
+      storage,
+      path: file.value.name,
+      data: file.value
+    });
+  }
+};
+
+const sendDataToServer = async () => {
+  if (downloadUrl.value && introductionInput.value) {
+    try {
+      const response = await axios.post('https://express-vercel-template-five.vercel.app/createProposal', {
+        image: downloadUrl.value,
+        description: introductionInput.value,
+        userId: "9cc0a534-3828-45e6-bce1-9505dae780f9"
+        // Add any other necessary fields
+      });
+      console.log('Proposal sent successfully:', response.data);
+      // Handle successful response (e.g., show a success message)
+    } catch (error) {
+      console.error('Error sending proposal:', error);
+      // Handle error (e.g., show an error message)
+    }
+  }
+};
+
+const onPositiveClick = () => {
+  sendDataToServer();
+  isOpen.value = false;
+  emit('onPositiveClick');
+};
+
+const onNegativeClick = () => {
+  isOpen.value = false;
+  emit('onNegativeClick');
 };
 </script>
 
@@ -85,15 +140,36 @@ const handleFileChange = (event: Event) => {
               </div>
 
               <!-- content -->
-                <div class="image-container">
-                    <img v-if="imageUrl" :src="imageUrl" class="uploaded-image" />
-                    <img v-else src="@/assets/images/image-icon.svg" class="placeholder-image" />
-                    <button class="round-button" @click="handleImageUpload">
-                     <p>+</p>
-                    </button>
-                    <input type="file" ref="fileInput" @change="handleFileChange" class="hidden" />
-                </div>
-                <BaseInput placeholder="請輸入說明..." readonly class="input-field w-full" />
+              <div class="image-container">
+                <img 
+                  v-if="imageUrl" 
+                  :src="imageUrl" 
+                  class="uploaded-image"
+                  :style="{ width: scaledImageSize.width, height: scaledImageSize.height }"
+                />
+                <img v-else src="@/assets/images/image-icon.svg" class="placeholder-image" />
+                <button class="round-button" @click="handleImageUpload">
+                  <p>+</p>
+                </button>
+                <input
+                  type="file"
+                  ref="fileInput"
+                  @change="handleFileChange"
+                  accept="image/*"
+                  class="hidden"
+                />
+              </div>
+              <BaseButton 
+                @click="onUploadClick" 
+                :disabled="!file || state === 'running' || isUploadSuccess" 
+                class="mt-2"
+              >
+                <template v-if="isUploadSuccess">上傳成功</template>
+                <template v-else-if="state === 'running'">上傳中: {{ progressInPercentage }}%</template>
+                <template v-else>上傳圖片!</template>
+              </BaseButton>
+              <p v-if="hasFailed" class="text-red-500 mt-2">上傳失敗!</p>
+              <BaseInput v-model="introductionInput" placeholder="請輸入說明..." class="input-field w-full" :required="true"/>
 
               <div
                 class="grid grid-cols-2 mt-auto py-1 border-t-gray-200 border-t"
