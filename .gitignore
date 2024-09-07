@@ -31,3 +31,6 @@ coverage
 
 package-lock.json
 firebase-hosting-pull-request.yml
+.firebase
+.firebaserc
+firebase.json
