@@ -19,7 +19,7 @@ if (!activeItem.value?.id) {
   });
 }
 
-const isIntroduceExpand = ref(false);
+const isIntroduceExpand = ref(true);
 </script>
 
 <template>

@@ -9,13 +9,14 @@ const { canvasList } = storeToRefs(store);
 </script>
 
 <template>
-  <ul class="grid grid-cols-1 gap-y-3">
+  <ul class="grid grid-cols-1 gap-y-5">
     <li v-for="item in canvasList" :key="item.id" class="border-gray-200 border-b pb-2">
       <RouterLink :to="{ name: 'proposal', params: { id: item.id } }">
         <CanvasProposalItem
           :name="item.name"
           :img_url="item.img_url"
           :introduction="item.introduction"
+          :time="item.start"
         />
       </RouterLink>
     </li>
