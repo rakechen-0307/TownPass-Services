@@ -70,7 +70,28 @@ const router = createRouter({
           path: 'coupon-detail/:id',
           name: 'coupon-detail',
           component: CouponDetail
-        }
+        },
+      ]
+    },
+    {
+      path: '/city-canvas',
+      children: [
+        {
+          path: '',
+          name: 'city-canvas',
+          component: CityCanvasView
+        },
+        {
+          path: 'proposal/:id',
+          name: 'proposal',
+          component: CityCanvasProposalView
+        },
+        {
+          path: 'draft/:id',
+          name: 'draft',
+          component: CityCanvasDraftView
+        },
+
       ]
     },
     {
