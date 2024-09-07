@@ -1,0 +1,5898 @@
+[
+    {
+        "id": 1,
+        "cn_name": "北投社三層崎公園",
+        "en_name": "Ki-Pataw Shan-Tseng-Chi Park",
+        "rate": 4.2,
+        "category": [
+            "戶外踏青"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2197",
+        "longitude": 121.4896998,
+        "latitude": 25.14481278
+    },
+    {
+        "id": 2,
+        "cn_name": "地熱谷_地獄谷_鬼湖",
+        "en_name": "Thermal Valley",
+        "rate": -1.0,
+        "category": [
+            "養生溫泉",
+            "戶外踏青"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/210",
+        "longitude": 121.5093064,
+        "latitude": 25.137924
+    },
+    {
+        "id": 3,
+        "cn_name": "關渡_金色水岸_八里左岸自行車道",
+        "en_name": "Guandu, Golden River Bank, Bali Bikeway",
+        "rate": 4.5,
+        "category": [
+            "單車遊蹤",
+            "戶外踏青",
+            "藍色水路",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/5",
+        "longitude": 121.4408751,
+        "latitude": 25.13247927
+    },
+    {
+        "id": 4,
+        "cn_name": "竹子湖",
+        "en_name": "Zhuzihu",
+        "rate": 4.3,
+        "category": [
+            "戶外踏青"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1801",
+        "longitude": 121.5265735,
+        "latitude": 25.17358419
+    },
+    {
+        "id": 5,
+        "cn_name": "北投公園",
+        "en_name": "Beitou Park",
+        "rate": 4.4,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/202",
+        "longitude": 121.503708,
+        "latitude": 25.13630477
+    },
+    {
+        "id": 6,
+        "cn_name": "草山行館",
+        "en_name": "Grass Mountain Chateau",
+        "rate": 4.1,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/224",
+        "longitude": 121.5355405,
+        "latitude": 25.15427797
+    },
+    {
+        "id": 7,
+        "cn_name": "洲美蜆仔港公園",
+        "en_name": "Zhoumei Xianzaigang Park",
+        "rate": 3.9,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1808",
+        "longitude": 121.5086256,
+        "latitude": 25.10099918
+    },
+    {
+        "id": 8,
+        "cn_name": "新北投車站",
+        "en_name": "Xinbeitou Station",
+        "rate": 4.4,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1740",
+        "longitude": 121.5003385,
+        "latitude": 25.13679457
+    },
+    {
+        "id": 9,
+        "cn_name": "陽明山40砲陣地紀念公園",
+        "en_name": "Yangmingshan 40 Artillery Positions Memorial Park",
+        "rate": 4.2,
+        "category": [
+            "歷史建築"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1812",
+        "longitude": 121.5389125,
+        "latitude": 25.15426347
+    },
+    {
+        "id": 10,
+        "cn_name": "北投垃圾焚化廠_觀景台",
+        "en_name": "Observation Deck in the Beitou Refuse Incineration Plant",
+        "rate": 4.1,
+        "category": [
+            "公共藝術",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/274",
+        "longitude": 121.4966867,
+        "latitude": 25.10795227
+    },
+    {
+        "id": 11,
+        "cn_name": "大屯山系_中正山步道",
+        "en_name": "Datun Mountain System: Zhongzhengshan Hiking Trail",
+        "rate": 4.5,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/15",
+        "longitude": 121.513267,
+        "latitude": 25.15773457
+    },
+    {
+        "id": 12,
+        "cn_name": "關渡水岸公園",
+        "en_name": "Guandu Riverside Park",
+        "rate": 4.3,
+        "category": [
+            "單車遊蹤",
+            "戶外踏青",
+            "藍色水路",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1531",
+        "longitude": 121.4606117,
+        "latitude": 25.11870064
+    },
+    {
+        "id": 13,
+        "cn_name": "大屯山系_忠義山親山步道",
+        "en_name": "Datun Mountain System: Zhongyishan Hiking Trail",
+        "rate": 4.3,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/13",
+        "longitude": 121.4758331,
+        "latitude": 25.13728067
+    },
+    {
+        "id": 14,
+        "cn_name": "北投溫泉博物館",
+        "en_name": "Beitou Hot Spring Museum",
+        "rate": 4.5,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/33",
+        "longitude": 121.5045688,
+        "latitude": 25.13658567
+    },
+    {
+        "id": 15,
+        "cn_name": "陽明山國家公園",
+        "en_name": "Yangmingshan National Park",
+        "rate": 4.5,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/189",
+        "longitude": 121.5583614,
+        "latitude": 25.19424617
+    },
+    {
+        "id": 16,
+        "cn_name": "大屯山系_軍艦岩親山步道",
+        "en_name": "Datun Mountain System: Junjianyan Hiking Trail",
+        "rate": 4.5,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/16",
+        "longitude": 121.5107653,
+        "latitude": 25.12773101
+    },
+    {
+        "id": 17,
+        "cn_name": "北投中心新村",
+        "en_name": "Beitou Heart Village",
+        "rate": 4.4,
+        "category": [
+            "歷史建築"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/3805",
+        "longitude": 121.5049466,
+        "latitude": 25.13897118
+    },
+    {
+        "id": 18,
+        "cn_name": "新北投善光寺",
+        "en_name": "Shanguang Temple in Xinbeitou",
+        "rate": 4.4,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1737",
+        "longitude": 121.5162957,
+        "latitude": 25.13551278
+    },
+    {
+        "id": 19,
+        "cn_name": "吉慶社區_聖誕巷",
+        "en_name": "Jiqin Christmas Alley",
+        "rate": 4.5,
+        "category": [
+            "公共藝術"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/377",
+        "longitude": 121.5077821,
+        "latitude": 25.11423398
+    },
+    {
+        "id": 20,
+        "cn_name": "夢幻湖",
+        "en_name": "Menghuan Lake",
+        "rate": -1.0,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1730",
+        "longitude": 121.5575747,
+        "latitude": 25.16695613
+    },
+    {
+        "id": 21,
+        "cn_name": "梅庭",
+        "en_name": "Plum Garden",
+        "rate": 4.3,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "公共藝術"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/206",
+        "longitude": 121.5061902,
+        "latitude": 25.13692928
+    },
+    {
+        "id": 22,
+        "cn_name": "陽明書屋",
+        "en_name": "Yangmingshuwu",
+        "rate": 4.3,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/27",
+        "longitude": 121.5363627,
+        "latitude": 25.16162758
+    },
+    {
+        "id": 23,
+        "cn_name": "新北投溫泉商圈",
+        "en_name": "Xinbeitou Hot Spring Area",
+        "rate": -1.0,
+        "category": [
+            "養生溫泉",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/11",
+        "longitude": 121.4951249,
+        "latitude": 25.13562762
+    },
+    {
+        "id": 24,
+        "cn_name": "北投公民會館",
+        "en_name": "Beitou Public Assembly Hall",
+        "rate": 4.3,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/374",
+        "longitude": 121.5075221,
+        "latitude": 25.13793137
+    },
+    {
+        "id": 25,
+        "cn_name": "關渡自然公園",
+        "en_name": "Guandu Nature Park",
+        "rate": 4.3,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/191",
+        "longitude": 121.467815,
+        "latitude": 25.11922992
+    },
+    {
+        "id": 26,
+        "cn_name": "凱達格蘭文化館",
+        "en_name": "Ketagalan Culture Center",
+        "rate": 4.0,
+        "category": [
+            "藝文館所",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/43",
+        "longitude": 121.5031777,
+        "latitude": 25.13710977
+    },
+    {
+        "id": 27,
+        "cn_name": "大屯山系_貴子坑親山步道",
+        "en_name": "Datun Mountain System: Guizikeng Hiking Trail",
+        "rate": 4.2,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/14",
+        "longitude": 121.4895962,
+        "latitude": 25.15233662
+    },
+    {
+        "id": 28,
+        "cn_name": "北投文物館",
+        "en_name": "Beitou Museum",
+        "rate": 4.5,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "公共藝術"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/46",
+        "longitude": 121.5117976,
+        "latitude": 25.13818898
+    },
+    {
+        "id": 29,
+        "cn_name": "泉源公園泡腳池園區",
+        "en_name": "Quanyuan No.48 Park",
+        "rate": -1.0,
+        "category": [
+            "養生溫泉"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2174",
+        "longitude": 121.5069856,
+        "latitude": 25.14174207
+    },
+    {
+        "id": 30,
+        "cn_name": "法鼓山_農禪寺",
+        "en_name": "Nung Chan Monastery",
+        "rate": 4.6,
+        "category": [
+            "宗教信仰",
+            "藝文館所"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/404",
+        "longitude": 121.4928046,
+        "latitude": 25.12254707
+    },
+    {
+        "id": 31,
+        "cn_name": "天狗庵史蹟公園",
+        "en_name": "Ten Gu An Historian Park",
+        "rate": 3.7,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2663",
+        "longitude": 121.5039876,
+        "latitude": 25.13583287
+    },
+    {
+        "id": 32,
+        "cn_name": "復興三路櫻花隧道",
+        "en_name": "Cherry Blossom Tunnel at Fuxing 3rd Road",
+        "rate": 4.0,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/375",
+        "longitude": 121.5019143,
+        "latitude": 25.14896098
+    },
+    {
+        "id": 33,
+        "cn_name": "硫磺谷_大磺嘴",
+        "en_name": "Sulfur Valley Geothermal Scenic Area",
+        "rate": 4.4,
+        "category": [
+            "養生溫泉"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2167",
+        "longitude": 121.5199632,
+        "latitude": 25.14270477
+    },
+    {
+        "id": 34,
+        "cn_name": "陽明山溫泉區_小油坑",
+        "en_name": "Yangmingshan Hot Spring Area",
+        "rate": 4.6,
+        "category": [
+            "養生溫泉",
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/10",
+        "longitude": 121.5220257,
+        "latitude": 25.1693387
+    },
+    {
+        "id": 35,
+        "cn_name": "臺北藝術大學",
+        "en_name": "Taipei National University of the Arts",
+        "rate": 4.5,
+        "category": [
+            "藝文館所",
+            "公共藝術",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/254",
+        "longitude": 121.4671069,
+        "latitude": 25.13251817
+    },
+    {
+        "id": 36,
+        "cn_name": "臺北市立圖書館北投分館",
+        "en_name": "Beitou Library",
+        "rate": 4.5,
+        "category": [
+            "藝文館所",
+            "親子共遊",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/212",
+        "longitude": 121.503716,
+        "latitude": 25.13643968
+    },
+    {
+        "id": 37,
+        "cn_name": "關渡碼頭",
+        "en_name": "Guandu Wharf",
+        "rate": -1.0,
+        "category": [
+            "藍色水路"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2",
+        "longitude": 121.4595319,
+        "latitude": 25.11952142
+    },
+    {
+        "id": 38,
+        "cn_name": "北投公園露天溫泉浴池_千禧湯",
+        "en_name": "Beitou Park Outdoor Hot Spring Bathing Pool",
+        "rate": 3.8,
+        "category": [
+            "養生溫泉",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/415",
+        "longitude": 121.5058027,
+        "latitude": 25.13687938
+    },
+    {
+        "id": 39,
+        "cn_name": "行天宮北投分宮_忠義廟",
+        "en_name": "Xingtian Temple, Beitou Branch",
+        "rate": 4.7,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/192",
+        "longitude": 121.4754307,
+        "latitude": 25.13629257
+    },
+    {
+        "id": 40,
+        "cn_name": "北投普濟寺",
+        "en_name": "Puji Temple",
+        "rate": 4.5,
+        "category": [
+            "歷史建築",
+            "宗教信仰"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/66",
+        "longitude": 121.5086727,
+        "latitude": 25.13591837
+    },
+    {
+        "id": 41,
+        "cn_name": "陽明公園",
+        "en_name": "Yangming Park",
+        "rate": 4.2,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/414",
+        "longitude": 119.6038154,
+        "latitude": 23.91432949
+    },
+    {
+        "id": 42,
+        "cn_name": "大屯瀑布",
+        "en_name": "Datun Falls",
+        "rate": 4.0,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2656",
+        "longitude": 121.5342905,
+        "latitude": 25.16182808
+    },
+    {
+        "id": 43,
+        "cn_name": "陽明山中山樓",
+        "en_name": "Yangmingshan Zhongshan Hall ",
+        "rate": 4.4,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/26",
+        "longitude": 121.5500798,
+        "latitude": 25.15561878
+    },
+    {
+        "id": 44,
+        "cn_name": "陽明山辛亥光復樓",
+        "en_name": "Yangmingshan Guangfu Building",
+        "rate": 3.8,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "公共藝術"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/100",
+        "longitude": 121.5371199,
+        "latitude": 25.15960927
+    },
+    {
+        "id": 45,
+        "cn_name": "照明淨寺_情人廟",
+        "en_name": "Zhaojing Temple -Lover's Temple",
+        "rate": 4.1,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/62",
+        "longitude": 121.5112272,
+        "latitude": 25.13166987
+    },
+    {
+        "id": 46,
+        "cn_name": "財團法人台北市關渡宮",
+        "en_name": "Guandu Temple",
+        "rate": 4.6,
+        "category": [
+            "歷史建築",
+            "宗教信仰"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/76",
+        "longitude": 121.4613805,
+        "latitude": 25.11767907
+    },
+    {
+        "id": 47,
+        "cn_name": "水車寮步道",
+        "en_name": "Shuicheliao Trail",
+        "rate": 4.2,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2657",
+        "longitude": 121.5363404,
+        "latitude": 25.17063852
+    },
+    {
+        "id": 48,
+        "cn_name": "前山公園",
+        "en_name": "Qianshan Park",
+        "rate": 4.4,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "北投區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2178",
+        "longitude": 121.545673,
+        "latitude": 25.15107387
+    },
+    {
+        "id": 49,
+        "cn_name": "士林官邸_士林官邸公園",
+        "en_name": "Chiang Kai-shek Shilin Residence_Chiang Kai-shek Shilin Residence Park",
+        "rate": 4.6,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/29",
+        "longitude": 121.5265893,
+        "latitude": 25.09137927
+    },
+    {
+        "id": 50,
+        "cn_name": "士林觀光夜市",
+        "en_name": "Shilin Night Market",
+        "rate": 4.1,
+        "category": [
+            "夜市商圈"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1536",
+        "longitude": 121.5201449,
+        "latitude": 25.09277381
+    },
+    {
+        "id": 51,
+        "cn_name": "花卉試驗中心",
+        "en_name": "Floriculture Experiment Center",
+        "rate": 4.4,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1732",
+        "longitude": 121.5431432,
+        "latitude": 25.13420648
+    },
+    {
+        "id": 52,
+        "cn_name": "國立故宮博物院",
+        "en_name": "National Palace Museum",
+        "rate": 4.6,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "親子共遊",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/19",
+        "longitude": 121.5459176,
+        "latitude": 25.10235538
+    },
+    {
+        "id": 53,
+        "cn_name": "七星山系_天母古道親山步道",
+        "en_name": "Qixing Mountain System: Old Tianmu Hiking Trail",
+        "rate": 4.5,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/17",
+        "longitude": 121.5272044,
+        "latitude": 25.13526819
+    },
+    {
+        "id": 54,
+        "cn_name": "平菁街42巷櫻花",
+        "en_name": "Cherry blossoms at 42 Pingjing Street",
+        "rate": 4.4,
+        "category": [
+            "戶外踏青"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1735",
+        "longitude": 121.5701446,
+        "latitude": 25.13384296
+    },
+    {
+        "id": 55,
+        "cn_name": "社子島島頭濕地",
+        "en_name": "Shezi Daotou Park",
+        "rate": 4.4,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/204",
+        "longitude": 121.4573182,
+        "latitude": 25.11154443
+    },
+    {
+        "id": 56,
+        "cn_name": "臺北市立兒童新樂園",
+        "en_name": "Taipei Children's Amusement Park",
+        "rate": 4.4,
+        "category": [
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/351",
+        "longitude": 121.5097744,
+        "latitude": 25.09724071
+    },
+    {
+        "id": 57,
+        "cn_name": "擎天崗",
+        "en_name": "Qingtiangang Grassland",
+        "rate": 4.6,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/246",
+        "longitude": 121.5536475,
+        "latitude": 25.16824497
+    },
+    {
+        "id": 58,
+        "cn_name": "雙溪公園",
+        "en_name": "Shuangxi Park",
+        "rate": 4.7,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1729",
+        "longitude": 121.3369256,
+        "latitude": 24.9595288
+    },
+    {
+        "id": 59,
+        "cn_name": "內雙溪自然中心",
+        "en_name": "Neishuangxi Nature Park",
+        "rate": 4.1,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/233",
+        "longitude": 121.5744648,
+        "latitude": 25.11581708
+    },
+    {
+        "id": 60,
+        "cn_name": "平等里櫻花",
+        "en_name": "Cherry blossom in Pingdeng Village",
+        "rate": 4.4,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/355",
+        "longitude": 121.56912,
+        "latitude": 25.12999657
+    },
+    {
+        "id": 61,
+        "cn_name": "陽明山國家公園_冷水坑",
+        "en_name": "Lengshuikeng hot spring area",
+        "rate": 4.5,
+        "category": [
+            "養生溫泉",
+            "戶外踏青",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/9",
+        "longitude": 121.5432742,
+        "latitude": 25.17983882
+    },
+    {
+        "id": 62,
+        "cn_name": "國立臺灣科學教育館",
+        "en_name": "National Taiwan Science Education Center",
+        "rate": 4.3,
+        "category": [
+            "藝文館所",
+            "公共藝術",
+            "親子共遊",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/21",
+        "longitude": 121.5141744,
+        "latitude": 25.09601238
+    },
+    {
+        "id": 63,
+        "cn_name": "陽明山美軍俱樂部 Brick Yard 33 1/3",
+        "en_name": "Brick Yard 33 1/3",
+        "rate": 4.1,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1731",
+        "longitude": 121.5408422,
+        "latitude": 25.13552498
+    },
+    {
+        "id": 64,
+        "cn_name": "原住民文化主題公園",
+        "en_name": "Indigenous People's Park",
+        "rate": 4.2,
+        "category": [
+            "單車遊蹤",
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1984",
+        "longitude": 121.5482636,
+        "latitude": 25.10206082
+    },
+    {
+        "id": 65,
+        "cn_name": "三腳渡擺渡口",
+        "en_name": "Sanjiaodu Jetty",
+        "rate": -1.0,
+        "category": [
+            "藍色水路"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/354",
+        "longitude": 121.5151902,
+        "latitude": 25.08080662
+    },
+    {
+        "id": 66,
+        "cn_name": "臺北市立天文科學教育館",
+        "en_name": "Taipei Astronomical Museum",
+        "rate": 4.6,
+        "category": [
+            "藝文館所",
+            "親子共遊",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/41",
+        "longitude": 121.5157884,
+        "latitude": 25.09581858
+    },
+    {
+        "id": 67,
+        "cn_name": "圓山水神社",
+        "en_name": "Yuanshan Water Shrine",
+        "rate": 4.3,
+        "category": [
+            "歷史建築",
+            "宗教信仰",
+            "戶外踏青"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/262",
+        "longitude": 121.5246543,
+        "latitude": 25.08434418
+    },
+    {
+        "id": 68,
+        "cn_name": "菁礐古圳",
+        "en_name": "Jinque Historical Canal",
+        "rate": 4.4,
+        "category": [
+            "戶外踏青"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1738",
+        "longitude": 121.5640342,
+        "latitude": 25.14440638
+    },
+    {
+        "id": 69,
+        "cn_name": "士東市場",
+        "en_name": "Shidong Market",
+        "rate": 4.3,
+        "category": [
+            "主題商街"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1594",
+        "longitude": 121.5269731,
+        "latitude": 25.11184237
+    },
+    {
+        "id": 70,
+        "cn_name": "擎天崗系_坪頂古圳步道",
+        "en_name": "Qixing Mountain System: Pingding Ancient Canal Hiking Trail",
+        "rate": 4.5,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/18",
+        "longitude": 121.5824271,
+        "latitude": 25.13452357
+    },
+    {
+        "id": 71,
+        "cn_name": "福林公園",
+        "en_name": "Fulin Park",
+        "rate": 4.1,
+        "category": [
+            "戶外踏青"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1685",
+        "longitude": 121.5264608,
+        "latitude": 25.09480737
+    },
+    {
+        "id": 72,
+        "cn_name": "志成公園",
+        "en_name": "Zhicheng Park",
+        "rate": 4.2,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1728",
+        "longitude": 121.5282928,
+        "latitude": 25.09660698
+    },
+    {
+        "id": 73,
+        "cn_name": "士林慈諴宮",
+        "en_name": "Cixian Temple",
+        "rate": 4.5,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/72",
+        "longitude": 121.5220878,
+        "latitude": 25.08949027
+    },
+    {
+        "id": 74,
+        "cn_name": "芝山公園",
+        "en_name": "Zhishan Park",
+        "rate": 4.4,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/388",
+        "longitude": 121.5262906,
+        "latitude": 25.10295461
+    },
+    {
+        "id": 75,
+        "cn_name": "錢穆故居",
+        "en_name": "Chien Mu House",
+        "rate": 4.4,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/35",
+        "longitude": 121.5453588,
+        "latitude": 25.09415908
+    },
+    {
+        "id": 76,
+        "cn_name": "雙溪生活水岸自行車道",
+        "en_name": "Shuangxi Riverside",
+        "rate": 4.2,
+        "category": [
+            "單車遊蹤",
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/8",
+        "longitude": 121.3675817,
+        "latitude": 25.06908802
+    },
+    {
+        "id": 77,
+        "cn_name": "林語堂故居",
+        "en_name": "The Lin Yutang House",
+        "rate": 4.5,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/34",
+        "longitude": 121.5443461,
+        "latitude": 25.10962517
+    },
+    {
+        "id": 78,
+        "cn_name": "士林神農宮",
+        "en_name": "Shilin Shen Nong Temple",
+        "rate": 4.4,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/353",
+        "longitude": 121.5236195,
+        "latitude": 25.09777348
+    },
+    {
+        "id": 79,
+        "cn_name": "芝山文化生態綠園",
+        "en_name": "Zhishan Cultural and Ecological Garden (Zhishan Exhibition Hall)",
+        "rate": 4.3,
+        "category": [
+            "藝文館所",
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/53",
+        "longitude": 121.5293499,
+        "latitude": 25.10427628
+    },
+    {
+        "id": 80,
+        "cn_name": "郭元益糕餅博物館",
+        "en_name": "Kuo Yuan Ye Museum of Cake and Pastry",
+        "rate": 4.7,
+        "category": [
+            "藝文館所",
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://travel.taipei/zh-tw/attraction/details/225",
+        "longitude": 121.5192464,
+        "latitude": 25.0974661
+    },
+    {
+        "id": 81,
+        "cn_name": "芝山巖惠濟宮",
+        "en_name": "Huiji Temple, Zhishanyan",
+        "rate": 4.5,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/63",
+        "longitude": 121.5281792,
+        "latitude": 25.10306928
+    },
+    {
+        "id": 82,
+        "cn_name": "台北奧萬大",
+        "en_name": "Taipei Aowanda",
+        "rate": 3.9,
+        "category": [
+            "戶外踏青"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2180",
+        "longitude": 121.5667351,
+        "latitude": 25.14245837
+    },
+    {
+        "id": 83,
+        "cn_name": "社子島環島與二重疏洪道自行車道",
+        "en_name": "Shezidao and Erchong Spillway Bikeway",
+        "rate": 4.5,
+        "category": [
+            "單車遊蹤",
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/6",
+        "longitude": 121.4737692,
+        "latitude": 25.10971918
+    },
+    {
+        "id": 84,
+        "cn_name": "社子島迎星碼頭",
+        "en_name": "Yingshin Pier on Shezidao",
+        "rate": 4.3,
+        "category": [
+            "藍色水路"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1851",
+        "longitude": 121.4933389,
+        "latitude": 25.10811077
+    },
+    {
+        "id": 85,
+        "cn_name": "順益台灣原住民博物館",
+        "en_name": "Shung Ye Museum of Formosan Aborigines",
+        "rate": 4.2,
+        "category": [
+            "藝文館所",
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/44",
+        "longitude": 121.5494039,
+        "latitude": 25.10097847
+    },
+    {
+        "id": 86,
+        "cn_name": "台北花卉村",
+        "en_name": "Garden Mall",
+        "rate": 4.2,
+        "category": [
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2260",
+        "longitude": 121.4951759,
+        "latitude": 25.09467607
+    },
+    {
+        "id": 87,
+        "cn_name": "天母夢想樂園",
+        "en_name": "Tianmu Dreamland",
+        "rate": 4.6,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2214",
+        "longitude": 121.5272106,
+        "latitude": 25.11949611
+    },
+    {
+        "id": 88,
+        "cn_name": "天母運動場區_棒球場",
+        "en_name": "Tianmu Sports Park",
+        "rate": 4.4,
+        "category": [
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2373",
+        "longitude": 121.5318626,
+        "latitude": 25.11436743
+    },
+    {
+        "id": 89,
+        "cn_name": "臺北數位藝術中心",
+        "en_name": "Digital Art Center, Taipei",
+        "rate": 4.1,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1860",
+        "longitude": 121.5196622,
+        "latitude": 25.10592277
+    },
+    {
+        "id": 90,
+        "cn_name": "臺灣戲曲中心",
+        "en_name": "Taiwan Traditional Theatre Center",
+        "rate": 4.5,
+        "category": [
+            "藝文館所",
+            "公共藝術"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2172",
+        "longitude": 121.5172038,
+        "latitude": 25.10227658
+    },
+    {
+        "id": 91,
+        "cn_name": "臺北表演藝術中心",
+        "en_name": "Taipei Performing Arts Center",
+        "rate": 4.0,
+        "category": [
+            "藝文館所",
+            "公共藝術",
+            "親子共遊",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2206",
+        "longitude": 121.5217942,
+        "latitude": 25.08512418
+    },
+    {
+        "id": 92,
+        "cn_name": "葫蘆國小跨堤人行陸橋",
+        "en_name": "Taipei City Hulu Elementary School pedestrian embankment bridge",
+        "rate": 4.2,
+        "category": [
+            "單車遊蹤",
+            "公共藝術"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2213",
+        "longitude": 121.5043588,
+        "latitude": 25.08348007
+    },
+    {
+        "id": 93,
+        "cn_name": "華岡博物館",
+        "en_name": "Hwa Kang Museum",
+        "rate": 4.4,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2344",
+        "longitude": 121.5380496,
+        "latitude": 25.13748337
+    },
+    {
+        "id": 94,
+        "cn_name": "閻錫山故居",
+        "en_name": "",
+        "rate": -1.0,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/3685",
+        "longitude": 121.5579408,
+        "latitude": 25.13406678
+    },
+    {
+        "id": 95,
+        "cn_name": "文化大學",
+        "en_name": "Chinese Cultural University Campus",
+        "rate": -1.0,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2653",
+        "longitude": 121.4864155,
+        "latitude": 25.08240261
+    },
+    {
+        "id": 96,
+        "cn_name": "福安河濱公園",
+        "en_name": "Fuan Riverside Park",
+        "rate": 4.2,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "士林區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2668",
+        "longitude": 121.4913125,
+        "latitude": 25.09596323
+    },
+    {
+        "id": 97,
+        "cn_name": "學學文化創意基金會",
+        "en_name": "XUE XUE",
+        "rate": 3.5,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/253",
+        "longitude": 121.5653029,
+        "latitude": 25.07789518
+    },
+    {
+        "id": 98,
+        "cn_name": "東湖哈拉影城",
+        "en_name": "Halar Cinema in Donghu",
+        "rate": 4.3,
+        "category": [
+            "親子共遊",
+            "主題商街"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2655",
+        "longitude": 121.608734,
+        "latitude": 25.06996768
+    },
+    {
+        "id": 99,
+        "cn_name": "白石湖同心池",
+        "en_name": "Baishihu Heart Pond",
+        "rate": 4.1,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2266",
+        "longitude": 121.5864623,
+        "latitude": 25.10053518
+    },
+    {
+        "id": 100,
+        "cn_name": "白石湖吊橋",
+        "en_name": "Baishihu Suspension Bridge",
+        "rate": 4.2,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/231",
+        "longitude": 121.5847858,
+        "latitude": 25.09968197
+    },
+    {
+        "id": 101,
+        "cn_name": "內湖737商圈",
+        "en_name": "Neihu 737 Shopping District",
+        "rate": 4.1,
+        "category": [
+            "主題商街"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2270",
+        "longitude": 121.576087,
+        "latitude": 25.07973798
+    },
+    {
+        "id": 102,
+        "cn_name": "白石湖休閒農業區",
+        "en_name": "White Stone Cirque Agri-tourism Area_Neihu Strawberry Festival",
+        "rate": -1.0,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2265",
+        "longitude": 121.5904717,
+        "latitude": 25.10366067
+    },
+    {
+        "id": 103,
+        "cn_name": "台北花市",
+        "en_name": "Taipei Flower Market",
+        "rate": 4.3,
+        "category": [
+            "主題商街"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1571",
+        "longitude": 121.571703,
+        "latitude": 25.0629218
+    },
+    {
+        "id": 104,
+        "cn_name": "五指山系_金面山親山步道",
+        "en_name": "Wuzhi Mountain System: Jinmianshan Hiking Trail",
+        "rate": 4.6,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/181",
+        "longitude": 121.5653092,
+        "latitude": 25.08866358
+    },
+    {
+        "id": 105,
+        "cn_name": "成美右岸河濱公園",
+        "en_name": "Chengmei Right Bank Riverside Park",
+        "rate": 4.3,
+        "category": [
+            "單車遊蹤",
+            "戶外踏青",
+            "藍色水路"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2259",
+        "longitude": 121.5836206,
+        "latitude": 25.05476848
+    },
+    {
+        "id": 106,
+        "cn_name": "大湖公園",
+        "en_name": "Dahu Park",
+        "rate": 4.5,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/198",
+        "longitude": 121.6011558,
+        "latitude": 25.08316518
+    },
+    {
+        "id": 107,
+        "cn_name": "五指山系_白鷺鷥山_康樂山_明舉山親山步道",
+        "en_name": "Wuzhi Mountain System: Bailuse, Mingju and Kangleshan Bridge Entrance Hiking Trail",
+        "rate": 4.0,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/180",
+        "longitude": 121.6067721,
+        "latitude": 25.08498074
+    },
+    {
+        "id": 108,
+        "cn_name": "內溝溪生態展示館",
+        "en_name": "Neigou River Ecological Exhibition Hall",
+        "rate": 4.1,
+        "category": [
+            "藝文館所",
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "內湖區",
+        "website": "https://travel.taipei/zh-tw/attraction/details/200",
+        "longitude": 121.6202487,
+        "latitude": 25.08729587
+    },
+    {
+        "id": 109,
+        "cn_name": "郭子儀紀念堂_內湖紅樓",
+        "en_name": "Guo Ziyi Memorial Hall_Neihu Red House",
+        "rate": 4.3,
+        "category": [
+            "歷史建築"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2177",
+        "longitude": 121.5840023,
+        "latitude": 25.07962927
+    },
+    {
+        "id": 110,
+        "cn_name": "湖山六號公園",
+        "en_name": "",
+        "rate": 4.4,
+        "category": [
+            "親子共遊"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2374",
+        "longitude": 121.5994155,
+        "latitude": 25.08309978
+    },
+    {
+        "id": 111,
+        "cn_name": "彩虹河濱公園",
+        "en_name": "Rainbow Riverside Park",
+        "rate": 4.4,
+        "category": [
+            "單車遊蹤",
+            "戶外踏青",
+            "藍色水路",
+            "親子共遊"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1734",
+        "longitude": 121.5697291,
+        "latitude": 25.05991898
+    },
+    {
+        "id": 112,
+        "cn_name": "碧湖步道",
+        "en_name": "Bihu Hiking Trail",
+        "rate": 4.3,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/230",
+        "longitude": 121.590421,
+        "latitude": 25.08943417
+    },
+    {
+        "id": 113,
+        "cn_name": "五分吊橋遺址",
+        "en_name": "",
+        "rate": 4.1,
+        "category": [
+            "歷史建築"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2639",
+        "longitude": 121.6049176,
+        "latitude": 25.06256206
+    },
+    {
+        "id": 114,
+        "cn_name": "碧湖公園",
+        "en_name": "Bihu Park",
+        "rate": 4.4,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/199",
+        "longitude": 121.5808302,
+        "latitude": 25.08312878
+    },
+    {
+        "id": 115,
+        "cn_name": "碧山露營場",
+        "en_name": "Bishan Campground",
+        "rate": -1.0,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/370",
+        "longitude": 121.5774563,
+        "latitude": 25.10463812
+    },
+    {
+        "id": 116,
+        "cn_name": "樂活公園",
+        "en_name": "LOHAS Park",
+        "rate": 4.3,
+        "category": [
+            "戶外踏青"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2165",
+        "longitude": 121.6163118,
+        "latitude": 25.06828308
+    },
+    {
+        "id": 117,
+        "cn_name": "內溝溪生態步道",
+        "en_name": "",
+        "rate": 4.4,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/201",
+        "longitude": 121.5925345,
+        "latitude": 25.08036443
+    },
+    {
+        "id": 118,
+        "cn_name": "龍船岩步道",
+        "en_name": "Dragon Boat Rock Trail",
+        "rate": 4.3,
+        "category": [
+            "戶外踏青"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2267",
+        "longitude": 121.5953592,
+        "latitude": 25.10198834
+    },
+    {
+        "id": 119,
+        "cn_name": "內湖復育園區",
+        "en_name": "Neihu Restoration Park",
+        "rate": 4.0,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/392",
+        "longitude": 121.6006946,
+        "latitude": 25.06100008
+    },
+    {
+        "id": 120,
+        "cn_name": "五指山系_大崙頭尾山親山步道",
+        "en_name": "Wuzhi Mountain System: Daluntoushan and Dalunweishan Hiking Trail",
+        "rate": 4.4,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/176",
+        "longitude": 121.5824469,
+        "latitude": 25.10908712
+    },
+    {
+        "id": 121,
+        "cn_name": "碧山巖開漳聖王廟",
+        "en_name": "BishaBishan Templen Temple",
+        "rate": 4.6,
+        "category": [
+            "歷史建築",
+            "宗教信仰"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/67",
+        "longitude": 121.5851355,
+        "latitude": 25.09707398
+    },
+    {
+        "id": 122,
+        "cn_name": "圓覺瀑布",
+        "en_name": "Yuanjue Waterfall",
+        "rate": 4.3,
+        "category": [
+            "戶外踏青"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2272",
+        "longitude": 121.5905563,
+        "latitude": 25.09765953
+    },
+    {
+        "id": 123,
+        "cn_name": "大溝溪生態治水園區",
+        "en_name": "Dagouxi Riverside Park",
+        "rate": 4.4,
+        "category": [
+            "戶外踏青"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2269",
+        "longitude": 121.5959048,
+        "latitude": 25.08909767
+    },
+    {
+        "id": 124,
+        "cn_name": "內湖葫蘆洲吊橋橋墩",
+        "en_name": "",
+        "rate": -1.0,
+        "category": [
+            "歷史建築"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2640",
+        "longitude": 121.4925276,
+        "latitude": 25.02799079
+    },
+    {
+        "id": 125,
+        "cn_name": "臺北市政府消防局防災科學教育館",
+        "en_name": "Fire Safety Museum",
+        "rate": 4.5,
+        "category": [
+            "親子共遊"
+        ],
+        "district": "內湖區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/368",
+        "longitude": 121.5877114,
+        "latitude": 25.06930507
+    },
+    {
+        "id": 126,
+        "cn_name": "松山慈祐宮",
+        "en_name": "Songshan Ciyou Temple",
+        "rate": 4.6,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "松山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/71",
+        "longitude": 121.5751151,
+        "latitude": 25.05121818
+    },
+    {
+        "id": 127,
+        "cn_name": "自由巷及鄭南榕紀念館",
+        "en_name": "Liberty Lane and Nylon Cheng Memorial Museum",
+        "rate": 4.6,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "松山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/248",
+        "longitude": 121.5428505,
+        "latitude": 25.06156548
+    },
+    {
+        "id": 128,
+        "cn_name": "臺北小巨蛋",
+        "en_name": "Taipei Arena",
+        "rate": 4.4,
+        "category": [
+            "藝文館所",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "松山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/271",
+        "longitude": 121.5476995,
+        "latitude": 25.05147247
+    },
+    {
+        "id": 129,
+        "cn_name": "臺灣股票博物館",
+        "en_name": "Taiwan Stock Museum",
+        "rate": 4.5,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "松山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2346",
+        "longitude": 121.5419466,
+        "latitude": 25.06107477
+    },
+    {
+        "id": 130,
+        "cn_name": "富民生態公園",
+        "en_name": "Fumin Ecological Park",
+        "rate": 4.3,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "松山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/378",
+        "longitude": 121.5616501,
+        "latitude": 25.06010898
+    },
+    {
+        "id": 131,
+        "cn_name": "彩虹橋",
+        "en_name": "Rainbow Bridge",
+        "rate": -1.0,
+        "category": [
+            "單車遊蹤",
+            "戶外踏青",
+            "藍色水路",
+            "親子共遊"
+        ],
+        "district": "松山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/243",
+        "longitude": 121.5717804,
+        "latitude": 25.0521535
+    },
+    {
+        "id": 132,
+        "cn_name": "富錦街",
+        "en_name": "Fujin Street",
+        "rate": -1.0,
+        "category": [
+            "主題商街"
+        ],
+        "district": "松山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1581",
+        "longitude": 121.5564618,
+        "latitude": 25.06062067
+    },
+    {
+        "id": 133,
+        "cn_name": "台北偶戲館",
+        "en_name": "Puppetry Art Center of Taipei",
+        "rate": 4.3,
+        "category": [
+            "藝文館所",
+            "親子共遊"
+        ],
+        "district": "松山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/40",
+        "longitude": 121.5587862,
+        "latitude": 25.04773607
+    },
+    {
+        "id": 134,
+        "cn_name": "錫口(彩虹)碼頭",
+        "en_name": "Xikou (Rainbow) Wharf",
+        "rate": -1.0,
+        "category": [
+            "藍色水路",
+            "公共藝術"
+        ],
+        "district": "松山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/214",
+        "longitude": 121.5722867,
+        "latitude": 25.0514707
+    },
+    {
+        "id": 135,
+        "cn_name": "河流彎曲之處，域見繁花光穹",
+        "en_name": "A Winding River, Flowers in Bloom, the Dome of Light",
+        "rate": -1.0,
+        "category": [
+            "公共藝術"
+        ],
+        "district": "松山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/349",
+        "longitude": 121.5749253,
+        "latitude": 25.0498358
+    },
+    {
+        "id": 136,
+        "cn_name": "臺北市藝文推廣處_城市舞台",
+        "en_name": "Taipei Cultural Center",
+        "rate": -1.0,
+        "category": [
+            "藝文館所",
+            "親子共遊"
+        ],
+        "district": "松山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/56",
+        "longitude": 121.5489203,
+        "latitude": 25.04841547
+    },
+    {
+        "id": 137,
+        "cn_name": "臺北松山機場觀景台",
+        "en_name": "Taipei Songshan Airport Observation Deck",
+        "rate": 4.4,
+        "category": [
+            "公共藝術",
+            "親子共遊",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "松山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/237",
+        "longitude": 121.548124,
+        "latitude": 25.06427127
+    },
+    {
+        "id": 138,
+        "cn_name": "寶勝畫廊",
+        "en_name": "X-Power Gallery",
+        "rate": 4.7,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "松山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2343",
+        "longitude": 121.5446683,
+        "latitude": 25.0579646
+    },
+    {
+        "id": 139,
+        "cn_name": "饒河街觀光夜市",
+        "en_name": "Raohe Street Tourist Night Market",
+        "rate": -1.0,
+        "category": [
+            "夜市商圈"
+        ],
+        "district": "松山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1538",
+        "longitude": 121.5692777,
+        "latitude": 25.05040066
+    },
+    {
+        "id": 140,
+        "cn_name": "SPOT光點台北電影館",
+        "en_name": "SPOT-Taipei Film House",
+        "rate": 4.2,
+        "category": [
+            "藝文館所",
+            "公共藝術",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/36",
+        "longitude": 121.5205101,
+        "latitude": 25.04923376
+    },
+    {
+        "id": 141,
+        "cn_name": "大直植福宮",
+        "en_name": "Chih-Fu Temple",
+        "rate": 4.7,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/403",
+        "longitude": 121.5479703,
+        "latitude": 25.08181998
+    },
+    {
+        "id": 142,
+        "cn_name": "美堤河濱公園",
+        "en_name": "Meiti Riverside Park",
+        "rate": 4.5,
+        "category": [
+            "單車遊蹤",
+            "戶外踏青",
+            "藍色水路",
+            "親子共遊"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2175",
+        "longitude": 121.5582924,
+        "latitude": 25.07537648
+    },
+    {
+        "id": 143,
+        "cn_name": "濱江果菜市場",
+        "en_name": "Binjiang Fruit and Vegetable Wholesale Market (Second Fruit and Vegetable Wholesale Market)",
+        "rate": 4.1,
+        "category": [
+            "主題商街"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1593",
+        "longitude": 121.5346938,
+        "latitude": 25.06776647
+    },
+    {
+        "id": 144,
+        "cn_name": "五指山系_劍潭山親山步道",
+        "en_name": "Wuzhi Mountain System_Jiantanshan Hiking Trail",
+        "rate": 4.4,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/177",
+        "longitude": 121.486328,
+        "latitude": 25.08707495
+    },
+    {
+        "id": 145,
+        "cn_name": "圓山自然景觀公園",
+        "en_name": "Yuanshan Natural Landscape Park",
+        "rate": 4.3,
+        "category": [
+            "戶外踏青"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2194",
+        "longitude": 121.5197251,
+        "latitude": 25.07498918
+    },
+    {
+        "id": 146,
+        "cn_name": "松錦公園",
+        "en_name": "",
+        "rate": 3.8,
+        "category": [
+            "親子共遊"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2375",
+        "longitude": 121.5297029,
+        "latitude": 25.05993777
+    },
+    {
+        "id": 147,
+        "cn_name": "福利社 FreeS Art Space",
+        "en_name": "FreeS Art Space",
+        "rate": 4.6,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1855",
+        "longitude": 121.5248516,
+        "latitude": 25.06721097
+    },
+    {
+        "id": 148,
+        "cn_name": "大佳碼頭",
+        "en_name": "Dajia Wharf",
+        "rate": -1.0,
+        "category": [
+            "藍色水路"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/3",
+        "longitude": 121.5348268,
+        "latitude": 25.076189
+    },
+    {
+        "id": 149,
+        "cn_name": "秋刀魚藝術中心",
+        "en_name": "Fish Art Center",
+        "rate": 4.3,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1863",
+        "longitude": 121.5615686,
+        "latitude": 25.07835408
+    },
+    {
+        "id": 150,
+        "cn_name": "遼寧公園",
+        "en_name": "Liaoning Park",
+        "rate": 3.8,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/409",
+        "longitude": 121.5396711,
+        "latitude": 25.05365297
+    },
+    {
+        "id": 151,
+        "cn_name": "晴光市場",
+        "en_name": "Qingguang Market",
+        "rate": 4.0,
+        "category": [
+            "主題商街"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1596",
+        "longitude": 121.5207935,
+        "latitude": 25.06452093
+    },
+    {
+        "id": 152,
+        "cn_name": "臨濟護國禪寺",
+        "en_name": "Linji Huguo Chan Temple",
+        "rate": 4.3,
+        "category": [
+            "歷史建築",
+            "宗教信仰"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/393",
+        "longitude": 121.5182841,
+        "latitude": 25.07248837
+    },
+    {
+        "id": 153,
+        "cn_name": "榮星花園公園",
+        "en_name": "Rongxing Garden Park",
+        "rate": 4.3,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/401",
+        "longitude": 121.5365663,
+        "latitude": 25.06346677
+    },
+    {
+        "id": 154,
+        "cn_name": "敘舊布袋戲園",
+        "en_name": "See-Join Puppet Theater Restaurant",
+        "rate": -1.0,
+        "category": [
+            "藝文館所",
+            "公共藝術",
+            "親子共遊"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/55",
+        "longitude": 121.5272368,
+        "latitude": 25.05601988
+    },
+    {
+        "id": 155,
+        "cn_name": "玫瑰古蹟_蔡瑞月舞蹈研究社",
+        "en_name": "Tsai Jui-yueh Dance Research Institute",
+        "rate": 4.3,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "公共藝術"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/104",
+        "longitude": 121.5194313,
+        "latitude": 25.05566858
+    },
+    {
+        "id": 156,
+        "cn_name": "中山北路條通商圈",
+        "en_name": "Tiaotong Business District on Zhongshan N. Road",
+        "rate": -1.0,
+        "category": [
+            "主題商街"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1589",
+        "longitude": 121.520049,
+        "latitude": 25.05126908
+    },
+    {
+        "id": 157,
+        "cn_name": "林安泰古厝民俗文物館",
+        "en_name": "Lin An-tai Historical House & Museum",
+        "rate": 4.6,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/90",
+        "longitude": 121.5277794,
+        "latitude": 25.07237387
+    },
+    {
+        "id": 158,
+        "cn_name": "美堤碼頭",
+        "en_name": "Meiti Wharf",
+        "rate": -1.0,
+        "category": [
+            "藍色水路"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/213",
+        "longitude": 121.5539596,
+        "latitude": 25.075285
+    },
+    {
+        "id": 159,
+        "cn_name": "雙城街夜市",
+        "en_name": "Shuangcheng Street Night Market",
+        "rate": 4.0,
+        "category": [
+            "夜市商圈"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1563",
+        "longitude": 121.5217601,
+        "latitude": 25.06448567
+    },
+    {
+        "id": 160,
+        "cn_name": "中山北路婚紗街",
+        "en_name": "",
+        "rate": -1.0,
+        "category": [
+            "主題商街"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1554",
+        "longitude": 121.5202024,
+        "latitude": 25.05813097
+    },
+    {
+        "id": 161,
+        "cn_name": "經國七海文化園區",
+        "en_name": "Ching-kuo Chi-Hai Cultural Park",
+        "rate": 4.5,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2647",
+        "longitude": 121.5335679,
+        "latitude": 25.07825977
+    },
+    {
+        "id": 162,
+        "cn_name": "財團法人劍潭古寺",
+        "en_name": "Jiantan Temple",
+        "rate": 4.5,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/75",
+        "longitude": 121.5528053,
+        "latitude": 25.08618467
+    },
+    {
+        "id": 163,
+        "cn_name": "台北啤酒工場",
+        "en_name": "Taipei Brewery (Jianguo Brewery)",
+        "rate": 3.9,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/91",
+        "longitude": 121.5331096,
+        "latitude": 25.04590118
+    },
+    {
+        "id": 164,
+        "cn_name": "MAISON ACME｜圓山別邸",
+        "en_name": "",
+        "rate": 4.2,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/85",
+        "longitude": 121.5220184,
+        "latitude": 25.07310707
+    },
+    {
+        "id": 165,
+        "cn_name": "卓悅藝文中心",
+        "en_name": "ZHUOYUE Arts and Cultural Center",
+        "rate": -1.0,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1861",
+        "longitude": 121.5307178,
+        "latitude": 25.05173857
+    },
+    {
+        "id": 166,
+        "cn_name": "新生公園_玫瑰園",
+        "en_name": "Xinsheng Park",
+        "rate": 4.5,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/228",
+        "longitude": 121.5261947,
+        "latitude": 25.06935008
+    },
+    {
+        "id": 167,
+        "cn_name": "捷運中山站街區_心中山線形公園",
+        "en_name": "MRT Zhongshan Station Area_Xinzhongshan Linear Park",
+        "rate": 4.4,
+        "category": [
+            "主題商街"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1588",
+        "longitude": 121.5180381,
+        "latitude": 25.05589018
+    },
+    {
+        "id": 168,
+        "cn_name": "歪腰郵筒",
+        "en_name": "Tilted mailboxes",
+        "rate": 4.0,
+        "category": [
+            "公共藝術"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2256",
+        "longitude": 121.5378025,
+        "latitude": 25.05274768
+    },
+    {
+        "id": 169,
+        "cn_name": "臺北市立美術館",
+        "en_name": "Taipei Fine Arts Museum",
+        "rate": 4.6,
+        "category": [
+            "藝文館所",
+            "公共藝術",
+            "親子共遊",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/30",
+        "longitude": 121.5222353,
+        "latitude": 25.07241177
+    },
+    {
+        "id": 170,
+        "cn_name": "樹火紀念紙博物館",
+        "en_name": "Suho Paper Memorial Museum",
+        "rate": 4.3,
+        "category": [
+            "藝文館所",
+            "親子共遊"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/51",
+        "longitude": 121.5310281,
+        "latitude": 25.04819698
+    },
+    {
+        "id": 171,
+        "cn_name": "臺北典藏植物園_天使館",
+        "en_name": "Taipei Collectible Botanical Garden",
+        "rate": 4.5,
+        "category": [
+            "親子共遊"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1799",
+        "longitude": 121.529369,
+        "latitude": 25.07085953
+    },
+    {
+        "id": 172,
+        "cn_name": "基隆河河濱自行車道",
+        "en_name": "Keelung River Bicycle Trail",
+        "rate": 4.0,
+        "category": [
+            "單車遊蹤",
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/270",
+        "longitude": 121.6156282,
+        "latitude": 25.08446129
+    },
+    {
+        "id": 173,
+        "cn_name": "舞蝶共融遊戲場",
+        "en_name": "Dancing Butterfly Inclusive Playground",
+        "rate": 4.5,
+        "category": [
+            "親子共遊"
+        ],
+        "district": "中山區",
+        "website": "https://travel.taipei/zh-tw/attraction/details/2250",
+        "longitude": 121.521449,
+        "latitude": 25.06870937
+    },
+    {
+        "id": 174,
+        "cn_name": "大佳河濱公園",
+        "en_name": "Dajia Riverside Park",
+        "rate": 4.4,
+        "category": [
+            "單車遊蹤",
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/251",
+        "longitude": 121.5263543,
+        "latitude": 25.07407924
+    },
+    {
+        "id": 175,
+        "cn_name": "袖珍博物館",
+        "en_name": "Miniatures Museum of Taiwan",
+        "rate": 4.4,
+        "category": [
+            "藝文館所",
+            "親子共遊"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/57",
+        "longitude": 121.5334835,
+        "latitude": 25.05042097
+    },
+    {
+        "id": 176,
+        "cn_name": "兒童藝術教育中心",
+        "en_name": "",
+        "rate": 4.5,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2275",
+        "longitude": 121.52186,
+        "latitude": 25.07220918
+    },
+    {
+        "id": 177,
+        "cn_name": "林森_康樂公園",
+        "en_name": "Linsen_Kangle Park",
+        "rate": 4.1,
+        "category": [
+            "親子共遊"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2176",
+        "longitude": 121.5229486,
+        "latitude": 25.05279288
+    },
+    {
+        "id": 178,
+        "cn_name": "四平陽光商圈",
+        "en_name": "Siping Sun Square",
+        "rate": 3.8,
+        "category": [
+            "主題商街"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1579",
+        "longitude": 121.531064,
+        "latitude": 25.05362797
+    },
+    {
+        "id": 179,
+        "cn_name": "花博公園_花之隧道",
+        "en_name": "Taipei Expo Park_Floral Tunnel",
+        "rate": -1.0,
+        "category": [
+            "戶外踏青",
+            "公共藝術"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2257",
+        "longitude": 121.5229336,
+        "latitude": 25.07137288
+    },
+    {
+        "id": 180,
+        "cn_name": "王大閎建築劇場",
+        "en_name": "Wang Da Hong House Theatre",
+        "rate": -1.0,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1804",
+        "longitude": 121.5217014,
+        "latitude": 25.08977893
+    },
+    {
+        "id": 181,
+        "cn_name": "迎風河濱公園",
+        "en_name": "Yingfeng Riverside Park",
+        "rate": 4.4,
+        "category": [
+            "單車遊蹤",
+            "戶外踏青",
+            "藍色水路",
+            "親子共遊"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/252",
+        "longitude": 121.5444681,
+        "latitude": 25.07418797
+    },
+    {
+        "id": 182,
+        "cn_name": "國民革命忠烈祠",
+        "en_name": "National Martyrs’ Shrine",
+        "rate": 4.4,
+        "category": [
+            "歷史建築",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/25",
+        "longitude": 121.5303807,
+        "latitude": 25.07941147
+    },
+    {
+        "id": 183,
+        "cn_name": "文昌宮",
+        "en_name": "Wen Chang Temple",
+        "rate": 4.7,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/385",
+        "longitude": 121.5184383,
+        "latitude": 25.0591923
+    },
+    {
+        "id": 184,
+        "cn_name": "遼寧街夜市",
+        "en_name": "Liaoning Street Night Market",
+        "rate": 3.9,
+        "category": [
+            "夜市商圈"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1567",
+        "longitude": 121.539602,
+        "latitude": 25.04886827
+    },
+    {
+        "id": 185,
+        "cn_name": "捷運中山地下書街_誠品R79",
+        "en_name": "MRT Zhongshan Underground Book Street",
+        "rate": 4.5,
+        "category": [
+            "主題商街"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1557",
+        "longitude": 121.5180024,
+        "latitude": 25.05498568
+    },
+    {
+        "id": 186,
+        "cn_name": "臺北魚市",
+        "en_name": "Taipei Fish Market",
+        "rate": 4.3,
+        "category": [
+            "主題商街"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1590",
+        "longitude": 121.5343721,
+        "latitude": 25.06735897
+    },
+    {
+        "id": 187,
+        "cn_name": "花博公園",
+        "en_name": "TAIPEI EXPO PARK",
+        "rate": 4.2,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/268",
+        "longitude": 121.521546,
+        "latitude": 25.07082236
+    },
+    {
+        "id": 188,
+        "cn_name": "圓山大飯店",
+        "en_name": "The Grand Hotel",
+        "rate": 4.4,
+        "category": [
+            "歷史建築"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/101",
+        "longitude": 121.5239402,
+        "latitude": 25.07892928
+    },
+    {
+        "id": 189,
+        "cn_name": "臺北戲棚 TaipeiEYE",
+        "en_name": "Taipei Eye",
+        "rate": 4.4,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1857",
+        "longitude": 121.5206287,
+        "latitude": 25.06058768
+    },
+    {
+        "id": 190,
+        "cn_name": "美麗華百樂園",
+        "en_name": "Miramar Entertainment Park",
+        "rate": 4.4,
+        "category": [
+            "親子共遊",
+            "主題商街",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/413",
+        "longitude": 121.5548835,
+        "latitude": 25.08342317
+    },
+    {
+        "id": 191,
+        "cn_name": "命理街",
+        "en_name": "Fortunetelling Street",
+        "rate": -1.0,
+        "category": [
+            "主題商街"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1558",
+        "longitude": 121.5307108,
+        "latitude": 25.0626197
+    },
+    {
+        "id": 192,
+        "cn_name": "行天宮",
+        "en_name": "Xingtian Temple",
+        "rate": 4.7,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/65",
+        "longitude": 121.5312984,
+        "latitude": 25.0628706
+    },
+    {
+        "id": 193,
+        "cn_name": "MAJI集食行樂_圓山花博爭豔館",
+        "en_name": "MAJI Square",
+        "rate": 4.2,
+        "category": [
+            "藝文館所",
+            "公共藝術",
+            "主題商街"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1794",
+        "longitude": 121.519577,
+        "latitude": 25.06974348
+    },
+    {
+        "id": 194,
+        "cn_name": "台灣基督長老教會_中山教會",
+        "en_name": "Zhongshan Christian Presbyterian Church",
+        "rate": 4.4,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/387",
+        "longitude": 121.5216453,
+        "latitude": 25.0489943
+    },
+    {
+        "id": 195,
+        "cn_name": "非畫廊Beyond Gallery",
+        "en_name": "Beyond Gallery",
+        "rate": 4.4,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "中山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1875",
+        "longitude": 121.5198672,
+        "latitude": 25.04980497
+    },
+    {
+        "id": 196,
+        "cn_name": "台灣基督長老教會大稻埕教會",
+        "en_name": "Dadaocheng Branch of the Presbyterian Church in Taiwan",
+        "rate": -1.0,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/359",
+        "longitude": 121.5099412,
+        "latitude": 25.05960448
+    },
+    {
+        "id": 197,
+        "cn_name": "Art Space 金魚空間",
+        "en_name": "Art Space Kin Gyo Koo Kan",
+        "rate": 4.7,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1865",
+        "longitude": 121.5159784,
+        "latitude": 25.05353238
+    },
+    {
+        "id": 198,
+        "cn_name": "新芳春茶行",
+        "en_name": "Shin Hong Choon Tea",
+        "rate": 4.5,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2261",
+        "longitude": 121.5099734,
+        "latitude": 25.05708108
+    },
+    {
+        "id": 199,
+        "cn_name": "大稻埕街區_迪化街店屋",
+        "en_name": "Old storefront buildings on Dihua St.",
+        "rate": 4.3,
+        "category": [
+            "歷史建築"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/105",
+        "longitude": 121.5035825,
+        "latitude": 25.05893261
+    },
+    {
+        "id": 200,
+        "cn_name": "大稻埕戲苑",
+        "en_name": "Dadaocheng Theater",
+        "rate": 4.4,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/347",
+        "longitude": 121.5079567,
+        "latitude": 25.05486912
+    },
+    {
+        "id": 201,
+        "cn_name": "迪化運動公園跨堤景觀平臺",
+        "en_name": "Dihua Sports Park cross-embankment viewing platform",
+        "rate": 4.3,
+        "category": [
+            "公共藝術",
+            "親子共遊"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/352",
+        "longitude": 121.5062168,
+        "latitude": 25.07529858
+    },
+    {
+        "id": 202,
+        "cn_name": "永樂布業商場_永樂市場",
+        "en_name": "Yongle Fabric Market (former Yongle Market)",
+        "rate": 4.3,
+        "category": [
+            "主題商街"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1585",
+        "longitude": 121.5078849,
+        "latitude": 25.05488348
+    },
+    {
+        "id": 203,
+        "cn_name": "迪化街年貨大街",
+        "en_name": "Dihua Street -Lunar New Year Shopping Area",
+        "rate": 4.3,
+        "category": [
+            "主題商街"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1541",
+        "longitude": 121.5074623,
+        "latitude": 25.05510468
+    },
+    {
+        "id": 204,
+        "cn_name": "大稻埕慈聖宮",
+        "en_name": "Dadaocheng Cisheng Temple",
+        "rate": 4.4,
+        "category": [
+            "歷史建築",
+            "宗教信仰"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/418",
+        "longitude": 121.5094304,
+        "latitude": 25.06030368
+    },
+    {
+        "id": 205,
+        "cn_name": "大稻埕碼頭_大稻埕碼頭貨櫃市集",
+        "en_name": "Dadaocheng Wharf",
+        "rate": 4.5,
+        "category": [
+            "單車遊蹤",
+            "藍色水路",
+            "親子共遊"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1",
+        "longitude": 121.5048527,
+        "latitude": 25.05612828
+    },
+    {
+        "id": 206,
+        "cn_name": "慈聖宮前小吃區",
+        "en_name": "Cisheng Temple Food Street",
+        "rate": 4.4,
+        "category": [
+            "主題商街"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1586",
+        "longitude": 121.5093171,
+        "latitude": 25.06037207
+    },
+    {
+        "id": 207,
+        "cn_name": "十方樂集音樂劇場",
+        "en_name": "Forum Music Auditorium",
+        "rate": 4.4,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1858",
+        "longitude": 121.5121727,
+        "latitude": 25.06897917
+    },
+    {
+        "id": 208,
+        "cn_name": "寧夏觀光夜市",
+        "en_name": "Ningxia Road Night Market",
+        "rate": 4.2,
+        "category": [
+            "夜市商圈"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1560",
+        "longitude": 121.5127892,
+        "latitude": 25.05668077
+    },
+    {
+        "id": 209,
+        "cn_name": "延三觀光夜市",
+        "en_name": "Yanping N. Rd. Sec. 3 Tourist Night Market",
+        "rate": 4.1,
+        "category": [
+            "夜市商圈"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1570",
+        "longitude": 121.5086306,
+        "latitude": 25.06369608
+    },
+    {
+        "id": 210,
+        "cn_name": "渭水驛站",
+        "en_name": "Wei-Shui Station",
+        "rate": 4.8,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/3677",
+        "longitude": 121.5092681,
+        "latitude": 25.05472297
+    },
+    {
+        "id": 211,
+        "cn_name": "臺北迪化街郵局",
+        "en_name": "Dihua Street Post Office",
+        "rate": 4.2,
+        "category": [
+            "歷史建築"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/420",
+        "longitude": 121.5074493,
+        "latitude": 25.05479718
+    },
+    {
+        "id": 212,
+        "cn_name": "蔣渭水紀念公園",
+        "en_name": "Chiang Wei-shui Memorial Park",
+        "rate": 3.9,
+        "category": [
+            "戶外踏青"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/361",
+        "longitude": 121.5142681,
+        "latitude": 25.05976887
+    },
+    {
+        "id": 213,
+        "cn_name": "李春生紀念教會",
+        "en_name": "Lee Chun-sheng Memorial Christ Presbyterian Church",
+        "rate": -1.0,
+        "category": [
+            "宗教信仰",
+            "藝文館所",
+            "公共藝術"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/81",
+        "longitude": 121.5056545,
+        "latitude": 25.05511587
+    },
+    {
+        "id": 214,
+        "cn_name": "大龍街夜市",
+        "en_name": "Dalong Street Night Market",
+        "rate": 3.9,
+        "category": [
+            "夜市商圈"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1568",
+        "longitude": 121.5133636,
+        "latitude": 25.07130338
+    },
+    {
+        "id": 215,
+        "cn_name": "陳天來故居",
+        "en_name": "Chen Tian-Lai's Residence",
+        "rate": -1.0,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/103",
+        "longitude": 121.5058528,
+        "latitude": 25.05600047
+    },
+    {
+        "id": 216,
+        "cn_name": "李臨秋故居",
+        "en_name": "Former Residence of Lee Lin-Chiu",
+        "rate": -1.0,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/419",
+        "longitude": 121.5061635,
+        "latitude": 25.05515898
+    },
+    {
+        "id": 217,
+        "cn_name": "建成圓環",
+        "en_name": "Chien-Cheng Circle (Taipei Circle)",
+        "rate": 3.9,
+        "category": [
+            "歷史建築",
+            "公共藝術"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/242",
+        "longitude": 121.5120966,
+        "latitude": 25.0538023
+    },
+    {
+        "id": 218,
+        "cn_name": "後站商圈",
+        "en_name": "Shopping District Rear Entrance of Taipei Main Station",
+        "rate": 4.1,
+        "category": [
+            "主題商街"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1583",
+        "longitude": 121.4579379,
+        "latitude": 25.00799078
+    },
+    {
+        "id": 219,
+        "cn_name": "天馬茶房",
+        "en_name": "Tian-Ma Tea House",
+        "rate": -1.0,
+        "category": [
+            "歷史建築"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/3674",
+        "longitude": 121.5095842,
+        "latitude": 25.0540527
+    },
+    {
+        "id": 220,
+        "cn_name": "大稻埕辜宅",
+        "en_name": "The Koo's Dadaocheng Residence",
+        "rate": -1.0,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/99",
+        "longitude": 121.5062479,
+        "latitude": 25.05875298
+    },
+    {
+        "id": 221,
+        "cn_name": "台北當代藝術館",
+        "en_name": "Museum of Contemporary Art Taipei",
+        "rate": 4.4,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/32",
+        "longitude": 121.5164017,
+        "latitude": 25.05080468
+    },
+    {
+        "id": 222,
+        "cn_name": "阿嬤家-和平與女性人權館",
+        "en_name": "",
+        "rate": 4.7,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1795",
+        "longitude": 121.5154878,
+        "latitude": 25.06446047
+    },
+    {
+        "id": 223,
+        "cn_name": "大稻埕公園",
+        "en_name": "",
+        "rate": 4.1,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2638",
+        "longitude": 121.5077714,
+        "latitude": 25.05861028
+    },
+    {
+        "id": 224,
+        "cn_name": "台北霞海城隍廟",
+        "en_name": "Xiahai City God Temple",
+        "rate": 4.6,
+        "category": [
+            "歷史建築",
+            "宗教信仰"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/69",
+        "longitude": 121.5075692,
+        "latitude": 25.05564928
+    },
+    {
+        "id": 225,
+        "cn_name": "大橋教會(枋隙教會原址)",
+        "en_name": "",
+        "rate": 4.5,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2643",
+        "longitude": 121.5071728,
+        "latitude": 25.0650091
+    },
+    {
+        "id": 226,
+        "cn_name": "國立臺灣博物館_鐵道部園區",
+        "en_name": "",
+        "rate": 4.6,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "親子共遊"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2576",
+        "longitude": 121.5086324,
+        "latitude": 25.04877187
+    },
+    {
+        "id": 227,
+        "cn_name": "甘州街_茶葉街",
+        "en_name": "Ganzhou St -Tea Street",
+        "rate": -1.0,
+        "category": [
+            "主題商街"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1556",
+        "longitude": 121.5087358,
+        "latitude": 25.05629328
+    },
+    {
+        "id": 228,
+        "cn_name": "臺北市孔廟",
+        "en_name": "Confucius Temple",
+        "rate": 4.5,
+        "category": [
+            "歷史建築",
+            "宗教信仰",
+            "親子共遊"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/86",
+        "longitude": 121.5136044,
+        "latitude": 25.07276228
+    },
+    {
+        "id": 229,
+        "cn_name": "太平國小",
+        "en_name": "Taiping Elementary School",
+        "rate": -1.0,
+        "category": [
+            "親子共遊"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/3681",
+        "longitude": 121.5088741,
+        "latitude": 25.0613878
+    },
+    {
+        "id": 230,
+        "cn_name": "赤峰街",
+        "en_name": "Chifeng Street",
+        "rate": -1.0,
+        "category": [
+            "主題商街"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2263",
+        "longitude": 121.5170602,
+        "latitude": 25.05532248
+    },
+    {
+        "id": 231,
+        "cn_name": "捷運北門站_台北鐵道局",
+        "en_name": "MRT Beimen Station (Taipei Railway Department)",
+        "rate": -1.0,
+        "category": [
+            "公共藝術"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/417",
+        "longitude": 121.449077,
+        "latitude": 25.02497402
+    },
+    {
+        "id": 232,
+        "cn_name": "延平河濱公園",
+        "en_name": "Yanping Riverside Park",
+        "rate": 4.3,
+        "category": [
+            "單車遊蹤",
+            "戶外踏青",
+            "藍色水路",
+            "親子共遊"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/263",
+        "longitude": 121.5045061,
+        "latitude": 25.05411598
+    },
+    {
+        "id": 233,
+        "cn_name": "臺灣新文化運動紀念館",
+        "en_name": "Taiwan New Cultural Movement Memorial Museum",
+        "rate": 4.6,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1979",
+        "longitude": 121.5124664,
+        "latitude": 25.05933747
+    },
+    {
+        "id": 234,
+        "cn_name": "陳德星堂",
+        "en_name": "Chen De-xing Hall",
+        "rate": -1.0,
+        "category": [
+            "歷史建築",
+            "宗教信仰"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/358",
+        "longitude": 121.5132892,
+        "latitude": 25.05551098
+    },
+    {
+        "id": 235,
+        "cn_name": "大龍峒保安宮",
+        "en_name": "Baoan Temple",
+        "rate": 4.6,
+        "category": [
+            "歷史建築",
+            "宗教信仰"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/61",
+        "longitude": 121.5129954,
+        "latitude": 25.07310877
+    },
+    {
+        "id": 236,
+        "cn_name": "臺北市交通資訊中心",
+        "en_name": "Taipei City Traffic Information Center",
+        "rate": -1.0,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "大同區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/348",
+        "longitude": 121.5162774,
+        "latitude": 25.04928298
+    },
+    {
+        "id": 237,
+        "cn_name": "南港公園",
+        "en_name": "Nangang Park",
+        "rate": 4.5,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "南港區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/294",
+        "longitude": 121.5902997,
+        "latitude": 25.04422284
+    },
+    {
+        "id": 238,
+        "cn_name": "山水綠生態公園",
+        "en_name": "Shanshuilu Eco Park",
+        "rate": 4.3,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "南港區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/383",
+        "longitude": 121.618768,
+        "latitude": 25.02965868
+    },
+    {
+        "id": 239,
+        "cn_name": "臺北流行音樂中心",
+        "en_name": "Taipei Music Center",
+        "rate": 4.5,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "南港區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2201",
+        "longitude": 121.5962081,
+        "latitude": 25.05184317
+    },
+    {
+        "id": 240,
+        "cn_name": "南港山系_南港山縱走親山步道",
+        "en_name": "Nangang Mountain System: Nangangshan Hiking Trail",
+        "rate": 4.5,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "南港區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/182",
+        "longitude": 121.605147,
+        "latitude": 25.03300762
+    },
+    {
+        "id": 241,
+        "cn_name": "瓶蓋工廠台北製造所",
+        "en_name": "POPOP Taipei",
+        "rate": 4.2,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "親子共遊"
+        ],
+        "district": "南港區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/410",
+        "longitude": 121.6021914,
+        "latitude": 25.05363717
+    },
+    {
+        "id": 242,
+        "cn_name": "幾米主題南港站",
+        "en_name": "Jimmy-themed artworks at Nangang Station",
+        "rate": -1.0,
+        "category": [
+            "藝文館所",
+            "公共藝術"
+        ],
+        "district": "南港區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/402",
+        "longitude": 121.6040021,
+        "latitude": 25.05185618
+    },
+    {
+        "id": 243,
+        "cn_name": "南港山系_麗山橋口親山步道",
+        "en_name": "Nangang Mountain System: Lishan Bridge Entrance Hiking Trail",
+        "rate": 3.9,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "南港區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/183",
+        "longitude": 121.5974261,
+        "latitude": 25.02894221
+    },
+    {
+        "id": 244,
+        "cn_name": "南港山系_更寮古道親山步道",
+        "en_name": "Nangang Mountain System_Old Genliao Hiking Trail",
+        "rate": 4.1,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "南港區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/179",
+        "longitude": 121.6307941,
+        "latitude": 25.02548517
+    },
+    {
+        "id": 245,
+        "cn_name": "胡適紀念館",
+        "en_name": "Hu Shih Memorial Hall",
+        "rate": 4.5,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "公共藝術"
+        ],
+        "district": "南港區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/52",
+        "longitude": 121.6135764,
+        "latitude": 25.04057397
+    },
+    {
+        "id": 246,
+        "cn_name": "三重世貿公園",
+        "en_name": "Sanchong World Trade Park",
+        "rate": 4.2,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "南港區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/416",
+        "longitude": 121.6132944,
+        "latitude": 25.05788307
+    },
+    {
+        "id": 247,
+        "cn_name": "新新公園",
+        "en_name": "Sinsin Park",
+        "rate": 4.2,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "南港區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2170",
+        "longitude": 121.5877283,
+        "latitude": 25.05135497
+    },
+    {
+        "id": 248,
+        "cn_name": "麗山農民廣場_麗山公園",
+        "en_name": "",
+        "rate": 3.3,
+        "category": [
+            "戶外踏青"
+        ],
+        "district": "南港區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2637",
+        "longitude": 121.5932736,
+        "latitude": 25.02242118
+    },
+    {
+        "id": 249,
+        "cn_name": "天人境界",
+        "en_name": "Boundary between Heaven and Man",
+        "rate": -1.0,
+        "category": [
+            "公共藝術"
+        ],
+        "district": "南港區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1802",
+        "longitude": 121.6153764,
+        "latitude": 25.05645
+    },
+    {
+        "id": 250,
+        "cn_name": "CITYLINK南港店",
+        "en_name": "Gourmet of Nangang CITYLINK",
+        "rate": 4.2,
+        "category": [
+            "親子共遊",
+            "主題商街"
+        ],
+        "district": "南港區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2654",
+        "longitude": 121.6034117,
+        "latitude": 25.05264047
+    },
+    {
+        "id": 251,
+        "cn_name": "静心苑_松山療養所所長宿舍",
+        "en_name": "",
+        "rate": 4.5,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "南港區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2636",
+        "longitude": 121.5909181,
+        "latitude": 25.04848098
+    },
+    {
+        "id": 252,
+        "cn_name": "N24 台北方舟",
+        "en_name": "The N24 Ark Taipei",
+        "rate": 4.4,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "南港區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/3675",
+        "longitude": 121.5811597,
+        "latitude": 25.04918618
+    },
+    {
+        "id": 253,
+        "cn_name": "中華科技大學",
+        "en_name": "China University of Science and Technology",
+        "rate": -1.0,
+        "category": [
+            "戶外踏青"
+        ],
+        "district": "南港區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2658",
+        "longitude": 121.6073349,
+        "latitude": 25.03362167
+    },
+    {
+        "id": 254,
+        "cn_name": "五分埔-成衣街",
+        "en_name": "Wufenpu- the garment district",
+        "rate": 3.9,
+        "category": [
+            "主題商街"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1540",
+        "longitude": 121.5763949,
+        "latitude": 25.04670238
+    },
+    {
+        "id": 255,
+        "cn_name": "南港山系_象山親山步道",
+        "en_name": "Nangang Mountain System: Xiangshan (Mt. Elephant) Hiking Trail",
+        "rate": 4.6,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/185",
+        "longitude": 121.6030998,
+        "latitude": 25.03292838
+    },
+    {
+        "id": 256,
+        "cn_name": "松山文創園區",
+        "en_name": "Songshan Cultural and Creative Park",
+        "rate": 4.4,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "公共藝術"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/229",
+        "longitude": 121.5582728,
+        "latitude": 25.04417757
+    },
+    {
+        "id": 257,
+        "cn_name": "信義商圈",
+        "en_name": "Xinyi Shopping District",
+        "rate": 4.5,
+        "category": [
+            "主題商街",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1573",
+        "longitude": 121.5603153,
+        "latitude": 25.03373491
+    },
+    {
+        "id": 258,
+        "cn_name": "信義公民會館暨眷村文化公園_四四南村",
+        "en_name": "Xinyi Assembly Hall, Taipei City",
+        "rate": 4.4,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "公共藝術"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/45",
+        "longitude": 121.5594541,
+        "latitude": 25.03100798
+    },
+    {
+        "id": 259,
+        "cn_name": "台北101",
+        "en_name": "Taipei 101 Mall",
+        "rate": 4.4,
+        "category": [
+            "主題商街",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/217",
+        "longitude": 121.561964,
+        "latitude": 25.03397597
+    },
+    {
+        "id": 260,
+        "cn_name": "幾米月亮公車",
+        "en_name": "Jimmy’s Moon Bus",
+        "rate": 4.3,
+        "category": [
+            "藝文館所",
+            "公共藝術",
+            "親子共遊"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/396",
+        "longitude": 121.5631602,
+        "latitude": 25.03275868
+    },
+    {
+        "id": 261,
+        "cn_name": "松山慈惠堂",
+        "en_name": "Songshan Cihui Temple",
+        "rate": 4.5,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/272",
+        "longitude": 121.5849089,
+        "latitude": 25.03651978
+    },
+    {
+        "id": 262,
+        "cn_name": "象山公園",
+        "en_name": "Xiangshan Park",
+        "rate": 4.5,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/380",
+        "longitude": 121.5675545,
+        "latitude": 25.03039238
+    },
+    {
+        "id": 263,
+        "cn_name": "南港山系_虎山親山步道",
+        "en_name": "Nangang Mountain System: Hushan (Mt. Tiger) Hiking Trail",
+        "rate": 4.4,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/184",
+        "longitude": 121.5849132,
+        "latitude": 25.03201668
+    },
+    {
+        "id": 264,
+        "cn_name": "松山奉天宮",
+        "en_name": "Songshan Feng Tian Temple",
+        "rate": 4.7,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/381",
+        "longitude": 121.5821344,
+        "latitude": 25.03725138
+    },
+    {
+        "id": 265,
+        "cn_name": "松山火車站",
+        "en_name": "Songshan Station",
+        "rate": -1.0,
+        "category": [
+            "歷史建築",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1800",
+        "longitude": 121.5753169,
+        "latitude": 25.04851023
+    },
+    {
+        "id": 266,
+        "cn_name": "香堤大道廣場",
+        "en_name": "",
+        "rate": 4.5,
+        "category": [
+            "公共藝術"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2236",
+        "longitude": 121.5644102,
+        "latitude": 25.03724747
+    },
+    {
+        "id": 267,
+        "cn_name": "台北探索館",
+        "en_name": "Discovery Center of Taipei",
+        "rate": 4.3,
+        "category": [
+            "藝文館所",
+            "親子共遊",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/42",
+        "longitude": 121.5612409,
+        "latitude": 25.03752408
+    },
+    {
+        "id": 268,
+        "cn_name": "國立國父紀念館",
+        "en_name": "National Sun Yat-sen Memorial Hall",
+        "rate": -1.0,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/24",
+        "longitude": 121.5576703,
+        "latitude": 25.04003058
+    },
+    {
+        "id": 269,
+        "cn_name": "和興炭坑",
+        "en_name": "Hexing Mine",
+        "rate": 3.5,
+        "category": [
+            "歷史建築",
+            "親子共遊"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/398",
+        "longitude": 121.5782522,
+        "latitude": 25.02260058
+    },
+    {
+        "id": 270,
+        "cn_name": "糶米古道",
+        "en_name": "Tiaomi Historic Trail",
+        "rate": 4.3,
+        "category": [
+            "戶外踏青",
+            "公共藝術",
+            "親子共遊"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/379",
+        "longitude": 121.5705495,
+        "latitude": 25.01519557
+    },
+    {
+        "id": 271,
+        "cn_name": "永春陂生態濕地公園",
+        "en_name": "Yongchunpi Wetland Park",
+        "rate": 4.4,
+        "category": [
+            "戶外踏青"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2262",
+        "longitude": 121.5774969,
+        "latitude": 25.03253098
+    },
+    {
+        "id": 272,
+        "cn_name": "松山文創園區_松菸風格店家",
+        "en_name": "Songshan Cultural and Creative Park－Songyan Style Gallery",
+        "rate": 4.5,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1809",
+        "longitude": 121.5586453,
+        "latitude": 25.04362988
+    },
+    {
+        "id": 273,
+        "cn_name": "誠品畫廊",
+        "en_name": "Eslite Gallery",
+        "rate": 4.4,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1864",
+        "longitude": 121.5588907,
+        "latitude": 25.04458788
+    },
+    {
+        "id": 274,
+        "cn_name": "彩虹起跑線",
+        "en_name": "Rainbow Starting line",
+        "rate": 4.2,
+        "category": [
+            "公共藝術"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2365",
+        "longitude": 121.563,
+        "latitude": 25.0377
+    },
+    {
+        "id": 275,
+        "cn_name": "台灣設計館",
+        "en_name": "Taiwan Design Museum",
+        "rate": 4.4,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2274",
+        "longitude": 121.5571691,
+        "latitude": 25.04370388
+    },
+    {
+        "id": 276,
+        "cn_name": "吳興街商圈",
+        "en_name": "Wuxing Street Shopping Area",
+        "rate": 3.9,
+        "category": [
+            "夜市商圈"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2652",
+        "longitude": 121.5605303,
+        "latitude": 25.02776248
+    },
+    {
+        "id": 277,
+        "cn_name": "中油藝廊",
+        "en_name": "CPC Art Gallery",
+        "rate": 4.0,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1859",
+        "longitude": 121.5666852,
+        "latitude": 25.03977253
+    },
+    {
+        "id": 278,
+        "cn_name": "佛光山台北道場",
+        "en_name": "Fo Guang Shan Taipei Vihara",
+        "rate": 4.5,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "信義區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2666",
+        "longitude": 121.5760989,
+        "latitude": 25.04828808
+    },
+    {
+        "id": 279,
+        "cn_name": "大安森林公園",
+        "en_name": "Daan Park",
+        "rate": 4.6,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/190",
+        "longitude": 121.5320645,
+        "latitude": 25.03174183
+    },
+    {
+        "id": 280,
+        "cn_name": "台北市建國假日玉市",
+        "en_name": "Jianguo Holiday Jade Market",
+        "rate": 4.1,
+        "category": [
+            "主題商街"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1574",
+        "longitude": 121.5355724,
+        "latitude": 25.03714218
+    },
+    {
+        "id": 281,
+        "cn_name": "臨江街觀光夜市",
+        "en_name": "Linjiang Street Night Market",
+        "rate": 4.2,
+        "category": [
+            "夜市商圈"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1562",
+        "longitude": 121.5516923,
+        "latitude": 25.03014118
+    },
+    {
+        "id": 282,
+        "cn_name": "建國假日花市",
+        "en_name": "Jianguo Holiday Flower Market",
+        "rate": 4.4,
+        "category": [
+            "主題商街"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1577",
+        "longitude": 121.5352082,
+        "latitude": 25.03576672
+    },
+    {
+        "id": 283,
+        "cn_name": "文昌街_家具街",
+        "en_name": "Wenchang Street—Furniture Street",
+        "rate": -1.0,
+        "category": [
+            "主題商街"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1545",
+        "longitude": 121.5523098,
+        "latitude": 25.03236592
+    },
+    {
+        "id": 284,
+        "cn_name": "東區地下街",
+        "en_name": "East Metro Mall",
+        "rate": 4.2,
+        "category": [
+            "主題商街"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1582",
+        "longitude": 121.5449567,
+        "latitude": 25.04157367
+    },
+    {
+        "id": 285,
+        "cn_name": "富陽自然生態公園",
+        "en_name": "Fuyang Eco Park",
+        "rate": 4.4,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/261",
+        "longitude": 121.5549234,
+        "latitude": 25.01672018
+    },
+    {
+        "id": 286,
+        "cn_name": "永康街區",
+        "en_name": "Yongkang Street Area",
+        "rate": 4.1,
+        "category": [
+            "主題商街"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1587",
+        "longitude": 112.5446254,
+        "latitude": 25.62454948
+    },
+    {
+        "id": 287,
+        "cn_name": "公館商圈",
+        "en_name": "Gongguan Shopping District",
+        "rate": 4.1,
+        "category": [
+            "主題商街"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2181",
+        "longitude": 121.5309551,
+        "latitude": 25.01477912
+    },
+    {
+        "id": 288,
+        "cn_name": "光華玉市",
+        "en_name": "Guanghua Jade Market",
+        "rate": 3.5,
+        "category": [
+            "主題商街"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1575",
+        "longitude": 121.5306021,
+        "latitude": 25.04470697
+    },
+    {
+        "id": 289,
+        "cn_name": "東區商圈",
+        "en_name": "Eastern District",
+        "rate": 4.1,
+        "category": [
+            "主題商街",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1981",
+        "longitude": 121.5436244,
+        "latitude": 25.04271307
+    },
+    {
+        "id": 290,
+        "cn_name": "梁實秋故居",
+        "en_name": "Liang Shi-Qiu's Residence",
+        "rate": 4.4,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/239",
+        "longitude": 121.5253038,
+        "latitude": 25.02382368
+    },
+    {
+        "id": 291,
+        "cn_name": "錦町日式宿舍群",
+        "en_name": "Nishiki-Cho Japanese-style dormitories",
+        "rate": -1.0,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/400",
+        "longitude": 121.5254478,
+        "latitude": 25.02773328
+    },
+    {
+        "id": 292,
+        "cn_name": "殷海光故居",
+        "en_name": "Yin Hai-Kuang's Residence",
+        "rate": 4.4,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "公共藝術"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/232",
+        "longitude": 121.5294151,
+        "latitude": 25.02417178
+    },
+    {
+        "id": 293,
+        "cn_name": "馬廷英故居_青田七六",
+        "en_name": "Ma Ting-Ying's Residence",
+        "rate": 4.4,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/241",
+        "longitude": 121.5300725,
+        "latitude": 25.02792857
+    },
+    {
+        "id": 294,
+        "cn_name": "福州山公園",
+        "en_name": "Fujhoushan Park",
+        "rate": 4.4,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/407",
+        "longitude": 121.5522651,
+        "latitude": 25.01601018
+    },
+    {
+        "id": 295,
+        "cn_name": "紫藤廬",
+        "en_name": "Wisteria Tea House",
+        "rate": 4.2,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/39",
+        "longitude": 121.5319095,
+        "latitude": 25.02454838
+    },
+    {
+        "id": 296,
+        "cn_name": "臺北清真寺",
+        "en_name": "Taipei Grand Mosque",
+        "rate": 4.7,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/82",
+        "longitude": 121.5316198,
+        "latitude": 25.02797028
+    },
+    {
+        "id": 297,
+        "cn_name": "國立臺灣大學",
+        "en_name": "National Taiwan University",
+        "rate": -1.0,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "親子共遊",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/264",
+        "longitude": 121.5371769,
+        "latitude": 25.01734048
+    },
+    {
+        "id": 298,
+        "cn_name": "臺北監獄圍牆遺蹟",
+        "en_name": "Remains of Taipei Prison Wall",
+        "rate": 4.0,
+        "category": [
+            "歷史建築"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/362",
+        "longitude": 121.5241871,
+        "latitude": 25.03275187
+    },
+    {
+        "id": 299,
+        "cn_name": "天主教台北聖家堂",
+        "en_name": "Holy Family Catholic Church",
+        "rate": 4.7,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/80",
+        "longitude": 121.5314233,
+        "latitude": 25.02881707
+    },
+    {
+        "id": 300,
+        "cn_name": "義芳居古厝",
+        "en_name": "Yifangju Estate",
+        "rate": 4.1,
+        "category": [
+            "歷史建築"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/222",
+        "longitude": 121.5448161,
+        "latitude": 25.01160198
+    },
+    {
+        "id": 301,
+        "cn_name": "台新銀行文化藝術基金會",
+        "en_name": "Taishin Tower",
+        "rate": -1.0,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1856",
+        "longitude": 121.5473763,
+        "latitude": 25.03749958
+    },
+    {
+        "id": 302,
+        "cn_name": "敦安公園",
+        "en_name": "Dun’an Park",
+        "rate": 4.2,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/411",
+        "longitude": 121.5513108,
+        "latitude": 25.03454168
+    },
+    {
+        "id": 303,
+        "cn_name": "大院子",
+        "en_name": "",
+        "rate": 4.4,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1983",
+        "longitude": 121.5297663,
+        "latitude": 25.02413228
+    },
+    {
+        "id": 304,
+        "cn_name": "通化公園",
+        "en_name": "Tonghua Park",
+        "rate": -1.0,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/399",
+        "longitude": 121.5519388,
+        "latitude": 25.03223727
+    },
+    {
+        "id": 305,
+        "cn_name": "朝代畫廊",
+        "en_name": "Dynasty Gallery",
+        "rate": 4.2,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1869",
+        "longitude": 121.5491179,
+        "latitude": 25.02693457
+    },
+    {
+        "id": 306,
+        "cn_name": "忠泰美術館",
+        "en_name": "Jut Art Museum",
+        "rate": 4.5,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2340",
+        "longitude": 121.5347398,
+        "latitude": 25.04429518
+    },
+    {
+        "id": 307,
+        "cn_name": "郭木生文教基金會美術中心",
+        "en_name": "Kuo Mu Sheng Foundation",
+        "rate": 4.2,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1872",
+        "longitude": 121.5245446,
+        "latitude": 25.02691198
+    },
+    {
+        "id": 308,
+        "cn_name": "赤粒藝術",
+        "en_name": "Red Gold Fine Art",
+        "rate": 4.7,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1870",
+        "longitude": 121.5423492,
+        "latitude": 25.03991238
+    },
+    {
+        "id": 309,
+        "cn_name": "｢花現台北杜鵑花季｣ 溫羅汀咖啡街區巷弄",
+        "en_name": "",
+        "rate": -1.0,
+        "category": [
+            "主題商街"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2642",
+        "longitude": 121.4595977,
+        "latitude": 25.09570424
+    },
+    {
+        "id": 310,
+        "cn_name": "師大龍泉商圈",
+        "en_name": "Longquan Street Shopping Area next to Normal University",
+        "rate": 4.0,
+        "category": [
+            "夜市商圈"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2651",
+        "longitude": 121.5264823,
+        "latitude": 25.02356697
+    },
+    {
+        "id": 311,
+        "cn_name": "蟾蜍山煥民新村",
+        "en_name": "Huanmin Village on Chanchushan",
+        "rate": 4.2,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "大安區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/3679",
+        "longitude": 121.5367591,
+        "latitude": 25.00942988
+    },
+    {
+        "id": 312,
+        "cn_name": "國立中正紀念堂",
+        "en_name": "Chiang Kai-shek Memorial Hall",
+        "rate": 4.5,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/23",
+        "longitude": 121.5176083,
+        "latitude": 25.03550198
+    },
+    {
+        "id": 313,
+        "cn_name": "臺北植物園",
+        "en_name": "Taipei Botanical Garden",
+        "rate": 4.5,
+        "category": [
+            "戶外踏青",
+            "親子共遊",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/260",
+        "longitude": 121.5068844,
+        "latitude": 25.03185108
+    },
+    {
+        "id": 314,
+        "cn_name": "華山1914文化創意產業園區",
+        "en_name": "Huashan 1914 Creative Park",
+        "rate": 4.4,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "戶外踏青",
+            "公共藝術",
+            "親子共遊"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1592",
+        "longitude": 121.5267834,
+        "latitude": 25.04406978
+    },
+    {
+        "id": 315,
+        "cn_name": "寶藏巖國際藝術村",
+        "en_name": "Treasure Hill",
+        "rate": 4.3,
+        "category": [
+            "藝文館所",
+            "戶外踏青",
+            "公共藝術",
+            "親子共遊"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/256",
+        "longitude": 121.5296852,
+        "latitude": 25.01072357
+    },
+    {
+        "id": 316,
+        "cn_name": "南機場夜市",
+        "en_name": "South Airport Night Market",
+        "rate": 4.3,
+        "category": [
+            "夜市商圈"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1564",
+        "longitude": 121.5033495,
+        "latitude": 25.02918108
+    },
+    {
+        "id": 317,
+        "cn_name": "台北地下街",
+        "en_name": "Taipei City Mall",
+        "rate": 4.2,
+        "category": [
+            "主題商街"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1591",
+        "longitude": 121.5110637,
+        "latitude": 25.04950167
+    },
+    {
+        "id": 318,
+        "cn_name": "臺鐵臺北車站",
+        "en_name": "Taiwan Railways (Taipei Main Station)",
+        "rate": 4.3,
+        "category": [
+            "歷史建築",
+            "主題商街",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1726",
+        "longitude": 121.5141701,
+        "latitude": 25.04788583
+    },
+    {
+        "id": 319,
+        "cn_name": "北門_承恩門",
+        "en_name": "Taipei City Wall-North Gate (Cheng'en Gate)",
+        "rate": 4.4,
+        "category": [
+            "歷史建築",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/88",
+        "longitude": 121.5086551,
+        "latitude": 25.04772497
+    },
+    {
+        "id": 320,
+        "cn_name": "中華民國總統府",
+        "en_name": "Office of the President",
+        "rate": 4.4,
+        "category": [
+            "歷史建築"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/89",
+        "longitude": 121.5093758,
+        "latitude": 25.03999908
+    },
+    {
+        "id": 321,
+        "cn_name": "重慶南路_書店街",
+        "en_name": "Chongqing South Road—Bookstore Street",
+        "rate": -1.0,
+        "category": [
+            "主題商街"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1546",
+        "longitude": 121.5106489,
+        "latitude": 25.04458948
+    },
+    {
+        "id": 322,
+        "cn_name": "二二八和平公園",
+        "en_name": "228 Peace Park",
+        "rate": 4.2,
+        "category": [
+            "藝文館所",
+            "戶外踏青",
+            "公共藝術",
+            "親子共遊",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/31",
+        "longitude": 121.5129696,
+        "latitude": 25.04029828
+    },
+    {
+        "id": 323,
+        "cn_name": "臺北自來水園區",
+        "en_name": "Museum of Drinking Water",
+        "rate": 4.3,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/28",
+        "longitude": 121.5277466,
+        "latitude": 25.01328397
+    },
+    {
+        "id": 324,
+        "cn_name": "沅陵商店街_鞋子街",
+        "en_name": "Yuanling Shopping District—Shoe Street",
+        "rate": 3.8,
+        "category": [
+            "主題商街"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1548",
+        "longitude": 121.5101341,
+        "latitude": 25.04289047
+    },
+    {
+        "id": 325,
+        "cn_name": "博愛路_漢口街_相機街",
+        "en_name": "Bo’ai Road, Hankou Street- Camera Street",
+        "rate": 3.8,
+        "category": [
+            "主題商街"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1544",
+        "longitude": 121.5089002,
+        "latitude": 25.04539798
+    },
+    {
+        "id": 326,
+        "cn_name": "臺灣省城隍廟",
+        "en_name": "City God Temple of Taipei City",
+        "rate": 4.6,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/366",
+        "longitude": 121.5101311,
+        "latitude": 25.04392928
+    },
+    {
+        "id": 327,
+        "cn_name": "逸仙公園",
+        "en_name": "Yat-Sen Park",
+        "rate": 4.2,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1733",
+        "longitude": 121.5174965,
+        "latitude": 25.04773408
+    },
+    {
+        "id": 328,
+        "cn_name": "古亭河濱公園",
+        "en_name": "Guting Riverside Park",
+        "rate": 4.3,
+        "category": [
+            "單車遊蹤",
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/390",
+        "longitude": 121.5186584,
+        "latitude": 25.01635771
+    },
+    {
+        "id": 329,
+        "cn_name": "臺北市中山堂",
+        "en_name": "Zhongshan Hall",
+        "rate": 4.3,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/193",
+        "longitude": 121.507104,
+        "latitude": 25.04318997
+    },
+    {
+        "id": 330,
+        "cn_name": "國立臺灣博物館_古生物館",
+        "en_name": "National Taiwan Museum (Taiwan Land Bank Exhibition Hall)",
+        "rate": 4.6,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/257",
+        "longitude": 121.5117946,
+        "latitude": 25.04364298
+    },
+    {
+        "id": 331,
+        "cn_name": "國立臺灣博物館",
+        "en_name": "National Taiwan Museum",
+        "rate": 4.5,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "公共藝術",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/22",
+        "longitude": 121.5125443,
+        "latitude": 25.04278717
+    },
+    {
+        "id": 332,
+        "cn_name": "國家兩廳院",
+        "en_name": "National Chiang Kai-Shek Cultural Center (National Theater & National Concert Hall)",
+        "rate": 4.8,
+        "category": [
+            "藝文館所",
+            "親子共遊",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/203",
+        "longitude": 121.516123,
+        "latitude": 25.03617692
+    },
+    {
+        "id": 333,
+        "cn_name": "三創生活",
+        "en_name": "Syntrend Creative Park",
+        "rate": 4.3,
+        "category": [
+            "親子共遊",
+            "主題商街"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/394",
+        "longitude": 121.5287438,
+        "latitude": 25.04549777
+    },
+    {
+        "id": 334,
+        "cn_name": "臺北賓館",
+        "en_name": "Taipei Guest House",
+        "rate": 4.6,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/98",
+        "longitude": 121.5141747,
+        "latitude": 25.04015467
+    },
+    {
+        "id": 335,
+        "cn_name": "紀州庵文學森林",
+        "en_name": "The Kishu An Forest of Literature",
+        "rate": 4.3,
+        "category": [
+            "藝文館所",
+            "公共藝術"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/223",
+        "longitude": 121.518097,
+        "latitude": 25.02154507
+    },
+    {
+        "id": 336,
+        "cn_name": "臺北北門郵局_臺北901支",
+        "en_name": "Taipei Post Office",
+        "rate": 4.3,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/102",
+        "longitude": 121.5089158,
+        "latitude": 25.04727668
+    },
+    {
+        "id": 337,
+        "cn_name": "撫臺街洋樓 (《人民導報》舊址)",
+        "en_name": "Futai Street Mansion",
+        "rate": 4.3,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/258",
+        "longitude": 121.5082394,
+        "latitude": 25.04671237
+    },
+    {
+        "id": 338,
+        "cn_name": "東門_景福門",
+        "en_name": "East Gate- Jingfumen",
+        "rate": 4.2,
+        "category": [
+            "歷史建築",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/95",
+        "longitude": 121.5150688,
+        "latitude": 25.03905577
+    },
+    {
+        "id": 339,
+        "cn_name": "國立臺灣大學醫學院附設醫院_西址",
+        "en_name": "West Site of National Taiwan University Hospital",
+        "rate": 3.9,
+        "category": [
+            "歷史建築",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/93",
+        "longitude": 121.5147506,
+        "latitude": 25.04177838
+    },
+    {
+        "id": 340,
+        "cn_name": "臺北市客家文化主題公園",
+        "en_name": "Taipei City Hakka Cultural Park",
+        "rate": 4.1,
+        "category": [
+            "藝文館所",
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/219",
+        "longitude": 121.5226965,
+        "latitude": 25.02024373
+    },
+    {
+        "id": 341,
+        "cn_name": "南門町三二三",
+        "en_name": "Nanmending 323",
+        "rate": 4.2,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "公共藝術"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/389",
+        "longitude": 121.5085259,
+        "latitude": 25.03252408
+    },
+    {
+        "id": 342,
+        "cn_name": "長榮海事博物館",
+        "en_name": "Evergreen Maritime Museum",
+        "rate": 4.6,
+        "category": [
+            "藝文館所",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/197",
+        "longitude": 121.5162799,
+        "latitude": 25.03858528
+    },
+    {
+        "id": 343,
+        "cn_name": "國史館",
+        "en_name": "Academia Historica",
+        "rate": 4.2,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/267",
+        "longitude": 121.5082371,
+        "latitude": 25.03999408
+    },
+    {
+        "id": 344,
+        "cn_name": "郵政博物館",
+        "en_name": "Postal Museum",
+        "rate": 4.4,
+        "category": [
+            "藝文館所",
+            "公共藝術",
+            "親子共遊"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/58",
+        "longitude": 121.502823,
+        "latitude": 25.03923839
+    },
+    {
+        "id": 345,
+        "cn_name": "愛國東路_婚紗街",
+        "en_name": "Aiguo E. Rd-Bridal Dress Street",
+        "rate": 3.8,
+        "category": [
+            "主題商街"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1551",
+        "longitude": 121.5171487,
+        "latitude": 25.03347988
+    },
+    {
+        "id": 346,
+        "cn_name": "牯嶺街小劇場",
+        "en_name": "Guling Street Avant-Garde Theater",
+        "rate": -1.0,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/38",
+        "longitude": 121.5127539,
+        "latitude": 25.03169682
+    },
+    {
+        "id": 347,
+        "cn_name": "中央藝文公園_華山大草原遊戲場",
+        "en_name": "Central Culture Park_Huashan Prairie Playground",
+        "rate": 4.4,
+        "category": [
+            "戶外踏青"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2217",
+        "longitude": 121.5243803,
+        "latitude": 25.04626873
+    },
+    {
+        "id": 348,
+        "cn_name": "臺灣菸酒股份有限公司_菸酒專賣局",
+        "en_name": "Tobacco and Liquor Monopoly Bureau",
+        "rate": 4.0,
+        "category": [
+            "歷史建築"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/97",
+        "longitude": 121.4958326,
+        "latitude": 25.0340683
+    },
+    {
+        "id": 349,
+        "cn_name": "市長官邸藝文沙龍",
+        "en_name": "Taipei Mayor's Residence",
+        "rate": 4.1,
+        "category": [
+            "藝文館所",
+            "公共藝術"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/37",
+        "longitude": 121.5218606,
+        "latitude": 25.04029143
+    },
+    {
+        "id": 350,
+        "cn_name": "小南門_重熙門",
+        "en_name": "Xiaonanmen",
+        "rate": 4.2,
+        "category": [
+            "歷史建築",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/92",
+        "longitude": 121.5055053,
+        "latitude": 25.03690278
+    },
+    {
+        "id": 351,
+        "cn_name": "臺灣文學基地",
+        "en_name": "Taiwan Literature Base",
+        "rate": 4.5,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2216",
+        "longitude": 121.5259364,
+        "latitude": 25.04120348
+    },
+    {
+        "id": 352,
+        "cn_name": "南門_麗正門",
+        "en_name": "Taipei City Wall-South Gate (Lizheng Gate)",
+        "rate": 4.3,
+        "category": [
+            "歷史建築",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/96",
+        "longitude": 121.5124202,
+        "latitude": 25.03513978
+    },
+    {
+        "id": 353,
+        "cn_name": "國立臺灣藝術教育館",
+        "en_name": "National Taiwan Arts Education Center",
+        "rate": 4.2,
+        "category": [
+            "藝文館所",
+            "親子共遊",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/367",
+        "longitude": 121.5094938,
+        "latitude": 25.03229248
+    },
+    {
+        "id": 354,
+        "cn_name": "孫運璿科技．人文紀念館",
+        "en_name": "Sun Yun-Suan Memorial Museum",
+        "rate": 4.5,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "公共藝術"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1533",
+        "longitude": 121.5089878,
+        "latitude": 25.03355968
+    },
+    {
+        "id": 355,
+        "cn_name": "公館水岸廣場",
+        "en_name": "Gongguan Riverside Plaza",
+        "rate": 4.2,
+        "category": [
+            "單車遊蹤",
+            "親子共遊"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2179",
+        "longitude": 121.5258263,
+        "latitude": 25.01125118
+    },
+    {
+        "id": 356,
+        "cn_name": "國立臺灣大學博物館群_醫學人文博物館",
+        "en_name": "Museum of Medical Humanities, NTU",
+        "rate": 4.5,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/220",
+        "longitude": 121.5162831,
+        "latitude": 25.03952798
+    },
+    {
+        "id": 357,
+        "cn_name": "國立臺灣博物館_南門館",
+        "en_name": "National Taiwan Museum: Nanmen Park",
+        "rate": 4.3,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1736",
+        "longitude": 121.5132188,
+        "latitude": 25.03341918
+    },
+    {
+        "id": 358,
+        "cn_name": "蒲添生故居",
+        "en_name": "Pu Tian-Sheng's Residence",
+        "rate": 4.7,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/240",
+        "longitude": 121.5220875,
+        "latitude": 25.04549188
+    },
+    {
+        "id": 359,
+        "cn_name": "二二八國家紀念館",
+        "en_name": "National 228 Memorial Museum",
+        "rate": 4.4,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1980",
+        "longitude": 121.5095915,
+        "latitude": 25.03597211
+    },
+    {
+        "id": 360,
+        "cn_name": "東和禪寺",
+        "en_name": "Dongher Temple",
+        "rate": 4.3,
+        "category": [
+            "歷史建築",
+            "宗教信仰"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2264",
+        "longitude": 121.5202998,
+        "latitude": 25.03925417
+    },
+    {
+        "id": 361,
+        "cn_name": "城中市場",
+        "en_name": "Chengzhong Market",
+        "rate": -1.0,
+        "category": [
+            "主題商街"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2650",
+        "longitude": 121.5096495,
+        "latitude": 25.04355578
+    },
+    {
+        "id": 362,
+        "cn_name": "臺灣電力株式會社社長宿舍",
+        "en_name": "Taiwan Power Corporation President’s Residence",
+        "rate": -1.0,
+        "category": [
+            "歷史建築"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2336",
+        "longitude": 121.5067393,
+        "latitude": 25.04006128
+    },
+    {
+        "id": 363,
+        "cn_name": "楊英風美術館",
+        "en_name": "Yuyu Yang Museum",
+        "rate": 4.6,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2342",
+        "longitude": 121.5119225,
+        "latitude": 25.03213078
+    },
+    {
+        "id": 364,
+        "cn_name": "順益台灣原住民博物館_美術分館",
+        "en_name": "",
+        "rate": 4.6,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2641",
+        "longitude": 121.4902653,
+        "latitude": 25.07367136
+    },
+    {
+        "id": 365,
+        "cn_name": "臺北記憶倉庫(三井倉庫)",
+        "en_name": "Taipei Info Hub",
+        "rate": 4.4,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/3676",
+        "longitude": 121.5098534,
+        "latitude": 25.04769617
+    },
+    {
+        "id": 366,
+        "cn_name": "嘉禾新村",
+        "en_name": "Jiahe Village on Yongchun Street",
+        "rate": 4.0,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/3680",
+        "longitude": 121.524605,
+        "latitude": 25.01575318
+    },
+    {
+        "id": 367,
+        "cn_name": "水源劇場",
+        "en_name": "",
+        "rate": -1.0,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/3683",
+        "longitude": 121.5323249,
+        "latitude": 25.01360417
+    },
+    {
+        "id": 368,
+        "cn_name": "白色恐怖政治受難者紀念碑",
+        "en_name": "Memorial to the Victims of the White Terror",
+        "rate": 3.3,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/3678",
+        "longitude": 121.5115567,
+        "latitude": 25.03950567
+    },
+    {
+        "id": 369,
+        "cn_name": "李國鼎故居",
+        "en_name": "",
+        "rate": -1.0,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "親子共遊"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/3686",
+        "longitude": 121.525155,
+        "latitude": 25.04062307
+    },
+    {
+        "id": 370,
+        "cn_name": "地下水宮殿_觀音山蓄水池",
+        "en_name": "Underground Water Palace _Guanyinshan Reservoir",
+        "rate": 4.3,
+        "category": [
+            "戶外踏青"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/3796",
+        "longitude": 121.5308891,
+        "latitude": 25.01111177
+    },
+    {
+        "id": 371,
+        "cn_name": "量水室",
+        "en_name": "Metering Room",
+        "rate": 4.0,
+        "category": [
+            "歷史建築",
+            "戶外踏青"
+        ],
+        "district": "中正區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/3800",
+        "longitude": 121.5311706,
+        "latitude": 25.01271508
+    },
+    {
+        "id": 372,
+        "cn_name": "6號彩虹 / Rainbow Six",
+        "en_name": "Rainbow Six",
+        "rate": -1.0,
+        "category": [
+            "公共藝術"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2166",
+        "longitude": 121.505028,
+        "latitude": 25.04270248
+    },
+    {
+        "id": 373,
+        "cn_name": "西門町",
+        "en_name": "Ximending",
+        "rate": 4.4,
+        "category": [
+            "主題商街",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1572",
+        "longitude": 121.5006228,
+        "latitude": 25.04393061
+    },
+    {
+        "id": 374,
+        "cn_name": "華西街觀光夜市",
+        "en_name": "Huaxi Street Tourist Night Market",
+        "rate": 3.8,
+        "category": [
+            "夜市商圈"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1535",
+        "longitude": 121.4958677,
+        "latitude": 25.03859877
+    },
+    {
+        "id": 375,
+        "cn_name": "艋舺龍山寺",
+        "en_name": "Lungshan Temple",
+        "rate": 4.5,
+        "category": [
+            "宗教信仰",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/68",
+        "longitude": 121.4972905,
+        "latitude": 25.03731057
+    },
+    {
+        "id": 376,
+        "cn_name": "臺北市鄉土教育中心_剝皮寮歷史街區",
+        "en_name": "Heritage and Culture Education Center of Taipei (the historic Bopiliao area )",
+        "rate": 4.2,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "公共藝術",
+            "親子共遊"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/87",
+        "longitude": 121.500704,
+        "latitude": 25.03665517
+    },
+    {
+        "id": 377,
+        "cn_name": "西門紅樓",
+        "en_name": "The Red House",
+        "rate": 4.2,
+        "category": [
+            "歷史建築",
+            "藝文館所",
+            "公共藝術",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/84",
+        "longitude": 121.5042843,
+        "latitude": 25.04201387
+    },
+    {
+        "id": 378,
+        "cn_name": "西本願寺廣場",
+        "en_name": "Nishi Honganji Square",
+        "rate": 4.1,
+        "category": [
+            "歷史建築",
+            "宗教信仰",
+            "公共藝術"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/356",
+        "longitude": 121.5043333,
+        "latitude": 25.04014272
+    },
+    {
+        "id": 379,
+        "cn_name": "青年公園",
+        "en_name": "Youth Park",
+        "rate": 4.4,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/319",
+        "longitude": 121.5027029,
+        "latitude": 25.0230604
+    },
+    {
+        "id": 380,
+        "cn_name": "和平西路三段_鳥店街",
+        "en_name": "Sec. 3, Heping W. Rd -Bird Street",
+        "rate": -1.0,
+        "category": [
+            "主題商街"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1547",
+        "longitude": 121.5017241,
+        "latitude": 25.03445407
+    },
+    {
+        "id": 381,
+        "cn_name": "東三水街市場_新富市場",
+        "en_name": "Dongsanshui Street Market_Xinfu Market",
+        "rate": -1.0,
+        "category": [
+            "主題商街"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2173",
+        "longitude": 121.4991582,
+        "latitude": 25.03595237
+    },
+    {
+        "id": 382,
+        "cn_name": "台北天后宮",
+        "en_name": "Tianhou Temple",
+        "rate": 4.7,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/70",
+        "longitude": 121.5037518,
+        "latitude": 25.04279528
+    },
+    {
+        "id": 383,
+        "cn_name": "馬場町河濱公園",
+        "en_name": "Machangding Memorial Park",
+        "rate": 4.5,
+        "category": [
+            "歷史建築",
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/208",
+        "longitude": 121.5008628,
+        "latitude": 25.01867437
+    },
+    {
+        "id": 384,
+        "cn_name": "廣州街觀光夜市",
+        "en_name": "Guangzhou Street Tourist Night Market",
+        "rate": 4.0,
+        "category": [
+            "夜市商圈"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1565",
+        "longitude": 121.4950384,
+        "latitude": 25.03673097
+    },
+    {
+        "id": 385,
+        "cn_name": "西昌街-青草巷",
+        "en_name": "Xichang Street: Herb Lane",
+        "rate": 4.2,
+        "category": [
+            "主題商街"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1534",
+        "longitude": 121.4977798,
+        "latitude": 25.03689292
+    },
+    {
+        "id": 386,
+        "cn_name": "艋舺服飾商圈",
+        "en_name": "Mengjia Garment Shopping Area",
+        "rate": 3.9,
+        "category": [
+            "主題商街"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1584",
+        "longitude": 121.4968804,
+        "latitude": 25.03434588
+    },
+    {
+        "id": 387,
+        "cn_name": "糖廍文化園區",
+        "en_name": "Sugar Refinery Cultural Park",
+        "rate": 4.0,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/218",
+        "longitude": 121.4920497,
+        "latitude": 25.03346173
+    },
+    {
+        "id": 388,
+        "cn_name": "艋舺地藏庵",
+        "en_name": "Bangka Dizang Temple",
+        "rate": 4.3,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/357",
+        "longitude": 121.4981373,
+        "latitude": 25.03698358
+    },
+    {
+        "id": 389,
+        "cn_name": "龍山寺地下街",
+        "en_name": "Longshan Temple Underground Shopping Bazaar",
+        "rate": 3.7,
+        "category": [
+            "主題商街"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1580",
+        "longitude": 121.4976861,
+        "latitude": 25.03609137
+    },
+    {
+        "id": 390,
+        "cn_name": "艋舺青山宮",
+        "en_name": "Bangka Qingshan Temple",
+        "rate": 4.2,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/74",
+        "longitude": 121.4969736,
+        "latitude": 25.03991417
+    },
+    {
+        "id": 391,
+        "cn_name": "艋舺公園",
+        "en_name": "Bangka Park",
+        "rate": 3.4,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/250",
+        "longitude": 121.4973391,
+        "latitude": 25.03601438
+    },
+    {
+        "id": 392,
+        "cn_name": "新富町文化市場",
+        "en_name": "U-mkt",
+        "rate": 4.2,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1798",
+        "longitude": 121.4993474,
+        "latitude": 25.03576828
+    },
+    {
+        "id": 393,
+        "cn_name": "西園路_佛具街",
+        "en_name": "Xiyuan Rd_Buddhist Article Street",
+        "rate": -1.0,
+        "category": [
+            "主題商街"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1550",
+        "longitude": 121.4911847,
+        "latitude": 25.03203256
+    },
+    {
+        "id": 394,
+        "cn_name": "西昌街觀光夜市",
+        "en_name": "Xichang Street Tourist Night Market",
+        "rate": 3.6,
+        "category": [
+            "夜市商圈"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1569",
+        "longitude": 121.4981399,
+        "latitude": 25.03751392
+    },
+    {
+        "id": 395,
+        "cn_name": "梧州街觀光夜市",
+        "en_name": "Wuzhou Street Tourist Night Market",
+        "rate": 4.0,
+        "category": [
+            "夜市商圈"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1566",
+        "longitude": 121.4950623,
+        "latitude": 25.03758027
+    },
+    {
+        "id": 396,
+        "cn_name": "華中河濱公園",
+        "en_name": "Huazhong Riverside Park",
+        "rate": 4.2,
+        "category": [
+            "單車遊蹤",
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/226",
+        "longitude": 121.4921908,
+        "latitude": 25.01540257
+    },
+    {
+        "id": 397,
+        "cn_name": "艋舺清水巖",
+        "en_name": "BangKa Qingshui Temple",
+        "rate": 4.4,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/73",
+        "longitude": 121.5000582,
+        "latitude": 25.04023487
+    },
+    {
+        "id": 398,
+        "cn_name": "龍山文創基地",
+        "en_name": "Monga-Longshan Culture & Creative B2",
+        "rate": 3.9,
+        "category": [
+            "藝文館所",
+            "主題商街"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1810",
+        "longitude": 121.4970491,
+        "latitude": 25.03607368
+    },
+    {
+        "id": 399,
+        "cn_name": "華江雁鴨自然公園",
+        "en_name": "Huajiang Wild Duck Nature Park",
+        "rate": 4.1,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/273",
+        "longitude": 121.4926459,
+        "latitude": 25.03870247
+    },
+    {
+        "id": 400,
+        "cn_name": "新店溪河濱自行車道",
+        "en_name": "Xindian River and Tamsui River Bikeway",
+        "rate": 4.2,
+        "category": [
+            "單車遊蹤",
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/116",
+        "longitude": 121.4605393,
+        "latitude": 24.959236
+    },
+    {
+        "id": 401,
+        "cn_name": "和平青草園_萬華402號公園",
+        "en_name": "Wanhua Park No. 402",
+        "rate": 4.0,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/207",
+        "longitude": 121.4946403,
+        "latitude": 25.03274338
+    },
+    {
+        "id": 402,
+        "cn_name": "西園29服飾創作基地_臺北服飾文化館",
+        "en_name": "Fashion Institute of Taipei (Taipei Costume Cultural Center)",
+        "rate": 4.2,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/235",
+        "longitude": 121.4956312,
+        "latitude": 25.03233987
+    },
+    {
+        "id": 403,
+        "cn_name": "學海書院_高氏宗祠",
+        "en_name": "Xuehai Academy, now known as Kao Clan Ancestral Shrine",
+        "rate": -1.0,
+        "category": [
+            "歷史建築",
+            "藝文館所"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/397",
+        "longitude": 121.493053,
+        "latitude": 25.03632988
+    },
+    {
+        "id": 404,
+        "cn_name": "艋舺老街(台北第一街)",
+        "en_name": "Bangka Old Street (Taipei First Street)",
+        "rate": 4.0,
+        "category": [
+            "主題商街"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2665",
+        "longitude": 121.4980241,
+        "latitude": 25.04014728
+    },
+    {
+        "id": 405,
+        "cn_name": "臺北市電影主題公園",
+        "en_name": "",
+        "rate": -1.0,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/3687",
+        "longitude": 121.5006167,
+        "latitude": 25.04471818
+    },
+    {
+        "id": 406,
+        "cn_name": "中正河濱公園",
+        "en_name": "Zhongzheng Riverside Park",
+        "rate": 4.3,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2667",
+        "longitude": 121.5105561,
+        "latitude": 25.02339868
+    },
+    {
+        "id": 407,
+        "cn_name": "艋舺水仙宮舊址",
+        "en_name": "The former site of Ocean Gods Temple in Bangka",
+        "rate": 4.0,
+        "category": [
+            "歷史建築"
+        ],
+        "district": "萬華區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2664",
+        "longitude": 121.498007,
+        "latitude": 25.03849158
+    },
+    {
+        "id": 408,
+        "cn_name": "貓空纜車",
+        "en_name": "Maokong Gondola",
+        "rate": 4.5,
+        "category": [
+            "親子共遊",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "文山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/422",
+        "longitude": 121.5714621,
+        "latitude": 24.9959561
+    },
+    {
+        "id": 409,
+        "cn_name": "景美夜市",
+        "en_name": "Jingmei Night Market",
+        "rate": 4.1,
+        "category": [
+            "夜市商圈"
+        ],
+        "district": "文山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1561",
+        "longitude": 121.5391442,
+        "latitude": 24.99067328
+    },
+    {
+        "id": 410,
+        "cn_name": "臺北市立動物園",
+        "en_name": "Taipei Zoo",
+        "rate": 4.6,
+        "category": [
+            "親子共遊",
+            "無障礙旅遊推薦景點"
+        ],
+        "district": "文山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/211",
+        "longitude": 121.5797979,
+        "latitude": 24.99619641
+    },
+    {
+        "id": 411,
+        "cn_name": "指南宮",
+        "en_name": "Zhinan Temple",
+        "rate": 4.5,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "文山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/64",
+        "longitude": 121.5774527,
+        "latitude": 24.98109194
+    },
+    {
+        "id": 412,
+        "cn_name": "貓空樟樹步道",
+        "en_name": "Maokong Zhangshu Trail",
+        "rate": 4.3,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "文山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2168",
+        "longitude": 121.5848266,
+        "latitude": 24.96728867
+    },
+    {
+        "id": 413,
+        "cn_name": "二格山系_仙跡岩親山步道",
+        "en_name": "Erge Mountain System: Xianjiyan Hiking Trail",
+        "rate": 4.4,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "文山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/186",
+        "longitude": 121.542285,
+        "latitude": 24.99313484
+    },
+    {
+        "id": 414,
+        "cn_name": "樟山寺",
+        "en_name": "Zhangshan Temple",
+        "rate": -1.0,
+        "category": [
+            "宗教信仰",
+            "戶外踏青"
+        ],
+        "district": "文山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/221",
+        "longitude": 121.5786748,
+        "latitude": 24.97258399
+    },
+    {
+        "id": 415,
+        "cn_name": "慈音休閒農莊",
+        "en_name": "Ciyin Recreational Farm",
+        "rate": 4.3,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "文山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1539",
+        "longitude": 121.5637083,
+        "latitude": 24.96621278
+    },
+    {
+        "id": 416,
+        "cn_name": "140高地公園",
+        "en_name": "140 Height Park",
+        "rate": 4.0,
+        "category": [
+            "戶外踏青"
+        ],
+        "district": "文山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/406",
+        "longitude": 121.5640377,
+        "latitude": 25.00428888
+    },
+    {
+        "id": 417,
+        "cn_name": "天恩宮",
+        "en_name": "Tian'en Temple",
+        "rate": -1.0,
+        "category": [
+            "宗教信仰"
+        ],
+        "district": "文山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/77",
+        "longitude": 121.5897142,
+        "latitude": 24.97032467
+    },
+    {
+        "id": 418,
+        "cn_name": "臺北市鐵觀音包種茶研發推廣中心",
+        "en_name": "Taipei Tea Promotion Center for Tie Guanyin Tea and Baozhong Tea",
+        "rate": 4.0,
+        "category": [
+            "藝文館所",
+            "親子共遊"
+        ],
+        "district": "文山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/245",
+        "longitude": 121.5917151,
+        "latitude": 24.96907098
+    },
+    {
+        "id": 419,
+        "cn_name": "景美溪河濱自行車道",
+        "en_name": "Left and Right Banks of the Jingmei River Bikeway",
+        "rate": 4.5,
+        "category": [
+            "單車遊蹤",
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "文山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/4",
+        "longitude": 121.5170409,
+        "latitude": 24.98858618
+    },
+    {
+        "id": 420,
+        "cn_name": "The Wall Live House 這牆音樂藝文展演空間",
+        "en_name": "The Wall Live House",
+        "rate": -1.0,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "文山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/1862",
+        "longitude": 121.5342002,
+        "latitude": 25.01078328
+    },
+    {
+        "id": 421,
+        "cn_name": "興隆公園",
+        "en_name": "Xinglong Park",
+        "rate": 4.2,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "文山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/317",
+        "longitude": 120.9522602,
+        "latitude": 24.90850178
+    },
+    {
+        "id": 422,
+        "cn_name": "景美集應廟",
+        "en_name": "Jiying Temple in Jingmei",
+        "rate": 4.3,
+        "category": [
+            "歷史建築",
+            "宗教信仰"
+        ],
+        "district": "文山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/79",
+        "longitude": 121.5392345,
+        "latitude": 24.99157508
+    },
+    {
+        "id": 423,
+        "cn_name": "仙岩公園",
+        "en_name": "Xianyan Park",
+        "rate": 4.0,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "文山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/318",
+        "longitude": 121.5471101,
+        "latitude": 24.99802898
+    },
+    {
+        "id": 424,
+        "cn_name": "文山公民會館",
+        "en_name": "Wenshan Public Assembly Hall",
+        "rate": 4.4,
+        "category": [
+            "藝文館所",
+            "公共藝術"
+        ],
+        "district": "文山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/371",
+        "longitude": 121.5671473,
+        "latitude": 24.98999998
+    },
+    {
+        "id": 425,
+        "cn_name": "優人神鼓山上劇場",
+        "en_name": "U Theatre on the Mountain",
+        "rate": -1.0,
+        "category": [
+            "藝文館所",
+            "公共藝術"
+        ],
+        "district": "文山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/244",
+        "longitude": 121.5712227,
+        "latitude": 24.96585028
+    },
+    {
+        "id": 426,
+        "cn_name": "永安藝文館",
+        "en_name": "",
+        "rate": -1.0,
+        "category": [
+            "藝文館所"
+        ],
+        "district": "文山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/3682",
+        "longitude": 121.5663939,
+        "latitude": 24.98446818
+    },
+    {
+        "id": 427,
+        "cn_name": "綠光平台",
+        "en_name": "Green Ray Platform",
+        "rate": 4.1,
+        "category": [
+            "戶外踏青",
+            "親子共遊"
+        ],
+        "district": "文山區",
+        "website": "https://www.travel.taipei/zh-tw/attraction/details/2659",
+        "longitude": 121.587242,
+        "latitude": 24.97865417
+    }
+]

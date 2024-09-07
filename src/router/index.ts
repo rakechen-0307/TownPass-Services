@@ -13,6 +13,7 @@ import ImageUploadView from '../views/ImageUploadView.vue';
 import CityCanvasView from '@/views/CityCanvasView.vue';
 import CityCanvasProposalView from '@/views/CityCanvasProposalView.vue';
 import CityCanvasDraftView from '@/views/CityCanvasDraftView.vue';
+import TourSiteView from '../views/TourSiteView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -96,6 +97,11 @@ const router = createRouter({
       path: '/upload',
       name: 'upload',
       component: ImageUploadView
+    },
+    {
+      path: '/tour-site',
+      name: 'tour-site',
+      component: TourSiteView
     }
   ]
 });
