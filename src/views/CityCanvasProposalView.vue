@@ -9,6 +9,7 @@ import BaseDialog from '@/components/atoms/BaseDialog.vue';
 import DraftDialog from './DraftDialog.vue';
 import BaseButton from '@/components/atoms/BaseButton.vue';
 import CanvasDraftList from '@/components/organisms/CanvasDraftList.vue';
+import axios from 'axios';
 
 const canvasDraftDataJson = {
   "data": {
@@ -92,7 +93,22 @@ const onMapOpenClick = () => {
 const isIntroduceExpand = ref(true);
 
 const { canvasDraftList } = storeToRefs(store);
-canvasDraftList.value = canvasDraftDataJson.data.canvas_draft_list;
+
+const getDrafts = async () => {
+    try {
+        console.log(activeItem)
+        const response = await axios.get('https://express-vercel-template-five.vercel.app/fetchPosts',{
+            params: {"activityId": activeItem?.id as any}
+        });
+        console.log('Drafts fetched successfully:', response.data);
+        canvasDraftList.value = response.data;
+        console.log(canvasDraftList);
+    } catch (error) {
+        console.error('Error fetching proposal:', error);
+    }
+}
+onMounted(() => {getDrafts()})
+// canvasDraftList.value = canvasDraftDataJson.data.canvas_draft_list;
 
 const formattedTime = (start: string) => {
   const inputDate = new Date(start);
@@ -152,7 +168,7 @@ const onDraftSubmission = () => {
         <p style="color: #50B0C0; padding: 1px;">{{ activeItem?.author }}</p>
     </div>
     <section>
-      <div class="grid grid-cols-9">
+      <!-- <div class="grid grid-cols-9">
         <img src="@/assets/images/location-icon.svg" />
         <a
           :href="activeItem?.address.map"
@@ -161,7 +177,7 @@ const onDraftSubmission = () => {
         >
           {{ activeItem?.address.text }}
         </a>
-      </div>
+      </div> -->
       <div class="grid grid-cols-9 my-2">
         <img src="@/assets/images/calendar-icon.svg" />
         <div class="col-span-8">
