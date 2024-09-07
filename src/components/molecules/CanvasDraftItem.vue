@@ -36,8 +36,8 @@ const formattedTime = computed(() => {
         <div class="w-full pl-1">
             <div class="flex justify-between items-center">
                 <p class="font-bold text-left truncate">{{ props.name }}</p>
-                <div class="flex items-center space-x-1">
-                    <img url="@/assets/images/heart-icon.svg" class="w-5 h-5">
+                <div class="flex items-center space-x-1 mr-2">
+                    <img src="@/assets/images/heart-icon.svg" class="w-5 h-5">
                     <p class="text-sm">{{ props.likes }}</p>
                 </div>
             </div>

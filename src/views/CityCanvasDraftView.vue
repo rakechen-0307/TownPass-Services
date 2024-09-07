@@ -6,7 +6,6 @@ import { useCanvasStore } from '@/stores/canvas';
 import { useConnectionMessage } from '@/composables/useConnectionMessage';
 import { useHandleConnectionData } from '@/composables/useHandleConnectionData';
 import BaseButton from '@/components/atoms/BaseButton.vue';
-import { FavoriteBorderIcon, FavoriteIcon } from '@mui/icons-material'
 const store = useCanvasStore();
 const route = useRoute();
 const router = useRouter();
@@ -58,7 +57,10 @@ const formattedTime = (start: string) => {
       class="rounded-md w-full h-48 mt-3 object-cover"
     />
     <div class="flex flex-row justify-between items-center">
-        <h1 class="font-bold text-2xl mt-2 mb-4">{{ activeItem?.name }}</h1>
+        <div class="flex flex-row justify-between items-center">
+            <img src="@/assets/images/heart-icon.svg" class="m-1" />
+            <h1 class="font-bold text-2xl mt-3 mb-3">{{ activeItem?.name }}</h1>
+        </div>
         <p style="color: #50B0C0; padding: 1px;">{{ activeItem?.author }}</p>
     </div>
     <section>
@@ -68,6 +70,23 @@ const formattedTime = (start: string) => {
           <p class="font-bold">草稿投遞時間</p>
           <p v-if="activeItem">{{ formattedTime(activeItem?.start) }}</p>
           </div>
+      </div>
+      <div class="grid grid-cols-9">
+        <img src="@/assets/images/heart-black-outline-icon.svg" />
+        <div class="col-span-8">
+            <span class="font-bold">喜歡人數</span>
+          <div
+            class="grid grid-rows-[0fr] transition-all"
+            :class="{
+              'grid-rows-[1fr]': isIntroduceExpand
+            }"
+          >
+            <p class="overflow-hidden">{{ activeItem?.likes }}</p>
+          </div>
+        </div>
+      </div>
+      <div style="padding-top: 20px;">
+        <CanvasDraftList />
       </div>
       <div class="grid grid-cols-9">
         <img src="@/assets/images/introduce-icon.svg" />

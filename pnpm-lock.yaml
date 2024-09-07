@@ -29,6 +29,9 @@ importers:
       firebase:
         specifier: ^10.13.1
         version: 10.13.1
+      mui:
+        specifier: ^0.0.1
+        version: 0.0.1
       pinia:
         specifier: 2.1.7
         version: 2.1.7(typescript@5.4.5)(vue@3.4.21(typescript@5.4.5))
@@ -1388,6 +1391,9 @@ packages:
 
   muggle-string@0.4.1:
     resolution: {integrity: sha512-VNTrAak/KhO2i8dqqnqnAHOa3cYBwXEZe9h+D5h/1ZqFSTEFHdM65lR7RoIqq3tBBYavsOXV84NoHXZ0AkPyqQ==}
+
+  mui@0.0.1:
+    resolution: {integrity: sha512-iB9zfxsJBcMkZ/SY6X+HGSPr4fftCZIQ76ZMH8iSMfVkidVzRtZlLW2gbWXUe+IMcj8JLv1p+dGKvPVlgtiocA==}
 
   mz@2.7.0:
     resolution: {integrity: sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q==}
@@ -3283,6 +3289,8 @@ snapshots:
   ms@2.1.2: {}
 
   muggle-string@0.4.1: {}
+
+  mui@0.0.1: {}
 
   mz@2.7.0:
     dependencies:
