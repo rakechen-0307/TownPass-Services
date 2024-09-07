@@ -16,7 +16,7 @@ const { canvasDraftList } = storeToRefs(store);
           :name="item.name"
           :img_url="item.img_url"
           :introduction="item.introduction"
-          :likes="200"
+          :likes="item.likes"
           :start="item.start"
         />
       </RouterLink>

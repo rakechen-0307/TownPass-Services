@@ -202,10 +202,11 @@ watch(downloadUrl, (newUrl) => {
                   @click="onUploadClick" 
                   :disabled="!file || state === 'running' || isUploadSuccess" 
                   class="mt-2"
+                  style="background-color: white; color: #50B0C0;"
                 >
-                  <template v-if="isUploadSuccess">Success uploaded</template>
-                  <template v-else-if="state === 'running'">Uploading: {{ progressInPercentage }}%</template>
-                  <template v-else>Upload!</template>
+                  <template v-if="isUploadSuccess">上傳成功！</template>
+                  <template v-else-if="state === 'running'">上傳中：{{ progressInPercentage }}</template>
+                  <template v-else>確認上傳</template>
                 </BaseButton>
                 <p v-if="hasFailed" class="text-red-500 mt-2">Upload Failed!</p>
                 <BaseInput v-model="introductionInput" placeholder="請輸入創作理念..." class="input-field w-full" :required="true"/>
