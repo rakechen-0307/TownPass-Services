@@ -71,7 +71,7 @@ const { canvasList } = storeToRefs(store);
 const getProposal = async () => {  
     try {
         const response = await axios.get('https://express-vercel-template-five.vercel.app/fetchActivities');
-        console.log('Proposal sent successfully:', response.data);
+        console.log('Proposal fetched successfully:', response.data);
         canvasList.value = response.data;
         console.log(canvasList);
         // Handle successful response (e.g., show a success message)

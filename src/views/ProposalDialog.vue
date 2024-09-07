@@ -2,7 +2,7 @@
 import { Dialog, DialogPanel, DialogTitle, TransitionRoot, TransitionChild } from '@headlessui/vue';
 import BaseInput from '@/components/atoms/BaseInput.vue';
 import BaseButton from '@/components/atoms/BaseButton.vue';
-import { ref, computed } from 'vue';
+import { ref, computed, watch } from 'vue';
 import axios from 'axios';
 import { useImageUpload } from '@/composables/useImageUpload';
 import { getStorage } from 'firebase/storage';
@@ -83,6 +83,7 @@ const onUploadClick = () => {
 
 const sendDataToServer = async () => {
   if (downloadUrl.value && introductionInput.value && nameInput.value) {
+    console.log(downloadUrl.value)
     try {
       const response = await axios.post('https://express-vercel-template-five.vercel.app/createProposal', {
         image: downloadUrl.value,
@@ -110,6 +111,13 @@ const onNegativeClick = () => {
   isOpen.value = false;
   emit('onNegativeClick');
 };
+
+watch(downloadUrl, (newUrl) => {
+  if (newUrl) {
+    imageUrl.value = newUrl;
+    isUploadSuccess.value = true;
+  }
+});
 </script>
 
 <template>
