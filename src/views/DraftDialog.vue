@@ -56,6 +56,7 @@ useConnectionMessage('userinfo', null);
 
 useHandleConnectionData(handleUserInfo);
 
+const nameInput = ref("");
 const introductionInput = ref("");
 
 const fileInput = ref<HTMLInputElement | null>(null);
@@ -120,11 +121,12 @@ const onUploadClick = () => {
 };
 
 const sendDataToServer = async () => {
-  if (downloadUrl.value && introductionInput.value) {
+  if (downloadUrl.value && introductionInput.value && nameInput.value) {
     try {
       const response = await axios.post('https://express-vercel-template-five.vercel.app/createPost', {
         activityId: "24c92079-9fc9-4dc6-934c-d49aa3f67b25", // Modify later
         image: downloadUrl.value,
+        name: nameInput.value,
         description: introductionInput.value,
         userId: "8c17fdf1-9cd3-4087-b39f-5d655fb7cb36" // Modify later
       });
@@ -179,6 +181,7 @@ watch(downloadUrl, (newUrl) => {
               </div>
 
               <!-- content -->
+                <BaseInput v-model="nameInput" placeholder="請輸入作品名稱" class="input-name-field w-full mb-3" :required="true"/>
                 <div class="image-container">
                   <img 
                     v-if="imageUrl" 
@@ -206,7 +209,7 @@ watch(downloadUrl, (newUrl) => {
                 >
                   <template v-if="isUploadSuccess">上傳成功！</template>
                   <template v-else-if="state === 'running'">上傳中：{{ progressInPercentage }}</template>
-                  <template v-else>確認上傳</template>
+                  <template v-else>點此確認上傳圖片</template>
                 </BaseButton>
                 <p v-if="hasFailed" class="text-red-500 mt-2">Upload Failed!</p>
                 <BaseInput v-model="introductionInput" placeholder="請輸入創作理念..." class="input-field w-full" :required="true"/>
@@ -225,7 +228,12 @@ watch(downloadUrl, (newUrl) => {
                 </button>
                 <button
                   type="button"
-                  class="flex justify-center text-primary-500 font-bold w-full py-1 outline-none"
+                  class="flex justify-center font-bold w-full py-1 outline-none"
+                  :class="{
+                    'text-primary-500': isUploadSuccess,
+                    'text-gray-200': !isUploadSuccess
+                    }"
+                  :disabled="!isUploadSuccess"
                   @click="onPositiveClick"
                 >
                   {{ positiveText || '確認' }}
