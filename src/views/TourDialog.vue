@@ -15,8 +15,8 @@ import type { User } from '@/stores/user';
 import axios from 'axios';
 
 const props = defineProps<{
-  title?: string;
-  content: string;
+  location?: string;
+  image_url: string;
   negativeText?: string;
   positiveText?: string;
   isAlert?: boolean;
@@ -170,16 +170,12 @@ watch(downloadUrl, (newUrl) => {
               <div v-else-if="props.isCheck" class="flex justify-center">
                 <img src="@/assets/images/check-icon.svg" class="w-24" />
               </div>
-              <DialogTitle v-if="props.title" class="text-xl text-center font-extrabold">
-                {{ title }}
+              <DialogTitle v-if="props.location" class="text-xl text-center font-extrabold">
+                {{ location }}
               </DialogTitle>
 
-              <div class="px-4 my-5">
-                <p class="text-center font-bold">{{ props.content }}</p>
-              </div>
-
               <!-- content -->
-                <BaseInput v-model="nameInput" placeholder="請輸入作品名稱" class="input-name-field w-full mb-3" :required="true"/>
+                <BaseInput v-model="nameInput" placeholder="請輸入地點" class="input-name-field w-full mb-3" :required="true"/>
                 <div class="image-container">
                   <img 
                     v-if="imageUrl" 
@@ -210,8 +206,7 @@ watch(downloadUrl, (newUrl) => {
                   <template v-else>點此確認上傳圖片</template>
                 </BaseButton>
                 <p v-if="hasFailed" class="text-red-500 mt-2">Upload Failed!</p>
-                <BaseInput v-model="introductionInput" placeholder="請輸入創作理念" class="input-field w-full" :required="true"/>
-
+                
               <div
                 class="mt-auto py-1 border-t-gray-200 border-t"
                 :class="{ 'grid grid-cols-2': negativeText }"

@@ -13,6 +13,7 @@ import serviceListJson from '../../public/mock/service_list.json';
 import caseProgressJson from '../../public/mock/case_progress.json';
 import type { User } from '@/stores/user';
 import TourSiteView from "../views/TourSiteView.vue"
+import TourAlbumView from "../views/TourAlbumView.vue"
 
 const store = useFormStore();
 
@@ -45,7 +46,7 @@ if (route.query.isSearch) {
 
 <template>
     <main>
-        <ServiceTabsView v-model="activeTab">
+        <ServiceTabsView v-model="activeTab" :tab-list="[{id: 1, title: '地圖'}, {id: 2, title: '相簿'}]">
             <template #tab0>
                 <div class="">
                     <TourSiteView />
@@ -53,7 +54,7 @@ if (route.query.isSearch) {
             </template>
             <template #tab1>
                 <div class="">
-                    
+                    <TourAlbumView />
                 </div>
             </template>
         </ServiceTabsView>
