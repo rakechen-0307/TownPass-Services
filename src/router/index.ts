@@ -9,7 +9,8 @@ import CouponListView from '../views/CouponListView.vue';
 import HotSpotView from '../views/HotSpotView.vue';
 import TicketDetail from '../views/TicketDetail.vue';
 import CouponDetail from '../views/CouponDetail.vue';
-import CityCanvasView from '../views/CityCanvasView.vue';
+import ImageUploadView from '../views/ImageUploadView.vue';
+import CityCanvasView from '@/views/CityCanvasView.vue';
 import CityCanvasProposalView from '@/views/CityCanvasProposalView.vue';
 import CityCanvasDraftView from '@/views/CityCanvasDraftView.vue';
 
@@ -68,7 +69,7 @@ const router = createRouter({
           path: 'coupon-detail/:id',
           name: 'coupon-detail',
           component: CouponDetail
-        },
+        }
       ]
     },
     {
@@ -88,9 +89,13 @@ const router = createRouter({
           path: 'draft/:id',
           name: 'draft',
           component: CityCanvasDraftView
-        },
-
+        }
       ]
+    },
+    {
+      path: '/upload',
+      name: 'upload',
+      component: ImageUploadView
     }
   ]
 });
