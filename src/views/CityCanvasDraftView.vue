@@ -51,11 +51,13 @@ const formattedTime = (start: string) => {
       <h2 class="font-bold text-lg">{{ activeItem?.name }}</h2>
       <div />
     </div>
-    <img
-      :src="activeItem?.img_url"
-      :alt="activeItem?.name"
-      class="rounded-md w-full h-48 mt-3 object-cover"
-    />
+    <div class="image-container">
+        <img
+            :src="activeItem?.img_url"
+            :alt="activeItem?.name"
+            class="rounded-md h-full object-cover"
+        />
+    </div>
     <div class="flex flex-row justify-between items-center">
         <div class="flex flex-row justify-between items-center">
             <img src="@/assets/images/heart-icon.svg" class="m-1" />
@@ -119,3 +121,39 @@ const formattedTime = (start: string) => {
     </section>
   </div>
 </template>
+
+<style scoped>
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.icon-button {
+  position: absolute;
+  opacity: 80%;
+  bottom: 15px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  background-color: #50b0c0;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1; /* Ensure the button is above the image */
+}
+
+.icon-button .icon {
+  width: 70%;
+  height: 70%;
+  color: white;
+}
+</style>
