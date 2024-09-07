@@ -5,12 +5,14 @@ import SpotDetail from '@/components/organisms/SpotDetailView.vue';
 import MessageModal from '@/components/molecules/MessageModal.vue';
 import { useGoogleMapsStore } from '@/stores/googleMaps';
 import axios from 'axios';
-import { onMounted, ref, watch } from 'vue';
+import { onMounted, ref, watch, computed } from 'vue';
 import { MarkerClusterer, SuperClusterAlgorithm } from '@googlemaps/markerclusterer';
 import greenDotIconUrl from '/public/images/map/youbike/mappin-green.svg';
 import defaultFocusIconUrl from '/public/images/map/icon_mappin-garbagetruck-green-pressed.svg';
 import { mappingFormatter, getNestedValue } from '@/utils/spot-formatter';
 import tourSiteJson from '../../public/mock/tour_site.json';
+import BaseInput from '@/components/atoms/BaseInput.vue';
+import BaseButton from '@/components/atoms/BaseButton.vue';
 
 interface TourSite {
   id: number;
@@ -58,6 +60,14 @@ const currentLocation = ref<{ lat: number; lng: number; results: any[] }>({
  * 是否顯示未開啟取用位置權限通知
  */
 let isShowGeoError = ref(false);
+
+const districtList: string[] = ["北投區", "士林區", "內湖區", "松山區", "中山區", "大同區", 
+                                "南港區", "信義區", "大安區", "中正區", "萬華區", "文山區"]
+const categoryList: string[] = ["養生溫泉", "單車遊蹤", "歷史建築", "宗教信仰", "藝文館所",
+                                "公共藝術", "戶外踏青", "藍色水路", "親子共遊", "夜市商圈",
+                                "主題商街", "無障礙"]
+const selectedDistricts = ref<string[]>([]);
+const selectedCategories = ref<string[]>([]);
 
 onMounted(() => {
   initMap(currentLocation.value.lat, currentLocation.value.lng);
@@ -298,13 +308,122 @@ const clearMarkers = () => {
   selectedSpot.value = null;
 };
 
+const filteredTourSiteList = computed(() => {
+  return allTourSiteList.value.filter((site) => {
+    const districtMatches =
+      selectedDistricts.value.length > 0
+        ? selectedDistricts.value.includes(site.district)
+        : true;
+
+    const categoryMatches =
+      selectedCategories.value.length > 0
+        ? site.category.some((cat) => selectedCategories.value.includes(cat))
+        : true;
+
+    return districtMatches && categoryMatches;
+  });
+});
+
+watch([selectedDistricts, selectedCategories], () => {
+  searchSpotList.value = filteredTourSiteList.value;
+  updateMarkers();
+});
+
 // Watch for changes in searchSpotList
-watch(searchSpotList, updateMarkers);
-</script>
+// watch(searchSpotList, updateMarkers);
+
+const filter = ref("none");
+const toggleFilter = (mode) => {
+  filter.value = filter.value === mode ? 'none' : mode;
+}
+const isSelectedDistrict = (item) => {
+  return selectedDistricts.value.length > 0
+    ? selectedDistricts.value.includes(item)
+    : true;
+}
+const isSelectedCategory = (item) => {
+  return selectedCategories.value.length > 0
+    ? selectedCategories.value.includes(item)
+    : true;
+}
+const shouldBeShown = (item: String, list: String[]) => {
+  return list.includes(item) ? "chosen" : "notchosen"
+}
+const toggleDistrict = (item) => {
+  selectedDistricts.value.includes(item)
+    ? selectedDistricts.value = selectedDistricts.value.filter(d => d !== item)
+    : selectedDistricts.value = [...selectedDistricts.value, item];
+}
+const toggleCategory = (item) => {
+  selectedCategories.value.includes(item)
+    ? selectedCategories.value = selectedCategories.value.filter(d => d !== item)
+    : selectedCategories.value = [...selectedCategories.value, item];
+}
+</script> 
 
 <template>
   <div class="pb-8 h-screen">
-    <div :class="{ hidden: isExpandList || isExpandDetail, visible: !isExpandList && !isExpandDetail }">
+    <div class="header" :class="{ hidden: isExpandList || isExpandDetail, visible: !isExpandList && !isExpandDetail }">
+      <div class="header flex flex-row" style="justify-content: center;">
+        <div class="header flex flex-row m-3" style="width: 100%; justify-content: space-evenly;">
+          <BaseButton @click="toggleFilter('district')" class="filters">
+            地點
+          </BaseButton>
+          <BaseButton @click="toggleFilter('category')" class="filters">
+            分類
+          </BaseButton>
+        </div>
+        <!-- District Filter -->
+      </div>
+      <div class="flex flex-col bg" style="justify-content: center;">
+        <transition name="slide">
+          <div v-if="filter === 'district'" class="mt-2 mb-2">
+            <div class="flex wrapper">
+              <div v-for="district in districtList" :key="district" class="flex items-center space-x-2">
+                <button
+                  :class="shouldBeShown(district, selectedDistricts)"
+                  @click="toggleDistrict(district)"
+                    class="py-1 px-3 rounded smallFilter"
+                >
+                  {{ district }}
+                </button>
+              </div>
+            </div>
+          </div>
+        </transition>
+        <!-- Category Filter -->
+        <transition name="slide">
+          <div v-if="filter === 'category'" class="mt-2 mb-2">
+            <div class="flex wrapper">
+              <div v-for="category in categoryList" :key="category" class="flex items-center space-x-2">
+                <button
+                    :class="shouldBeShown(category, selectedCategories)"
+                  @click="toggleCategory(category)"
+                  class="py-1 px-3 rounded smallFilter"
+                >
+                  {{ category }}
+                </button>
+              </div>
+            </div>
+          </div>
+        </transition>
+        <!-- <label>Filter by District:</label>
+        <div class="flex flex-wrap gap-4">
+          <div v-for="district in districtList" :key="district" class="flex items-center space-x-2">
+            <input type="checkbox" :value="district" v-model="selectedDistricts" />
+            <label>{{ district }}</label>
+          </div>
+        </div>
+        <div>
+          <label>Filter by Category:</label>
+          <div class="flex flex-wrap gap-4">
+            <div v-for="category in cag-grtegoryList" :key="category" class="flex items-center space-x-2">
+              <input type="checkbox" :value="category" v-model="selectedCategories" />
+              <label>{{ category }}</label>
+            </div>
+          </div>
+        </div> -->
+      </div>  
       <!-- 地圖 -->
       <div class="relative flex-1" :class="{ hidden: isExpand, visible: !isExpand }">
         <div class="google-map" id="map"></div>
@@ -327,8 +446,8 @@ watch(searchSpotList, updateMarkers);
             <p class="font-medium mb-2">{{ selectedSpot.en_name }}</p>
           </div>
           <!-- custom template -->
-          <div class="flex text-grey-500">
-            <div v-for="cat in selectedSpot.category" :key="cat" class="mr-4 bg-primary-500 p-2">
+          <div class="flex text-white r-7">
+            <div v-for="cat in selectedSpot.category"  style="border-radius: 100rem;" :key="cat" class="mr-4 bg-primary-500 p-2">
               {{ cat }}
             </div>
           </div>
@@ -386,5 +505,52 @@ watch(searchSpotList, updateMarkers);
 .floating-box {
   @apply absolute flex items-center justify-between bg-white px-4 py-6 rounded-xl;
   box-shadow: rgba(0, 0, 0, 0.04) 0px -4px 10px;
+}
+
+.header{
+  background-color: #50B0C0;
+}
+.filters{
+  border-radius: 10rem;
+  width: 120px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 10px;
+  background-color: white;
+  color: #50B0C0;
+}
+.bg{
+  background-color: white;
+}
+.wrapper{
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.chosen{
+  background-color: #F0C87C;
+  color: white;
+}
+.notchosen{
+  background-color: white;
+  color: grey;
+}
+.smallFilter{
+  border-radius: 10rem;
+  width: 90px;
+  margin: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.slide-fade-enter-active {
+  transition: all 0.3s ease-out;
+}
+.slide-fade-leave-active {
+  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateY(-20px);
+  opacity: 0;
 }
 </style>
