@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue';
+import { computed, onMounted, ref } from 'vue';
 import { storeToRefs } from 'pinia';
 import { useRoute, RouterLink } from 'vue-router';
 import BaseButton from '@/components/atoms/BaseButton.vue';
@@ -9,6 +9,7 @@ import { useCanvasStore } from '@/stores/canvas';
 import CityCanvasProposalView from './CityCanvasProposalView.vue';
 import CanvasProposalList from '@/components/organisms/CanvasProposalList.vue';
 import ProposalDialog from './ProposalDialog.vue';
+import axios from 'axios';
 
 const canvasDataJson = {
   "data": {
@@ -67,13 +68,27 @@ const route = useRoute();
 const store = useCanvasStore();
 
 const { canvasList } = storeToRefs(store);
-canvasList.value = canvasDataJson.data.canvas_proposal_list;
+const getProposal = async () => {  
+    try {
+        const response = await axios.get('https://express-vercel-template-five.vercel.app/fetchActivities');
+        console.log('Proposal sent successfully:', response.data);
+        canvasList.value = response.data;
+        console.log(canvasList);
+        // Handle successful response (e.g., show a success message)
+    } catch (error) {
+        console.error('Error sending proposal:', error);
+        // Handle error (e.g., show an error message)
+    }
+};
+// canvasList.value = canvasDataJson.data.canvas_proposal_list;
 
 const isProposalDialogOpen = ref(false);
 
 const onProposalSubmission = () => {
     
 };
+onMounted(() => {getProposal();});
+
 </script>
 
 <template>

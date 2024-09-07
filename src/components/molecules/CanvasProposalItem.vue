@@ -26,6 +26,14 @@ const formattedTime = computed(() => {
     return `${taiwanYear}年 ${month}月${day}日`;
   }
 });
+
+    const downloadImage = () => {
+        const url = 'https://example.com/file.pdf'; // Replace with your file URL
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = 'file.pdf'; // Optional: specify the default file name
+        link.click();
+    }
 </script>
 
 <template>
