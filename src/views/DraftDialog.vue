@@ -12,6 +12,7 @@ import { useImageUpload } from '@/composables/useImageUpload';
 import { getStorage } from 'firebase/storage';
 import { app } from '@/firebaseConfig';
 import type { User } from '@/stores/user';
+import axios from 'axios';
 
 const props = defineProps<{
   title?: string;
@@ -31,6 +32,7 @@ const setIsOpen = () => {
 };
 
 const onPositiveClick = () => {
+  sendDataToServer();
   isOpen.value = false;
   emit('onPositiveClick');
 };
@@ -49,24 +51,6 @@ const handleUserInfo = (event: { data: string }) => {
   user.value = result.data;
 };
 
-/**
- * 同頁面要處理多個雙向連結資料參考
- */
-// const handleConnectionData = (event: { data: string }) => {
-//   const result: { name: string; data: any } = JSON.parse(event.data);
-//   const name = result.name;
-
-//   switch (name) {
-//     case 'userinfo':
-//       handleUserInfo(event);
-//       break;
-//     case 'phone_call':
-//       //....
-//       break;
-//     default:
-//       break;
-//   }
-// };
 
 useConnectionMessage('userinfo', null);
 
@@ -135,7 +119,23 @@ const onUploadClick = () => {
   }
 };
 
-
+const sendDataToServer = async () => {
+  if (downloadUrl.value && introductionInput.value) {
+    try {
+      const response = await axios.post('https://express-vercel-template-five.vercel.app/createPost', {
+        activityId: "24c92079-9fc9-4dc6-934c-d49aa3f67b25", // Modify later
+        image: downloadUrl.value,
+        description: introductionInput.value,
+        userId: "8c17fdf1-9cd3-4087-b39f-5d655fb7cb36" // Modify later
+      });
+      console.log('Data sent successfully:', response.data);
+      // Handle successful response (e.g., show a success message)
+    } catch (error) {
+      console.error('Error sending data:', error);
+      // Handle error (e.g., show an error message)
+    }
+  }
+};
 
 
 
