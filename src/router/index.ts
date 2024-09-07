@@ -74,7 +74,6 @@ const router = createRouter({
       ]
     },
     {
-<<<<<<< HEAD
       path: '/city-canvas',
       children: [
         {
@@ -100,8 +99,6 @@ const router = createRouter({
       component: ImageUploadView
     },
     {
-=======
->>>>>>> 43b6c53289c88ea1829a36b892b8982321da9cf1
       path: '/tour-site',
       name: 'tour-site',
       component: TourSiteView
