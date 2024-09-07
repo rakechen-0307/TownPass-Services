@@ -6,7 +6,7 @@ import BaseInput from '@/components/atoms/BaseInput.vue';
 import BaseButton from '@/components/atoms/BaseButton.vue';
 import { useConnectionMessage } from '@/composables/useConnectionMessage';
 import { useHandleConnectionData } from '@/composables/useHandleConnectionData';
-import { ref, computed, watch } from 'vue';
+import { ref, computed, watch, onMounted } from 'vue';
 
 import { useImageUpload } from '@/composables/useImageUpload';
 import { getStorage } from 'firebase/storage';
@@ -124,7 +124,7 @@ const sendDataToServer = async () => {
   if (downloadUrl.value && introductionInput.value && nameInput.value) {
     try {
       const response = await axios.post('https://express-vercel-template-five.vercel.app/createPost', {
-        activityId: "24c92079-9fc9-4dc6-934c-d49aa3f67b25", // Modify later
+        proposalId: window.location.pathname.replace("/city-canvas/proposal/", ""),
         image: downloadUrl.value,
         name: nameInput.value,
         description: introductionInput.value,
@@ -138,8 +138,6 @@ const sendDataToServer = async () => {
     }
   }
 };
-
-
 
 watch(downloadUrl, (newUrl) => {
   if (newUrl) {

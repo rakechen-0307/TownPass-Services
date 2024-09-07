@@ -1,22 +1,32 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue';
+import { computed, onMounted, ref } from 'vue';
 import { RouterLink, useRoute, useRouter } from 'vue-router';
 import { storeToRefs } from 'pinia';
 import { useCanvasStore } from '@/stores/canvas';
 import { useConnectionMessage } from '@/composables/useConnectionMessage';
 import { useHandleConnectionData } from '@/composables/useHandleConnectionData';
 import BaseButton from '@/components/atoms/BaseButton.vue';
+import axios from 'axios';
 const store = useCanvasStore();
 const route = useRoute();
 const router = useRouter();
 
 const { canvasDraftListMap } = storeToRefs(store);
 const activeItem = computed(() => canvasDraftListMap.value.get(route.params.id as string));
+const liked = ref(false);
 
 if (!activeItem.value?.id) {
   router.push({
     name: 'city-canvas'
   });
+}
+
+const toggleLiked = async() => {
+    liked.value = !liked.value;
+    await axios.post('https://express-vercel-template-five.vercel.app/like', {
+        userId: "9cc0a534-3828-45e6-bce1-9505dae780f9",
+        postId: activeItem.value?.id
+    })
 }
 
 const isIntroduceExpand = ref(true);
@@ -36,6 +46,7 @@ const formattedTime = (start: string) => {
   return `${taiwanYear}年 ${month}月${day}日 ${period}${formattedHours}:${minutes}`;
 };
 
+onMounted(() => {liked.value = !!activeItem.value?.liked})
 </script>
 
 <template>
@@ -60,7 +71,10 @@ const formattedTime = (start: string) => {
     </div>
     <div class="flex flex-row justify-between items-center">
         <div class="flex flex-row justify-between items-center">
-            <img src="@/assets/images/heart-icon.svg" class="m-1" />
+            <!-- HEART -->
+             <!-- activeItem.id (post ID) -->
+            <img v-if="liked" src="@/assets/images/heart-filled-icon.svg" class="m-1" @click="toggleLiked" />
+            <img v-else src="@/assets/images/heart-icon.svg" class="m-1" @click="toggleLiked" />
             <h1 class="font-bold text-2xl mt-3 mb-3">{{ activeItem?.name }}</h1>
         </div>
         <p style="color: #50B0C0; padding: 1px;">{{ activeItem?.author }}</p>
