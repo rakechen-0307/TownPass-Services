@@ -8,6 +8,7 @@ import ServiceTabsView from '@/components/organisms/ServiceTabsView.vue';
 import { useCanvasStore } from '@/stores/canvas';
 import CityCanvasProposalView from './CityCanvasProposalView.vue';
 import CanvasProposalList from '@/components/organisms/CanvasProposalList.vue';
+import ProposalDialog from './ProposalDialog.vue';
 
 const canvasDataJson = {
   "data": {
@@ -68,13 +69,23 @@ const store = useCanvasStore();
 const { canvasList } = storeToRefs(store);
 canvasList.value = canvasDataJson.data.canvas_proposal_list;
 
+const isProposalDialogOpen = ref(false);
+
+const onProposalSubmission = () => {
+    
+};
 </script>
 
 <template>
     <section class="flex flex-col items-center p-4">
         <CanvasProposalList />
-        <BaseButton class="fixed bottom-4 right-4">
+        <BaseButton class="fixed bottom-4 right-4" @click="isProposalDialogOpen = true">
             我要提案
         </BaseButton>
+        <ProposalDialog
+            v-model="isProposalDialogOpen"
+            :isAlert="false"
+            @onPositiveClick="onProposalSubmission"
+        />
     </section>
 </template>

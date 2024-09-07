@@ -45,7 +45,7 @@ const formattedTime = computed(() => {
 
         <!-- Time Formatting -->
         <p class="text-right text-sm text-gray-500">
-        {{ formattedTime }}
+            {{ formattedTime }}
         </p>
     </div>
     </div>
