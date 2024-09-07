@@ -93,6 +93,22 @@ const isIntroduceExpand = ref(false);
 const { canvasDraftList } = storeToRefs(store);
 canvasDraftList.value = canvasDraftDataJson.data.canvas_draft_list;
 
+const formattedTime = (start: string) => {
+  const inputDate = new Date(start);
+
+  const taiwanYear = inputDate.getFullYear() - 1911;
+  const month = inputDate.getMonth() + 1;
+  const day = inputDate.getDate();
+  const hours = inputDate.getHours();
+  const minutes = inputDate.getMinutes().toString().padStart(2, '0');
+
+  const period = hours < 12 ? '早上' : hours < 18 ? '下午' : '晚上';
+  const formattedHours = hours % 12 || 12;
+
+  return `${taiwanYear}年 ${month}月${day}日 ${period}${formattedHours}:${minutes}`;
+};
+
+
 const onDraftSubmission = () => {
     
 };
@@ -136,7 +152,7 @@ const onDraftSubmission = () => {
         <img src="@/assets/images/calendar-icon.svg" />
         <div class="col-span-8">
           <p class="font-bold">提案時間</p>
-          <p>{{ activeItem?.start }}</p>
+          <p v-if="activeItem" >{{ formattedTime(activeItem?.start) }}</p>
           </div>
       </div>
       <div class="grid grid-cols-9">
