@@ -73,6 +73,7 @@ if (!activeItem.value?.id) {
 
 const isMapDialogOpen = ref(false);
 const isDraftDialogOpen = ref(false);
+const isCreationDialogOpen = ref(false);
 
 const handleLaunchMap = (event: { data: string }) => {
   const result: { name: string; data: boolean } = JSON.parse(event.data);
@@ -197,9 +198,19 @@ const onDraftSubmission = () => {
         <h1 class="font-bold text-lg m-4" style="color: #50B0C0;">市民作品</h1>
         <CanvasDraftList />
       </div>
-        <BaseButton class="fixed bottom-4 right-4" @click="isDraftDialogOpen = true">
-            我要投稿
-        </BaseButton>
+      <div  class="fixed bottom-4 right-4">
+        <div class="flex flex-col gap-3">
+            <button class="draftBut" @click="isCreationDialogOpen = true">
+                <img src="@/assets/images/draw-icon.svg">
+                開始創作
+            </button>
+            <button class="draftBut" @click="isDraftDialogOpen = true">
+                <img src="@/assets/images/add-photo-icon.svg">
+                上傳作品
+            </button>
+        </div>        
+      </div>
+        
     </section>
     <BaseDialog
       v-model="isMapDialogOpen"
@@ -255,5 +266,17 @@ const onDraftSubmission = () => {
   width: 70%;
   height: 70%;
   color: white;
+}
+
+.draftBut {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    background-color: #50b0c0;
+    color: white;
+    border-radius: 10rem;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 20px;
 }
 </style>
