@@ -2,7 +2,7 @@
 import { ref, watch, computed } from 'vue';
 import { useImageUpload } from '@/composables/useImageUpload';
 import BaseButton from '@/components/atoms/BaseButton.vue';
-import { getStorage } from '@firebase/storage';
+import { getStorage } from 'firebase/storage';
 import { app } from '@/firebaseConfig';
 
 // app is the firebase app

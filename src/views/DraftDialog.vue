@@ -9,7 +9,7 @@ import { useHandleConnectionData } from '@/composables/useHandleConnectionData';
 import { ref, computed, watch } from 'vue';
 
 import { useImageUpload } from '@/composables/useImageUpload';
-import { getStorage } from '@firebase/storage';
+import { getStorage } from 'firebase/storage';
 import { app } from '@/firebaseConfig';
 import type { User } from '@/stores/user';
 
