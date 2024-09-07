@@ -10,6 +10,9 @@ import HotSpotView from '../views/HotSpotView.vue';
 import TicketDetail from '../views/TicketDetail.vue';
 import CouponDetail from '../views/CouponDetail.vue';
 import ImageUploadView from '../views/ImageUploadView.vue';
+import CityCanvasView from '@/views/CityCanvasView.vue';
+import CityCanvasProposalView from '@/views/CityCanvasProposalView.vue';
+import CityCanvasDraftView from '@/views/CityCanvasDraftView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -70,10 +73,30 @@ const router = createRouter({
       ]
     },
     {
+      path: '/city-canvas',
+      children: [
+        {
+          path: '',
+          name: 'city-canvas',
+          component: CityCanvasView
+        },
+        {
+          path: 'proposal/:id',
+          name: 'proposal',
+          component: CityCanvasProposalView
+        },
+        {
+          path: 'draft/:id',
+          name: 'draft',
+          component: CityCanvasDraftView
+        }
+      ]
+    },
+    {
       path: '/upload',
       name: 'upload',
       component: ImageUploadView
-    },
+    }
   ]
 });
 
