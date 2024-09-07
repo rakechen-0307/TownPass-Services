@@ -9,6 +9,7 @@ import CouponListView from '../views/CouponListView.vue';
 import HotSpotView from '../views/HotSpotView.vue';
 import TicketDetail from '../views/TicketDetail.vue';
 import CouponDetail from '../views/CouponDetail.vue';
+import TourSiteView from '../views/TourSiteView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -67,6 +68,11 @@ const router = createRouter({
           component: CouponDetail
         }
       ]
+    },
+    {
+      path: '/tour-site',
+      name: 'tour-site',
+      component: TourSiteView
     }
   ]
 });
