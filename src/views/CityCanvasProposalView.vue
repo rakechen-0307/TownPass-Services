@@ -15,23 +15,33 @@ const canvasDraftDataJson = {
     "canvas_draft_list": [
         {
             "id": "t-1",
-            "name": "臺北市立美術館圖1",
-            "introduction": "我的美麗作品",
+            "name": "橘色櫃櫃",
+            "introduction": "長草了",
             "proposal": "t-1",
             "img_url": "https://plus.unsplash.com/premium_photo-1686741733157-1d7863a7a04e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "start": "2020:01:06",
+            "start": "2024-09-08T06:30:00+08:00",
             "author": "someone else",
             "likes": 0
         },
         {
-            "id": "t-1",
-            "name": "臺北市立美術館圖2",
-            "introduction": "我的美麗作品",
+            "id": "t-2",
+            "name": "棋盤櫃櫃",
+            "introduction": "綠豆糕。",
             "proposal": "t-1",
             "img_url": "https://plus.unsplash.com/premium_photo-1686741733157-1d7863a7a04e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "start": "2020:01:07",
+            "start": "2024-09-08T06:40:00+08:00",
             "author": "someone else",
             "likes": 3
+        },
+        {
+            "id": "t-3",
+            "name": "rericha",
+            "introduction": "沒有人會念。",
+            "proposal": "t-1",
+            "img_url": "https://plus.unsplash.com/premium_photo-1686741733157-1d7863a7a04e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "start": "2024-09-08T06:50:00+08:00",
+            "author": "someone else",
+            "likes": 4
         },
     ]
   }
