@@ -163,12 +163,13 @@ const onNegativeClick = () => {
                 @click="onUploadClick" 
                 :disabled="!file || state === 'running' || isUploadSuccess" 
                 class="mt-2"
+                style="background-color: white; color: #50B0C0;"
               >
                 <template v-if="isUploadSuccess">上傳成功</template>
-                <template v-else-if="state === 'running'">上傳中: {{ progressInPercentage }}%</template>
-                <template v-else>上傳圖片!</template>
+                <template v-else-if="state === 'running'">上傳中：{{ progressInPercentage }}</template>
+                <template v-else>上傳圖片</template>
               </BaseButton>
-              <p v-if="hasFailed" class="text-red-500 mt-2">上傳失敗!</p>
+              <p v-if="hasFailed" class="text-red-500 mt-2">上傳失敗</p>
               <BaseInput v-model="introductionInput" placeholder="請輸入說明..." class="input-field w-full" :required="true"/>
 
               <div
