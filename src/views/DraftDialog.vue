@@ -1,10 +1,17 @@
 <script setup lang="ts">
 import { Dialog, DialogPanel, DialogTitle, TransitionRoot, TransitionChild } from '@headlessui/vue';
-
+import { storeToRefs } from 'pinia';
+import { useUserStore } from '@/stores/user';
 import BaseInput from '@/components/atoms/BaseInput.vue';
 import BaseButton from '@/components/atoms/BaseButton.vue';
+import { useConnectionMessage } from '@/composables/useConnectionMessage';
+import { useHandleConnectionData } from '@/composables/useHandleConnectionData';
+import { ref, computed, watch } from 'vue';
 
-import { ref } from 'vue';
+import { useImageUpload } from '@/composables/useImageUpload';
+import { getStorage } from '@firebase/storage';
+import { app } from '@/firebaseConfig';
+import type { User } from '@/stores/user';
 
 const props = defineProps<{
   title?: string;
@@ -33,6 +40,38 @@ const onNegativeClick = () => {
   emit('onNegativeClick');
 };
 
+const userStore = useUserStore();
+const { user } = storeToRefs(userStore);
+
+const handleUserInfo = (event: { data: string }) => {
+  const result: { name: string; data: User } = JSON.parse(event.data);
+
+  user.value = result.data;
+};
+
+/**
+ * 同頁面要處理多個雙向連結資料參考
+ */
+// const handleConnectionData = (event: { data: string }) => {
+//   const result: { name: string; data: any } = JSON.parse(event.data);
+//   const name = result.name;
+
+//   switch (name) {
+//     case 'userinfo':
+//       handleUserInfo(event);
+//       break;
+//     case 'phone_call':
+//       //....
+//       break;
+//     default:
+//       break;
+//   }
+// };
+
+useConnectionMessage('userinfo', null);
+
+useHandleConnectionData(handleUserInfo);
+
 const introductionInput = ref("");
 
 const fileInput = ref<HTMLInputElement | null>(null);
@@ -47,18 +86,65 @@ const handleImageUpload = () => {
 const handleFileChange = (event: Event) => {
   const input = event.target as HTMLInputElement;
   if (input.files && input.files[0]) {
-    const file = input.files[0];
-    // You can handle the file upload here, e.g., send it to a server
-    // For now, we'll just display the image locally
-    const reader = new FileReader();
-    reader.onload = (e) => {
-      if (e.target) {
-        imageUrl.value = e.target.result as string;
-      }
+    file.value = input.files[0];
+    imageUrl.value = URL.createObjectURL(file.value);
+    
+    // Get image dimensions
+    const img = new Image();
+    img.onload = () => {
+      imageSize.value = { width: img.width, height: img.height };
     };
-    reader.readAsDataURL(file);
+    img.src = imageUrl.value;
+  }
+  isUploadSuccess.value = false;  // Reset when a new file is selected
+};
+
+const storage = getStorage(app, 'gs://codefest-test-0825.appspot.com');
+const { downloadUrl, hasFailed, state, progressInPercentage, uploadFile } = useImageUpload();
+const file = ref<File | null>(null);
+const imageSize = ref({ width: 0, height: 0 });
+const isUploadSuccess = ref(false);
+
+const MAX_SIZE = 200; // Maximum width or height in pixels
+
+const scaledImageSize = computed(() => {
+  if (imageSize.value.width === 0 || imageSize.value.height === 0) {
+    return { width: 'auto', height: 'auto' };
+  }
+  
+  if (imageSize.value.width > imageSize.value.height) {
+    return {
+      width: `${Math.min(imageSize.value.width, MAX_SIZE)}px`,
+      height: 'auto'
+    };
+  } else {
+    return {
+      width: 'auto',
+      height: `${Math.min(imageSize.value.height, MAX_SIZE)}px`
+    };
+  }
+});
+
+const onUploadClick = () => {
+  if (file.value) {
+    uploadFile({
+      storage,
+      path: file.value.name,
+      data: file.value
+    });
   }
 };
+
+
+
+
+
+watch(downloadUrl, (newUrl) => {
+  if (newUrl) {
+    imageUrl.value = newUrl;
+    isUploadSuccess.value = true;
+  }
+});
 </script>
 
 <template>
@@ -94,14 +180,35 @@ const handleFileChange = (event: Event) => {
 
               <!-- content -->
                 <div class="image-container">
-                    <img v-if="imageUrl" :src="imageUrl" class="uploaded-image" />
-                    <img v-else src="@/assets/images/image-icon.svg" class="placeholder-image" />
-                    <button class="round-button" @click="handleImageUpload">
-                     <p>+</p>
-                    </button>
-                    <input type="file" ref="fileInput" @change="handleFileChange" class="hidden" />
+                  <img 
+                    v-if="imageUrl" 
+                    :src="imageUrl" 
+                    class="uploaded-image"
+                    :style="{ width: scaledImageSize.width, height: scaledImageSize.height }"
+                  />
+                  <img v-else src="@/assets/images/image-icon.svg" class="placeholder-image" />
+                  <button class="round-button" @click="handleImageUpload">
+                    <p>+</p>
+                  </button>
+                  <input
+                    type="file"
+                    ref="fileInput"
+                    @change="handleFileChange"
+                    accept="image/*"
+                    class="hidden"
+                  />
                 </div>
-                <BaseInput placeholder="請輸入創作理念..." readonly class="input-field w-full" />
+                <BaseButton 
+                  @click="onUploadClick" 
+                  :disabled="!file || state === 'running' || isUploadSuccess" 
+                  class="mt-2"
+                >
+                  <template v-if="isUploadSuccess">Success uploaded</template>
+                  <template v-else-if="state === 'running'">Uploading: {{ progressInPercentage }}%</template>
+                  <template v-else>Upload!</template>
+                </BaseButton>
+                <p v-if="hasFailed" class="text-red-500 mt-2">Upload Failed!</p>
+                <BaseInput v-model="introductionInput" placeholder="請輸入創作理念..." class="input-field w-full" :required="true"/>
 
               <div
                 class="mt-auto py-1 border-t-gray-200 border-t"
