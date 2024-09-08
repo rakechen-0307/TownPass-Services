@@ -3,14 +3,16 @@ import { defineProps, computed, ref, onMounted } from 'vue';
 import axios from 'axios';
 
 const props = defineProps<{
-    id: string;
+  id: string;
   img_url: string;
   location: string;
   taken: string;
 }>();
 
+/*
 const formattedTime = computed(() => {
-  const inputDate = new Date(props.start);
+  console.log(props.taken);
+  const inputDate = new Date(props.taken);
   const now = new Date();
 
   const isToday = inputDate.toDateString() === now.toDateString();
@@ -27,6 +29,7 @@ const formattedTime = computed(() => {
     return `${taiwanYear}年 ${month}月${day}日`;
   }
 });
+*/
 
 </script>
 
@@ -39,7 +42,7 @@ const formattedTime = computed(() => {
                 <p class="font-bold text-left truncate">{{ props.location }}</p>                
             </div>
             <p class="text-right text-[11px] text-gray-500">
-                {{ formattedTime }}
+                {{ props.taken }}
             </p>
         </div>
     </div>

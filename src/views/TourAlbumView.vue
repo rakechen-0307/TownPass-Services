@@ -14,9 +14,10 @@ import axios from 'axios';
 
 export interface Tour {
     id: string;
+    spotId: string;
     location: string;
     img_url: string;
-    visitedat: string;
+    visitedAt: string;
 }
 
 const store = useTourStore();
@@ -40,8 +41,9 @@ const getTours = async () => {
       console.log('Drafts fetched successfully:', response.data);
       tourList.value = response.data;
       tourList.value?.map((tour: Tour) => {
-        tour['location'] = tourSiteJson[parseInt(tour.id)].cn_name;
-        tour.visitedat = formattedTime(tour.visitedat);
+        tour['location'] = tourSiteJson[parseInt(tour.spotId)-1].cn_name;
+        tour.visitedAt = formattedTime(tour.visitedAt);
+        console.log(tour);
       })
       console.log(tourList.value);
     } catch (error) {
@@ -56,12 +58,8 @@ const formattedTime = (start: string) => {
   const taiwanYear = inputDate.getFullYear() - 1911;
   const month = inputDate.getMonth() + 1;const day = inputDate.getDate();
   const hours = inputDate.getHours();
-  const minutes = inputDate.getMinutes().toString().padStart(2, '0');
 
-  const period = hours < 12 ? '早上' : hours < 18 ? '下午' : '晚上';
-  const formattedHours = hours % 12 || 12;
-
-  return `${taiwanYear}年 ${month}月${day}日 ${period}${formattedHours}:${minutes}`;
+  return `${taiwanYear}年 ${month}月${day}日`;
 };
 
 </script>

@@ -7,12 +7,25 @@ import BaseButton from '@/components/atoms/BaseButton.vue';
 import { useConnectionMessage } from '@/composables/useConnectionMessage';
 import { useHandleConnectionData } from '@/composables/useHandleConnectionData';
 import { ref, computed, watch, onMounted } from 'vue';
+import tourSiteJson from "../../public/mock/tour_site.json";
 
 import { useImageUpload } from '@/composables/useImageUpload';
 import { getStorage } from 'firebase/storage';
 import { app } from '@/firebaseConfig';
 import type { User } from '@/stores/user';
 import axios from 'axios';
+
+interface TourJson {
+  id: number;
+  cn_name: string;
+  en_name: string;
+  rate: number;
+  category: string[];
+  district: string;
+  website: string;
+  longitude: number;
+  latitude: number;
+}
 
 const props = defineProps<{
   location?: string;
@@ -121,14 +134,18 @@ const onUploadClick = () => {
 };
 
 const sendDataToServer = async () => {
-  if (downloadUrl.value && introductionInput.value && nameInput.value) {
+  if (downloadUrl.value && nameInput.value) {
     try {
-      const response = await axios.post('https://express-vercel-template-five.vercel.app/createPost', {
-        proposalId: window.location.pathname.replace("/city-canvas/proposal/", ""),
-        image: downloadUrl.value,
-        name: nameInput.value,
-        description: introductionInput.value,
-        userId: "8c17fdf1-9cd3-4087-b39f-5d655fb7cb36" // Modify later
+      let proposalId;
+      tourSiteJson.map((tour: TourJson) => {
+        if(nameInput.value == tour.cn_name) {
+          proposalId = tour.id
+        }
+      })
+      const response = await axios.post('https://express-vercel-template-five.vercel.app/visit', {
+        spotId: proposalId,
+        img_url: downloadUrl.value,
+        userId: "9cc0a534-3828-45e6-bce1-9505dae780f9" // Modify later
       });
       console.log('Data sent successfully:', response.data);
       // Handle successful response (e.g., show a success message)

@@ -15,7 +15,7 @@ const { tourList } = storeToRefs(store);
           :id="item.id"
           :img_url="item.img_url"
           :location="item.location"
-          :taken="item.visitedat"
+          :taken="item.visitedAt"
       />
     </li>
   </ul>
