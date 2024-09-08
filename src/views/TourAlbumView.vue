@@ -9,13 +9,14 @@ import BaseDialog from '@/components/atoms/BaseDialog.vue';
 import TourDialog from './TourDialog.vue';
 import BaseButton from '@/components/atoms/BaseButton.vue';
 import TourList from '@/components/organisms/TourList.vue';
+import tourSiteJson from '../../public/mock/tour_site.json';
 import axios from 'axios';
 
 export interface Tour {
     id: string;
     location: string;
     img_url: string;
-    taken: string;
+    visitedat: string;
 }
 
 const store = useTourStore();
@@ -30,31 +31,30 @@ const isTourDialogOpen = ref(false);
 const { tourList } = storeToRefs(store);
 
 const getTours = async () => {
-    // try {
-    //     const response = await axios.get('https://express-vercel-template-five.vercel.app/fetchPosts',{
-    //         params: {
-    //             "userId": "9cc0a534-3828-45e6-bce1-9505dae780f9",
-    //             "proposalId": activeItem.value?.id
-    //         }
-    //     });
-    //     console.log('Drafts fetched successfully:', response.data.posts);
-    //     canvasDraftList.value = response.data.posts;
-    //     console.log(canvasDraftList.value);
-    // } catch (error) {
-    //     console.error('Error fetching proposal:', error);
-    // }
-    tourList.value = [
-      {id: '1', location: 'here', img_url: 'none', taken: 'today'}
-    ]
+    try {
+      const response = await axios.get('https://express-vercel-template-five.vercel.app/fetchSpots',{
+        params: {
+          "userId": "9cc0a534-3828-45e6-bce1-9505dae780f9",
+        }
+      });
+      console.log('Drafts fetched successfully:', response.data);
+      tourList.value = response.data;
+      tourList.value?.map((tour: Tour) => {
+        tour['location'] = tourSiteJson[parseInt(tour.id)].cn_name;
+        tour.visitedat = formattedTime(tour.visitedat);
+      })
+      console.log(tourList.value);
+    } catch (error) {
+      console.error('Error fetching proposal:', error);
+    }
 }
-onMounted(() => {getTours()})
+onMounted(() => { getTours() })
 
 const formattedTime = (start: string) => {
   const inputDate = new Date(start);
 
   const taiwanYear = inputDate.getFullYear() - 1911;
-  const month = inputDate.getMonth() + 1;
-  const day = inputDate.getDate();
+  const month = inputDate.getMonth() + 1;const day = inputDate.getDate();
   const hours = inputDate.getHours();
   const minutes = inputDate.getMinutes().toString().padStart(2, '0');
 
