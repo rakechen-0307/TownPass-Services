@@ -7,6 +7,7 @@ import { main } from '@popperjs/core';
 import { RouterLink, useRoute, useRouter } from 'vue-router';
 import BaseColorPicker from '@/components/atoms/BaseColorPicker.vue';
 import BaseButton from '@/components/atoms/BaseButton.vue';
+import DraftDialog2 from './DraftDialog2.vue';
 // import { useMeta } from 'vue-meta';
 
 document.addEventListener('gesturestart', function (e) {
@@ -25,20 +26,25 @@ interface CanvasImage {
   height?: number;
 }
 
-const props = withDefaults(defineProps<CanvasImage>(), {
-  link: 'https://images.unsplash.com/photo-1624555130581-1d9cca783bc0?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  width: 2942,
-  height: 1961
-})
+// const props = withDefaults(defineProps<CanvasImage>(), {
+//   link: 'https://firebasestorage.googleapis.com/v0/b/codefest-test-0825.appspot.com/o/blue.jpg?alt=media&token=2d7c5ddd-6f26-42f6-b3ef-daf139033a91',
+//   width: 2942,
+//   height: 1961
+// })
 
-// useMeta({
-//   meta: [
-//     {
-//       name: 'viewport',
-//       content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
-//     }
-//   ]
-// });
+const props0 = defineProps<{
+  link?: string,
+  width?: number,
+  height?: number,
+  pid?: string
+}>()
+
+const props = {
+  link: props0.link || 'https://images.unsplash.com/photo-1624555130581-1d9cca783bc0?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  width: props0.width || 2942,
+  height: props0.height || 1961,
+  pid: props0.pid || ''
+}
 
 const canvasRef = ref<HTMLDivElement | null>(null);
 let myP5: p5 | null = null;
@@ -308,6 +314,12 @@ const sketch = (p: p5) => {
     p.fill(sliderValH.value, sliderValS.value, sliderValB.value);
     p.ellipse(40, 40, 60, 60);
     p.colorMode(p.RGB);
+
+    if (tmpBool.value) {
+      // p.saveCanvas('tmp/tmp.png');
+      mainImg.value.save();
+      tmpBool.value = false;
+    }
   };
 };
 
@@ -415,10 +427,19 @@ const onColorSelected = (color: string) => {
   sliderValB.value = hsb.b;
 };
 
+const tmpBool = ref(false);
 const completeEdit = () => {
-  const str = mainImg.value.elt.toDataURL();
-  // console.log(str);
+  tmpBool.value = true;
+  isDraftDialogOpen.value = true
+  // resultUrl.value = mainImg.value.elt.toDataURL();
 }
+
+const onDraftSubmission = () => {
+    
+};
+
+const isDraftDialogOpen = ref(false);
+const resultUrl = ref('');
 
 onMounted(() => {
   if (canvasRef.value) {
@@ -435,7 +456,7 @@ onUnmounted(() => {
 
 <template>
   <div class="flex justify-between items-center p-2">
-    <RouterLink to='/'>
+    <RouterLink :to="`/city-canvas/proposal/${pid}`">
       <img src="@/assets/images/down-icon.svg" class="rotate-90" />
     </RouterLink>
     <BaseButton @click="completeEdit"><div class="px-1">完成</div></BaseButton>
@@ -534,6 +555,17 @@ onUnmounted(() => {
       <!-- <div class="h-6 mx-5 mt-3 bg-red-300 rounded-lg"></div> -->
     </template>
   </ServiceTabsView>
+
+  <DraftDialog2
+    v-model="isDraftDialogOpen"
+    title="上傳新稿件"
+    content=""
+    :isAlert="false"
+    positiveText="提交"
+    negativeText="取消"
+    @onPositiveClick="onDraftSubmission"
+    :pid="pid"
+  />
   
   <!-- <iframe src="/" width="100%" height="100%"></iframe> -->
 </template>

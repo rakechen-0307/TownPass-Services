@@ -21,6 +21,7 @@ const props = defineProps<{
   positiveText?: string;
   isAlert?: boolean;
   isCheck?: boolean;
+  pid?: string;
 }>();
 
 const emit = defineEmits(['onPositiveClick', 'onNegativeClick']);
@@ -125,7 +126,7 @@ const sendDataToServer = async () => {
     console.log(downloadUrl.value);
     try {
       const response = await axios.post('https://express-vercel-template-five.vercel.app/createPost', {
-        proposalId: window.location.pathname.replace("/city-canvas/proposal/", ""),
+        proposalId: props.pid,
         image: downloadUrl.value,
         name: nameInput.value,
         description: introductionInput.value,
@@ -211,7 +212,7 @@ watch(downloadUrl, (newUrl) => {
                   <template v-else>點此確認上傳圖片</template>
                 </BaseButton>
                 <p v-if="hasFailed" class="text-red-500 mt-2">Upload Failed!</p>
-                <BaseInput v-model="introductionInput" placeholder="請輸入創作理念" class="input-field w-full" :required="true"/>
+                <BaseInput v-model="introductionInput" placeholder="請輸入創作理念..." class="input-field w-full" :required="true"/>
 
               <div
                 class="mt-auto py-1 border-t-gray-200 border-t"

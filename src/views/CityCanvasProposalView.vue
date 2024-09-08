@@ -118,6 +118,26 @@ const onDraftSubmission = () => {
     
 };
 
+const openCanvas = (url: string) => {
+  console.log(url);
+  const img = new Image();
+  img.src = url;
+  console.log(url);
+  img.onload = () => {
+    console.log(img.naturalWidth, img.naturalHeight);
+  };
+
+  router.push({
+    name: 'canvas',
+    params: {
+      link: url,
+      width: img.naturalWidth,
+      height: img.naturalHeight,
+      pid: window.location.pathname.replace("/city-canvas/proposal/", "")
+    }
+  })
+}
+
 </script>
 
 <template>
@@ -204,7 +224,8 @@ const onDraftSubmission = () => {
       </div>
       <div  class="fixed bottom-4 right-4">
         <div class="flex flex-col gap-3">
-            <button class="draftBut" @click="isCreationDialogOpen = true">
+            <!-- <button class="draftBut" @click="isCreationDialogOpen = true"> -->
+            <button class="draftBut" @click="openCanvas(activeItem?.img_url ?? '')">
                 <img src="@/assets/images/draw-icon.svg">
                 開始創作
             </button>
@@ -214,7 +235,6 @@ const onDraftSubmission = () => {
             </button>
         </div>        
       </div>
-        
     </section>
     <DraftDialog
       v-model="isDraftDialogOpen"

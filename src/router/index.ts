@@ -25,10 +25,16 @@ const router = createRouter({
       name: 'home',
       component: HomeView
     },
+    // {
+    //   path: '/canvas',
+    //   name: 'canvas',
+    //   component: CanvasView
+    // },
     {
-      path: '/canvas',
+      path: '/canvas/:link/:width/:height/:pid',
       name: 'canvas',
-      component: CanvasView
+      component: CanvasView,
+      props: true
     },
     {
       path: '/form/:id',
