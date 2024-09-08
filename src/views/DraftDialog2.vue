@@ -21,6 +21,7 @@ const props = defineProps<{
   positiveText?: string;
   isAlert?: boolean;
   isCheck?: boolean;
+  pid?: string;
 }>();
 
 const emit = defineEmits(['onPositiveClick', 'onNegativeClick']);
@@ -125,7 +126,7 @@ const sendDataToServer = async () => {
     console.log(downloadUrl.value);
     try {
       const response = await axios.post('https://express-vercel-template-five.vercel.app/createPost', {
-        proposalId: window.location.pathname.replace("/city-canvas/proposal/", ""),
+        proposalId: props.pid,
         image: downloadUrl.value,
         name: nameInput.value,
         description: introductionInput.value,
